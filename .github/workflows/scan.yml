@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "*/20 * * * *"   # 20-min beat; per-source cadence gates enforce 40 min+
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Ignore per-source cadence gates"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -27,7 +32,12 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           SUPERTEAM_API_KEY: ${{ secrets.SUPERTEAM_API_KEY }}
-        run: python3 -m src.run
+        run: |
+          if [ "${{ inputs.force }}" = "true" ]; then
+            python3 -m src.run --force
+          else
+            python3 -m src.run
+          fi
 
       - name: Commit data
         run: |
