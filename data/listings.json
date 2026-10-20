@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-20T12:10:20Z",
+  "updated_at": "2026-10-20T12:21:15Z",
   "items": [
     {
       "id": "4036b05bb4d3b104",
@@ -9,7 +9,7 @@
       "title": "Retype Documents Into Word",
       "company": null,
       "audience": "entry",
-      "competition": 66,
+      "competition": 72,
       "audience_locked": true,
       "url": "https://www.freelancer.com/projects/proofreading/Retype-Documents-Into-Word",
       "location_raw": "Worldwide",
@@ -95,7 +95,7 @@
       "title": "Comprehensive Report Editing in Word",
       "company": null,
       "audience": "entry",
-      "competition": 51,
+      "competition": 52,
       "audience_locked": true,
       "url": "https://www.freelancer.com/projects/microsoft-word/Comprehensive-Report-Editing-Word",
       "location_raw": "Worldwide",
@@ -110,8 +110,8 @@
         "max": 15.0,
         "currency": "GBP",
         "period": "hour",
-        "usd_min": 13.34,
-        "usd_max": 20.01
+        "usd_min": 13.36,
+        "usd_max": 20.04
       },
       "posted_at": "2026-10-20T10:41:33Z",
       "first_seen_at": "2026-10-20T11:40:57Z",
@@ -515,7 +515,8 @@
         "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
         "checked_at": "2026-10-20T11:36:53Z",
         "self_hosted": false
-      }
+      },
+      "pushed_at": "2026-10-20T12:21:13Z"
     },
     {
       "id": "014b812a6436851e",
@@ -600,7 +601,8 @@
         "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
         "checked_at": "2026-10-20T11:36:53Z",
         "self_hosted": false
-      }
+      },
+      "pushed_at": "2026-10-20T12:21:14Z"
     },
     {
       "id": "0787af68446f1ee6",
@@ -624,8 +626,8 @@
         "max": 750.0,
         "currency": "EUR",
         "period": "project",
-        "usd_min": 280.28,
-        "usd_max": 840.84
+        "usd_min": 280.47,
+        "usd_max": 841.42
       },
       "posted_at": "2026-10-18T19:10:11Z",
       "first_seen_at": "2026-10-20T11:40:57Z",
@@ -685,7 +687,8 @@
         "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
         "checked_at": "2026-10-20T11:36:53Z",
         "self_hosted": false
-      }
+      },
+      "pushed_at": "2026-10-20T12:21:14Z"
     },
     {
       "id": "41e5095bed300bab",
@@ -770,7 +773,8 @@
         "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
         "checked_at": "2026-10-20T11:36:53Z",
         "self_hosted": false
-      }
+      },
+      "pushed_at": "2026-10-20T12:21:14Z"
     },
     {
       "id": "efa9124b176e690a",
@@ -855,7 +859,8 @@
         "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
         "checked_at": "2026-10-20T11:36:53Z",
         "self_hosted": false
-      }
+      },
+      "pushed_at": "2026-10-20T12:21:15Z"
     },
     {
       "id": "1d826a8509e92e47",
@@ -864,7 +869,7 @@
       "title": "Word Report Data Entry",
       "company": null,
       "audience": "entry",
-      "competition": 75,
+      "competition": 76,
       "audience_locked": true,
       "url": "https://www.freelancer.com/projects/data-entry/Word-Report-Data-Entry-40772750",
       "location_raw": "Worldwide",
@@ -949,7 +954,7 @@
       "title": "Handwriting Transcription for Enquiry",
       "company": null,
       "audience": "entry",
-      "competition": 45,
+      "competition": 46,
       "audience_locked": true,
       "url": "https://www.freelancer.com/projects/copy-typing/Handwriting-Transcription-for-Enquiry",
       "location_raw": "Worldwide",
@@ -964,8 +969,8 @@
         "max": 750.0,
         "currency": "AUD",
         "period": "project",
-        "usd_min": 174.62,
-        "usd_max": 523.85
+        "usd_min": 174.73,
+        "usd_max": 524.2
       },
       "posted_at": "2026-10-17T08:34:33Z",
       "first_seen_at": "2026-10-20T11:40:57Z",
@@ -5646,7 +5651,7 @@
       "posted_at": "2026-08-15T00:00:25Z",
       "first_seen_at": "2026-10-20T11:08:27Z",
       "deadline": null,
-      "snippet": "Looking to start or restart your career in Software Quality Assurance?Ace IT Careers is reviewing candidates for QA Tester and QA Analyst opportunities with employers and staffing partners across the United States.This opportunity may be suitable for r... Please mention the word **SMOOTHES** and tag RMjAuMTcxLjIzLjEyMw== when applying to show you read the job post completely (#RMjAuMTcxLjIzLjEyMw==). This is a beta feature to avoid spam applicants. Companies can search these ",
+      "snippet": "Looking to start or restart your career in Software Quality Assurance?Ace IT Careers is reviewing candidates for QA Tester and QA Analyst opportunities with employers and staffing partners across the United States.This opportunity may be suitable for r... Please mention the word **SMOOTHES** and tag RMTcyLjE5MC4xMDIuODU= when applying to show you read the job post completely (#RMTcyLjE5MC4xMDIuODU=). This is a beta feature to avoid spam applicants. Companies can search these ",
       "signals": [
         {
           "id": "WK_NO_NAMED_HUMAN",
@@ -10701,7 +10706,7 @@
       "posted_at": "2026-10-18T19:00:02Z",
       "first_seen_at": "2026-10-20T11:08:26Z",
       "deadline": null,
-      "snippet": "Remote - Established in 1744, Sothebyâs promotes access and ownership of exceptional art and luxury objects through auctions, private sales and retail. Our deep expertise across 70 selling categories is supported by a leading technology platform and a global network of special... Please mention the word **EVALUATIVE** and tag RMjAuMTcxLjIzLjEyMw== when applying to show you read the job post completely (#RMjAuMTcxLjIzLjEyMw==). This is a beta feature to avoid spam applicants",
+      "snippet": "Remote - Established in 1744, Sothebyâs promotes access and ownership of exceptional art and luxury objects through auctions, private sales and retail. Our deep expertise across 70 selling categories is supported by a leading technology platform and a global network of special... Please mention the word **EVALUATIVE** and tag RMTcyLjE5MC4xMDIuODU= when applying to show you read the job post completely (#RMTcyLjE5MC4xMDIuODU=). This is a beta feature to avoid spam applicants",
       "signals": [
         {
           "id": "WK_NO_NAMED_HUMAN",
@@ -10784,7 +10789,7 @@
       "posted_at": "2026-10-18T18:00:01Z",
       "first_seen_at": "2026-10-20T11:08:26Z",
       "deadline": null,
-      "snippet": "Remote - Rain is the world's first AI Financial Health Platform, serving 3.5 million employees at leading organizations like McDonald's, Marriott, and T-Mobile. Rain works in the background to optimize every employee's financial life to prevent shortfalls and build long-term sta... Please mention the word **COVENANT** and tag RMjAuMTcxLjIzLjEyMw== when applying to show you read the job post completely (#RMjAuMTcxLjIzLjEyMw==). This is a beta feature to avoid spam applicants. ",
+      "snippet": "Remote - Rain is the world's first AI Financial Health Platform, serving 3.5 million employees at leading organizations like McDonald's, Marriott, and T-Mobile. Rain works in the background to optimize every employee's financial life to prevent shortfalls and build long-term sta... Please mention the word **COVENANT** and tag RMTcyLjE5MC4xMDIuODU= when applying to show you read the job post completely (#RMTcyLjE5MC4xMDIuODU=). This is a beta feature to avoid spam applicants. ",
       "signals": [
         {
           "id": "WK_NO_NAMED_HUMAN",
@@ -15877,7 +15882,7 @@
       "posted_at": "2026-10-05T13:00:02Z",
       "first_seen_at": "2026-10-20T11:08:27Z",
       "deadline": null,
-      "snippet": "Remote - Location: Mostly remote (within Germany), with monthly in-person collaboration at our Berlin officeHours: Part-time, 32 hours per weekContract: Fixed-termSalary: EUR 53,000 â 59,000 (at 32 hours per week)We are building a new capability that turns fragmented,... Please mention the word **THRIFTY** and tag RMjAuMTcxLjIzLjEyMw== when applying to show you read the job post completely (#RMjAuMTcxLjIzLjEyMw==). This is a beta feature to avoid spam applicants. Companies ",
+      "snippet": "Remote - Location: Mostly remote (within Germany), with monthly in-person collaboration at our Berlin officeHours: Part-time, 32 hours per weekContract: Fixed-termSalary: EUR 53,000 â 59,000 (at 32 hours per week)We are building a new capability that turns fragmented,... Please mention the word **THRIFTY** and tag RMTcyLjE5MC4xMDIuODU= when applying to show you read the job post completely (#RMTcyLjE5MC4xMDIuODU=). This is a beta feature to avoid spam applicants. Companies ",
       "signals": [
         {
           "id": "WK_NO_NAMED_HUMAN",
@@ -16292,7 +16297,7 @@
       "posted_at": "2026-09-23T14:00:02Z",
       "first_seen_at": "2026-10-20T11:08:27Z",
       "deadline": null,
-      "snippet": "Remote - Prenosis Inc. is an artificial intelligence company pioneering precision medicine in acute care. Our Immunixâ¢ precision medicine platform drives the development of precision products and enables real-time delivery of optimal therapy. We've created and validated the fi... Please mention the word **STELLARLY** and tag RMjAuMTcxLjIzLjEyMw== when applying to show you read the job post completely (#RMjAuMTcxLjIzLjEyMw==). This is a beta feature to avoid spam applicants.",
+      "snippet": "Remote - Prenosis Inc. is an artificial intelligence company pioneering precision medicine in acute care. Our Immunixâ¢ precision medicine platform drives the development of precision products and enables real-time delivery of optimal therapy. We've created and validated the fi... Please mention the word **STELLARLY** and tag RMTcyLjE5MC4xMDIuODU= when applying to show you read the job post completely (#RMTcyLjE5MC4xMDIuODU=). This is a beta feature to avoid spam applicants.",
       "signals": [
         {
           "id": "WK_NO_NAMED_HUMAN",
@@ -16707,7 +16712,7 @@
       "posted_at": "2026-09-16T19:00:02Z",
       "first_seen_at": "2026-10-20T11:08:27Z",
       "deadline": null,
-      "snippet": "Remote - Arango delivers a unified, natively multimodel contextual data platform that powers AI agents, assistants, and applications with the unified, current, and trusted business context needed to reason, decide, and act at scale.The Arango Contextual Data Platform connects... Please mention the word **FESTIVE** and tag RMjAuMTcxLjIzLjEyMw== when applying to show you read the job post completely (#RMjAuMTcxLjIzLjEyMw==). This is a beta feature to avoid spam applicants. Comp",
+      "snippet": "Remote - Arango delivers a unified, natively multimodel contextual data platform that powers AI agents, assistants, and applications with the unified, current, and trusted business context needed to reason, decide, and act at scale.The Arango Contextual Data Platform connects... Please mention the word **FESTIVE** and tag RMTcyLjE5MC4xMDIuODU= when applying to show you read the job post completely (#RMTcyLjE5MC4xMDIuODU=). This is a beta feature to avoid spam applicants. Comp",
       "signals": [
         {
           "id": "WK_NO_NAMED_HUMAN",
@@ -16873,7 +16878,7 @@
       "posted_at": "2026-09-12T14:00:03Z",
       "first_seen_at": "2026-10-20T11:08:27Z",
       "deadline": null,
-      "snippet": "Remote - Mirantis, an IREN company, is the Kubernetes-native AI infrastructure company, enabling organizations to build and operate scalable, secure, and sovereign infrastructure for modern AI, machine learning, and data-intensive applications. By combining open source innovatio... Please mention the word **SEAMLESS** and tag RMjAuMTcxLjIzLjEyMw== when applying to show you read the job post completely (#RMjAuMTcxLjIzLjEyMw==). This is a beta feature to avoid spam applicants. ",
+      "snippet": "Remote - Mirantis, an IREN company, is the Kubernetes-native AI infrastructure company, enabling organizations to build and operate scalable, secure, and sovereign infrastructure for modern AI, machine learning, and data-intensive applications. By combining open source innovatio... Please mention the word **SEAMLESS** and tag RMTcyLjE5MC4xMDIuODU= when applying to show you read the job post completely (#RMTcyLjE5MC4xMDIuODU=). This is a beta feature to avoid spam applicants. ",
       "signals": [
         {
           "id": "WK_NO_NAMED_HUMAN",
@@ -17205,7 +17210,7 @@
       "posted_at": "2026-08-30T21:00:01Z",
       "first_seen_at": "2026-10-20T11:08:27Z",
       "deadline": null,
-      "snippet": "Remote - Before you read further: applying to this role requires a Loom video walkthrough under 5 minutes of the best thing you have built, plus a repo or live link. Tell us the hardest problem you hit and how you solved it. Focus on architecture decisions and tradeoffs, not a f... Please mention the word **CHARMINGLY** and tag RMjAuMTcxLjIzLjEyMw== when applying to show you read the job post completely (#RMjAuMTcxLjIzLjEyMw==). This is a beta feature to avoid spam applicants",
+      "snippet": "Remote - Before you read further: applying to this role requires a Loom video walkthrough under 5 minutes of the best thing you have built, plus a repo or live link. Tell us the hardest problem you hit and how you solved it. Focus on architecture decisions and tradeoffs, not a f... Please mention the word **CHARMINGLY** and tag RMTcyLjE5MC4xMDIuODU= when applying to show you read the job post completely (#RMTcyLjE5MC4xMDIuODU=). This is a beta feature to avoid spam applicants",
       "signals": [
         {
           "id": "WK_NO_NAMED_HUMAN",
@@ -17288,7 +17293,7 @@
       "posted_at": "2026-08-27T09:00:02Z",
       "first_seen_at": "2026-10-20T11:08:27Z",
       "deadline": null,
-      "snippet": "Remote - About AIWIAIWI is an independent non-profit that exists to ensure that insiders at frontier AI companies can speak up safely and effectively when they see something that should be addressed. We do this by integrating the ecosystem of lawyers, AI researchers, AI advoc... Please mention the word **EARNESTNESS** and tag RMjAuMTcxLjIzLjEyMw== when applying to show you read the job post completely (#RMjAuMTcxLjIzLjEyMw==). This is a beta feature to avoid spam applicants. ",
+      "snippet": "Remote - About AIWIAIWI is an independent non-profit that exists to ensure that insiders at frontier AI companies can speak up safely and effectively when they see something that should be addressed. We do this by integrating the ecosystem of lawyers, AI researchers, AI advoc... Please mention the word **EARNESTNESS** and tag RMTcyLjE5MC4xMDIuODU= when applying to show you read the job post completely (#RMTcyLjE5MC4xMDIuODU=). This is a beta feature to avoid spam applicants. ",
       "signals": [
         {
           "id": "WK_NO_NAMED_HUMAN",
@@ -17454,7 +17459,7 @@
       "posted_at": "2026-08-25T07:00:03Z",
       "first_seen_at": "2026-10-20T11:08:27Z",
       "deadline": null,
-      "snippet": "Remote - Most sales tools help you send emails. Weâre building something different.At Salesforge, weâre creating autonomous AI agents that can:Find the right prospectsGenerate highly personalized outreachRun conversationsAnd book meetingsAll without human invo... Please mention the word **EMPATHY** and tag RMjAuMTcxLjIzLjEyMw== when applying to show you read the job post completely (#RMjAuMTcxLjIzLjEyMw==). This is a beta feature to avoid spam applicants. Companies can se",
+      "snippet": "Remote - Most sales tools help you send emails. Weâre building something different.At Salesforge, weâre creating autonomous AI agents that can:Find the right prospectsGenerate highly personalized outreachRun conversationsAnd book meetingsAll without human invo... Please mention the word **EMPATHY** and tag RMTcyLjE5MC4xMDIuODU= when applying to show you read the job post completely (#RMTcyLjE5MC4xMDIuODU=). This is a beta feature to avoid spam applicants. Companies can se",
       "signals": [
         {
           "id": "WK_NO_NAMED_HUMAN",
