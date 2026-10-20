@@ -168,6 +168,8 @@ def push(items, state, limit=5, daily_cap=20):
             continue
         if item.get("audience") != "entry":
             continue
+        if item.get("nigeria_ok") is False:
+            continue
         if item.get("tier") not in ("screened", "verified"):
             continue
 

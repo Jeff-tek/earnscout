@@ -52,7 +52,7 @@
     "global_remote_signals": ["worldwide", "anywhere", "global", "remote", "emea", "remote-first"]
   },
   "floors": {
-    "freelancer_min_budget_usd": 100,
+    "freelancer_min_budget_usd": 10,
     "hackathon_min_prize_usd": 500,
     "enforce_only_when_structured": true
   },

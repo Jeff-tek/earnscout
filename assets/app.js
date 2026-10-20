@@ -66,6 +66,7 @@ function railBucket(rails) {
 function matches(item) {
   if (!state.showOld && item.status !== "active") return false;
   if (item.tier === "blocked") return false;
+  if (item.nigeria_ok === false) return false;
   if (state.audience !== "all" && (item.audience || "unknown") !== state.audience) return false;
   if (state.tier !== "all" && item.tier !== state.tier) return false;
   if (state.tier === "all" && item.tier === "speculative" && item.status !== "active") return false;
@@ -119,6 +120,7 @@ function card(item) {
   }
   if (item.nigeria_ok === true) chips.appendChild(el("span", "chip", "Nigeria-eligible"));
   if (item.audience === "entry") chips.appendChild(el("span", "chip", "entry-level"));
+  if (item.competition != null) chips.appendChild(el("span", "chip", `${item.competition} bids`));
   node.appendChild(chips);
 
   if (item.evidence) {

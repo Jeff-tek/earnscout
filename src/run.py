@@ -102,6 +102,10 @@ def main():
 
     current = store.load()
     items = store.merge(current.get("items", []), merged)
+    items = normalize.refresh_derived(items, by_id)
+    for item in items:
+        engine.retier(item)
+        ranker.score(item)
 
     # Review actions first, then push new cards. Dry runs must never touch Telegram.
     tg_offset = int(state.get("telegram_offset", 0) or 0)

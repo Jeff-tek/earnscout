@@ -35,9 +35,9 @@ Labels are **dated claims**, never "safe":
 
 ## Sources
 
-**Wave 1 (international-first):** Superteam Earn Nigeria, Himalayas, Remote OK, We Work Remotely, CryptoJobsList.
+**Wave 1 (international-first):** Superteam Earn Nigeria, Himalayas, Remote OK, We Work Remotely, CryptoJobsList, Freelancer (entry-level task feed).
 
-**Wave 2:** HN "Who is Hiring", LaborX, Freelancer, Devpost, Jobzilla, Jobgurus, Fuzu NG, Jobicy, ReliefWeb (pending free appname).
+**Wave 2:** HN "Who is Hiring", LaborX, Devpost, Jobzilla, Jobgurus, Fuzu NG, Jobicy, ReliefWeb (pending free appname).
 
 **Excluded** (ToS/robots conflicts, login-gated, or dead): see `config/excluded.json` — Remotive, Reddit, Jobberman, Upwork, LinkedIn, Indeed, Wellfound, Prolific, Remotasks, Toloka, Fiverr, PeoplePerHour/Contra.
 
@@ -55,7 +55,7 @@ score = currency      (hard currency disclosed +4, crypto +3, Payoneer/Deel +1, 
       + tier          (verified +2, screened +1)
 ```
 
-Floors (hybrid policy): Freelancer projects ≥ **$100** budget, hackathons ≥ **$500** prize pool. Everywhere else, pay is scored and flagged "undisclosed" — never fabricated.
+Floors (hybrid policy): Freelancer projects ≥ **$10** budget, hackathons ≥ **$500** prize pool. Everywhere else, pay is scored and flagged "undisclosed" — never fabricated.
 
 PayPal: hidden when it is the only rail (owner cannot receive it); mixed-rail listings are shown with a flag.
 
@@ -94,13 +94,13 @@ scripts/    maintenance helpers
 
 Every listing is classified `entry`, `skilled` or `unknown`.
 
-- **entry** — task-based work, support, annotation, transcription, assistant, sales rep, writing.
+- **entry** — task-based work, support, annotation, transcription, assistant, client-engagement, writing.
 - **skilled** — senior engineering, technical specialist, medical, legal, finance, management, design.
 - **unknown** — no clear signal in the title.
 
 The dashboard defaults to **Doable for me** (entry) and the bot only pushes entry items. The audience dropdown reveals the rest.
 
-**Known limitation (2026-10-20):** the current Wave 1 sources are professional/tech boards. Only ~14 of 231 active listings classify as entry, and several are full-time sales/support roles rather than side hustles. The next source pass targets entry-level task work (Freelancer data-entry/VA/transcription categories, support-only feeds, and microtask platform checks).
+**Current coverage (2026-10-20):** Freelancer's public API now feeds entry-level data-entry, typing, transcription and proofreading projects with a $10 floor and hard-currency budgets. The remaining gap is surveys/user testing (most pay PayPal only) and dashboard-only microtask platforms (Appen, Clickworker, Microworkers), which cannot be scanned without an account.
 
 ## Build status
 

@@ -23,6 +23,10 @@ CASES = [
     ("Billing and Claims Support Representative", "entry"),
     ("Client Engagement Representative Work From Home", "entry"),
     ("Senior Data Entry Specialist", "skilled"),
+    ("Sales Development Representative", "skilled"),
+    ("Legal Operations Assistant", "skilled"),
+    ("Circle Summer Intern 2027", "unknown"),
+    ("Client Engagement Representative Work From Home", "entry"),
 ]
 
 failures = 0

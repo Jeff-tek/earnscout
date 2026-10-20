@@ -10,7 +10,11 @@
       "wave": 1,
       "enabled": true,
       "parser": "superteam",
-      "categories": ["freelance", "bounty", "hackathon"],
+      "categories": [
+        "freelance",
+        "bounty",
+        "hackathon"
+      ],
       "access": {
         "type": "html+json",
         "url": "https://superteam.fun/earn/regions/nigeria/",
@@ -35,7 +39,9 @@
       "wave": 1,
       "enabled": true,
       "parser": "himalayas",
-      "categories": ["job"],
+      "categories": [
+        "job"
+      ],
       "access": {
         "type": "json",
         "url": "https://himalayas.app/jobs/api",
@@ -60,7 +66,9 @@
       "wave": 1,
       "enabled": true,
       "parser": "remoteok",
-      "categories": ["job"],
+      "categories": [
+        "job"
+      ],
       "access": {
         "type": "json",
         "url": "https://remoteok.com/api",
@@ -85,7 +93,9 @@
       "wave": 1,
       "enabled": true,
       "parser": "weworkremotely",
-      "categories": ["job"],
+      "categories": [
+        "job"
+      ],
       "access": {
         "type": "rss",
         "url": "https://weworkremotely.com/remote-jobs.rss",
@@ -109,7 +119,9 @@
       "wave": 1,
       "enabled": true,
       "parser": "cryptojobslist",
-      "categories": ["job"],
+      "categories": [
+        "job"
+      ],
       "access": {
         "type": "rss",
         "url": "https://cryptojobslist.com/rss",
@@ -133,7 +145,9 @@
       "wave": 2,
       "enabled": true,
       "parser": "hn_whoishiring",
-      "categories": ["job"],
+      "categories": [
+        "job"
+      ],
       "access": {
         "type": "json",
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=Who%20is%20hiring",
@@ -157,7 +171,9 @@
       "wave": 2,
       "enabled": true,
       "parser": "laborx",
-      "categories": ["freelance"],
+      "categories": [
+        "freelance"
+      ],
       "access": {
         "type": "html_jsonld",
         "url": "https://laborx.com/",
@@ -178,10 +194,12 @@
     {
       "id": "freelancer",
       "name": "Freelancer.com",
-      "wave": 2,
+      "wave": 1,
       "enabled": true,
       "parser": "freelancer",
-      "categories": ["freelance"],
+      "categories": [
+        "freelance"
+      ],
       "access": {
         "type": "json",
         "url": "https://www.freelancer.com/api/projects/0.1/projects/active/",
@@ -190,14 +208,29 @@
       "cadence_minutes": 80,
       "location_scope": "global",
       "hard_currency": true,
-      "currency_notes": "USD, PayPal, Payoneer per project",
+      "currency_notes": "Budgets in USD/EUR/GBP/AUD/CAD/INR; Payoneer payout works for the owner.",
       "has_deadlines": true,
-      "rate_limit_note": "No published limit; keep under ~1 req/s",
+      "rate_limit_note": "6 keyword queries x 50 results per scan, 0.3s apart.",
       "compliance": {
         "robots": "allows",
         "attribution": false,
-        "notes": "Budget fields let us enforce the $100 floor; bid count is a competition signal. Review API terms before production use."
-      }
+        "notes": "Public active-projects API without auth. Budget/currency/exchange-rate fields enforce the $10 floor. Bid count is a competition signal."
+      },
+      "queries": [
+        "data entry",
+        "data annotation",
+        "virtual assistant",
+        "transcription",
+        "proofreading",
+        "content writing",
+        "copy typing",
+        "email handling",
+        "excel",
+        "captioning",
+        "pdf data entry",
+        "typing",
+        "customer support"
+      ]
     },
     {
       "id": "devpost",
@@ -205,7 +238,9 @@
       "wave": 2,
       "enabled": true,
       "parser": "devpost",
-      "categories": ["hackathon"],
+      "categories": [
+        "hackathon"
+      ],
       "access": {
         "type": "json",
         "url": "https://devpost.com/api/hackathons?status[]=open",
@@ -229,7 +264,9 @@
       "wave": 2,
       "enabled": true,
       "parser": "jobzilla",
-      "categories": ["job"],
+      "categories": [
+        "job"
+      ],
       "access": {
         "type": "rss",
         "url": "https://www.jobzilla.ng/rss",
@@ -253,7 +290,9 @@
       "wave": 2,
       "enabled": true,
       "parser": "jobgurus",
-      "categories": ["job"],
+      "categories": [
+        "job"
+      ],
       "access": {
         "type": "rss",
         "url": "https://www.jobgurus.com.ng/jobs/feed",
@@ -277,7 +316,9 @@
       "wave": 2,
       "enabled": true,
       "parser": "fuzu",
-      "categories": ["job"],
+      "categories": [
+        "job"
+      ],
       "access": {
         "type": "sitemap",
         "url": "https://www.fuzu.com/nigeria/sitemap-job-listings.xml.gz",
@@ -301,7 +342,9 @@
       "wave": 2,
       "enabled": true,
       "parser": "jobicy",
-      "categories": ["job"],
+      "categories": [
+        "job"
+      ],
       "access": {
         "type": "json",
         "url": "https://jobicy.com/api/jobs",
@@ -325,7 +368,9 @@
       "wave": 2,
       "enabled": false,
       "parser": "reliefweb",
-      "categories": ["job"],
+      "categories": [
+        "job"
+      ],
       "access": {
         "type": "json",
         "url": "https://api.reliefweb.int/v2/jobs",
@@ -349,7 +394,9 @@
       "wave": 2,
       "enabled": false,
       "parser": "myjobmag",
-      "categories": ["job"],
+      "categories": [
+        "job"
+      ],
       "access": {
         "type": "sitemap",
         "url": "https://www.myjobmag.com/sitemapindex.xml",
@@ -373,7 +420,9 @@
       "wave": 2,
       "enabled": false,
       "parser": "hotnigerianjobs",
-      "categories": ["job"],
+      "categories": [
+        "job"
+      ],
       "access": {
         "type": "sitemap",
         "url": "https://www.hotnigerianjobs.com/sitemap.xml",

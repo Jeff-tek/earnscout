@@ -19,7 +19,10 @@ STRONG_SKILLED = re.compile(r"""
     accountant | nurse | doctor | pharmacist | lawyer | attorney | auditor |
     controller | cpa | cfa | recruiter | economist | quant | trader | underwriter |
     actuary | paralegal | counsel | manager | supervisor | superintendent | officer |
-    strategist | designer | editor | technical\s+writer
+    strategist | designer | editor | technical\s+writer |
+    legal | medical | clinical | psychology | finance | accounting | therapist |
+    pharmacist | dental | veterinary | sales | business\s+development |
+    account\s+development
   )\b
 """, re.I | re.X)
 
@@ -29,7 +32,8 @@ ENTRY_TITLE = re.compile(r"""
     content\s*(review|moderat)\w* | moderat\w* | rater | reviewer |
     tagger | labeler | microtask\w* | survey\w* |
     customer\s*(support|service) | chat\s*support | support\s*(agent|representative|rep) |
-    virtual\s*assistant | assistant | ambassador | representative |
+    virtual\s*assistant | assistant | ambassador |
+    client\s*engagement\s*representative |
     research\s*assistant | lead\s*generation | appointment\s*setter |
     tester | user\s*testing | product\s*tester |
     proofread\w* | copy\s*typ\w* | typing | writer | copywriter
@@ -42,8 +46,13 @@ ENTRY_HINT = re.compile(
 )
 
 
+INTERN = re.compile(r"\bintern(ship)?s?\b", re.I)
+
+
 def classify(title, snippet=""):
     title = (title or "").strip()
+    if INTERN.search(title):
+        return "unknown"
     if STRONG_SKILLED.search(title):
         return "skilled"
     if ENTRY_TITLE.search(title):

@@ -45,7 +45,18 @@ class Ranker:
 
         sal = listing.get("salary") or {}
         disclosed = bool(sal.get("min") or sal.get("max") or sal.get("currency"))
-        c["pay_quality"] = self.w["pay_quality"]["disclosed"] if disclosed else 0
+        floor = 0
+        if listing.get("source") == "freelancer":
+            floor = self.cfg.get("floors", {}).get("freelancer_min_budget_usd", 0)
+        if (
+            disclosed
+            and floor
+            and sal.get("usd_max") is not None
+            and sal["usd_max"] >= floor
+        ):
+            c["pay_quality"] = self.w["pay_quality"]["above_floor"]
+        else:
+            c["pay_quality"] = self.w["pay_quality"]["disclosed"] if disclosed else 0
 
         fresh = self.w["freshness"]
         dt = util.parse_dt(listing.get("posted_at"))
