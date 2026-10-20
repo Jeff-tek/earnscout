@@ -9,7 +9,15 @@ def load():
 
 
 def save(items):
-    util.save_json(PATH, {"version": 1, "updated_at": util.iso(util.now_utc()), "items": items})
+    """Write only when the item list actually changed (avoids commit noise)."""
+    current = load()
+    if current.get("items") == items:
+        return False
+    util.save_json(
+        PATH,
+        {"version": 1, "updated_at": util.iso(util.now_utc()), "items": items},
+    )
+    return True
 
 
 def merge(old_items, new_items, max_age_days=14, archive_days=90):

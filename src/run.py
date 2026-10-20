@@ -7,6 +7,7 @@ Usage:
     python3 -m src.run --dry              # fetch + score, save nothing
 """
 import argparse
+import copy
 import traceback
 
 from . import dedupe, normalize, rank, rules, store, telegram, util
@@ -29,7 +30,8 @@ def main():
         wanted = [s["id"] for s in cfg["sources"] if s["enabled"] and s["wave"] == 1]
 
     state = util.load_json(STATE_PATH, {}) or {}
-    source_state = state.get("sources", {}) or {}
+    old_state = copy.deepcopy({k: v for k, v in state.items() if k != "updated_at"})
+    source_state = copy.deepcopy(state.get("sources", {}) or {})
     now = util.now_utc()
 
     engine = rules.Rules()
@@ -116,19 +118,19 @@ def main():
         print(f"  {total:>4}  {item['tier']:<10} {item['title'][:62]}  [{item['source']}]")
 
     if not args.dry:
-        store.save(items)
-        util.save_json(
-            STATE_PATH,
-            {
-                "version": 1,
-                "updated_at": util.iso(util.now_utc()),
-                "sources": source_state,
-                "telegram_offset": tg_offset,
-                "push_day": state.get("push_day"),
-                "push_count": state.get("push_count", 0),
-            },
-        )
-        print("saved data/listings.json")
+        changed = store.save(items)
+        new_state = {
+            "version": 1,
+            "updated_at": util.iso(util.now_utc()),
+            "sources": source_state,
+            "telegram_offset": tg_offset,
+            "push_day": state.get("push_day"),
+            "push_count": state.get("push_count", 0),
+        }
+        comparable = {k: v for k, v in new_state.items() if k != "updated_at"}
+        if comparable != old_state:
+            util.save_json(STATE_PATH, new_state)
+        print("saved data/listings.json" if changed else "no listing changes")
     else:
         print("dry run: nothing saved")
 
