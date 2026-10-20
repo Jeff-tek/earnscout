@@ -3,6 +3,7 @@ const state = {
   items: [],
   q: "",
   tier: "all",
+  audience: "entry",
   category: "all",
   rail: "all",
   source: "all",
@@ -65,6 +66,7 @@ function railBucket(rails) {
 function matches(item) {
   if (!state.showOld && item.status !== "active") return false;
   if (item.tier === "blocked") return false;
+  if (state.audience !== "all" && (item.audience || "unknown") !== state.audience) return false;
   if (state.tier !== "all" && item.tier !== state.tier) return false;
   if (state.tier === "all" && item.tier === "speculative" && item.status !== "active") return false;
   if (state.category !== "all" && item.category !== state.category) return false;
@@ -116,7 +118,36 @@ function card(item) {
     chips.appendChild(el("span", "chip protect", item.payment_protection === "escrow" ? "escrow" : "platform"));
   }
   if (item.nigeria_ok === true) chips.appendChild(el("span", "chip", "Nigeria-eligible"));
+  if (item.audience === "entry") chips.appendChild(el("span", "chip", "entry-level"));
   node.appendChild(chips);
+
+  if (item.evidence) {
+    const ev = item.evidence;
+    if (ev.self_hosted && ev.age_days != null) {
+      chips.appendChild(el("span", "chip", `domain ${(ev.age_days / 365).toFixed(1)}y`));
+    }
+    if (ev.http_status === 404 || ev.http_status === 410) {
+      chips.appendChild(el("span", "chip warn", "page missing"));
+    }
+    const det = el("details");
+    det.appendChild(el("summary", null, "evidence"));
+    const rows = [
+      ["domain", ev.domain || "—"],
+      ["registered", ev.registered_at ? ev.registered_at.slice(0, 10) : "unknown"],
+      ["age", ev.age_days != null ? `${ev.age_days} days` : "unknown"],
+      ["registrar", ev.registrar || "unknown"],
+      ["resolves", ev.resolves ? "yes" : "no"],
+      ["http", ev.http_status != null ? String(ev.http_status) : "error"],
+      ["checked", ev.checked_at ? ev.checked_at.slice(0, 10) : "—"],
+    ];
+    for (const [key, value] of rows) {
+      const row = el("div", "row");
+      row.appendChild(el("span", null, key));
+      row.appendChild(el("span", null, value));
+      det.appendChild(row);
+    }
+    node.appendChild(det);
+  }
 
   if (item.snippet) node.appendChild(el("p", "snippet", item.snippet));
 
@@ -168,12 +199,14 @@ function render() {
   grid.replaceChildren(...visible.map(card));
   empty.hidden = visible.length !== 0;
 
-  const counts = { verified: 0, screened: 0, unverified: 0 };
+  const counts = { verified: 0, screened: 0, unverified: 0, entry: 0 };
   for (const item of state.items) {
     if (item.status === "active" && counts[item.tier] != null) counts[item.tier] += 1;
+    if (item.status === "active" && item.audience === "entry") counts.entry += 1;
   }
   stats.replaceChildren();
   for (const [label, value] of [
+    ["entry-level", counts.entry],
     ["verified", counts.verified],
     ["screened", counts.screened],
     ["unverified", counts.unverified],
@@ -216,6 +249,7 @@ async function load() {
 }
 
 $("#q").addEventListener("input", (e) => { state.q = e.target.value.trim().toLowerCase(); render(); });
+$("#audience").addEventListener("change", (e) => { state.audience = e.target.value; render(); });
 $("#tier").addEventListener("change", (e) => { state.tier = e.target.value; render(); });
 $("#category").addEventListener("change", (e) => { state.category = e.target.value; render(); });
 $("#rail").addEventListener("change", (e) => { state.rail = e.target.value; render(); });

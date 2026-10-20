@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "domains": {
+    "weworkremotely.com": {
+      "domain": "weworkremotely.com",
+      "checked_at": "2026-10-20T11:26:33Z",
+      "complete": true,
+      "registered_at": "2013-09-25T02:24:59Z",
+      "age_days": 4773,
+      "registrar": "1API GmbH",
+      "resolves": true,
+      "http_status": 200,
+      "final_url": "https://weworkremotely.com/remote-jobs/datadog-manager-ii-developer-advocacy",
+      "redirects": [],
+      "checks": [
+        {
+          "id": "dns",
+          "result": "pass",
+          "detail": null,
+          "checked_at": "2026-10-20T11:26:33Z"
+        },
+        {
+          "id": "http",
+          "result": "200",
+          "detail": "https://weworkremotely.com/remote-jobs/datadog-manager-ii-developer-advocacy",
+          "checked_at": "2026-10-20T11:26:33Z"
+        },
+        {
+          "id": "rdap",
+          "result": "ok",
+          "detail": "2013-09-25T02:24:59Z",
+          "checked_at": "2026-10-20T11:26:33Z"
+        }
+      ]
+    },
+    "remoteok.com": {
+      "domain": "remoteok.com",
+      "checked_at": "2026-10-20T11:26:36Z",
+      "complete": true,
+      "registered_at": "2014-10-16T05:22:57Z",
+      "age_days": 4387,
+      "registrar": "NameCheap, Inc.",
+      "resolves": true,
+      "http_status": 200,
+      "final_url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-sothebys-1137545",
+      "redirects": [],
+      "checks": [
+        {
+          "id": "dns",
+          "result": "pass",
+          "detail": null,
+          "checked_at": "2026-10-20T11:26:36Z"
+        },
+        {
+          "id": "http",
+          "result": "200",
+          "detail": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-sothebys-1137545",
+          "checked_at": "2026-10-20T11:26:36Z"
+        },
+        {
+          "id": "rdap",
+          "result": "ok",
+          "detail": "2014-10-16T05:22:57Z",
+          "checked_at": "2026-10-20T11:26:36Z"
+        }
+      ]
+    },
+    "himalayas.app": {
+      "domain": "himalayas.app",
+      "checked_at": "2026-10-20T11:26:42Z",
+      "complete": true,
+      "registered_at": "2020-04-27T11:32:29.351Z",
+      "age_days": 2366,
+      "registrar": "Namecheap Inc.",
+      "resolves": true,
+      "http_status": 403,
+      "final_url": "https://himalayas.app/companies/agrocommercial/jobs/zoho-developer-crm-automation-specialist?utm_source=api",
+      "redirects": [],
+      "checks": [
+        {
+          "id": "dns",
+          "result": "pass",
+          "detail": null,
+          "checked_at": "2026-10-20T11:26:42Z"
+        },
+        {
+          "id": "http",
+          "result": "403",
+          "detail": "HTTP 403",
+          "checked_at": "2026-10-20T11:26:42Z"
+        },
+        {
+          "id": "rdap",
+          "result": "ok",
+          "detail": "2020-04-27T11:32:29.351Z",
+          "checked_at": "2026-10-20T11:26:42Z"
+        }
+      ]
+    },
+    "cryptojobslist.com": {
+      "domain": "cryptojobslist.com",
+      "checked_at": "2026-10-20T11:26:45Z",
+      "complete": true,
+      "registered_at": "2017-09-27T19:50:55Z",
+      "age_days": 3309,
+      "registrar": "Porkbun LLC",
+      "resolves": true,
+      "http_status": 206,
+      "final_url": "https://cryptojobslist.com/jobs/senior-technical-product-manager-keet-dubai-dubai-united-arab-emirates-at-tether-operations-limited",
+      "redirects": [],
+      "checks": [
+        {
+          "id": "dns",
+          "result": "pass",
+          "detail": null,
+          "checked_at": "2026-10-20T11:26:45Z"
+        },
+        {
+          "id": "http",
+          "result": "206",
+          "detail": "https://cryptojobslist.com/jobs/senior-technical-product-manager-keet-dubai-dubai-united-arab-emirates-at-tether-operations-limited",
+          "checked_at": "2026-10-20T11:26:45Z"
+        },
+        {
+          "id": "rdap",
+          "result": "ok",
+          "detail": "2017-09-27T19:50:55Z",
+          "checked_at": "2026-10-20T11:26:45Z"
+        }
+      ]
+    }
+  },
+  "updated_at": "2026-10-20T11:26:48Z"
+}

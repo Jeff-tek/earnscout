@@ -62,6 +62,7 @@ class Ranker:
             if len(listing.get("sources_seen") or []) > 1
             else 0
         )
+        c["ease"] = self.w.get("ease", {}).get(listing.get("audience") or "unknown", 0)
         c["tier"] = self.w["tier"].get(listing.get("tier"), 0)
 
         listing["score"] = {"total": round(sum(c.values()), 2), "components": c}

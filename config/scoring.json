@@ -28,6 +28,11 @@
       "lt_24h": 2,
       "lt_72h": 1
     },
+    "ease": {
+      "entry": 3,
+      "unknown": 0,
+      "skilled": 0
+    },
     "trending": {
       "cross_source_duplicate": 1,
       "engagement_normalized_max": 1

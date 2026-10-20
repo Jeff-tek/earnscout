@@ -1,7 +1,7 @@
 """Turn raw source items into canonical listings."""
 import re
 
-from . import util
+from . import audience, util
 
 HARD = {"USD", "EUR", "GBP", "CAD", "AUD", "CHF", "SGD"}
 CRYPTO = {"USDT", "USDC", "BTC", "ETH", "SOL", "BNB"}
@@ -9,7 +9,7 @@ NAMED_RAILS = ["payoneer", "deel", "wise", "grey", "cleva", "daya", "chipper"]
 NIGERIA_RE = re.compile(r"\b(nigeria|nigerian|africa|worldwide|anywhere|global|emea)\b", re.I)
 EXCLUDE_RE = re.compile(
     r"\b(?:usa|u\.s\.|united states|canada|uk|united kingdom|europe|eu|india|"
-    r"philippines|latam|australia|onsite)\b",
+    r"philippines|latam|australia|apac|onsite)\b",
     re.I,
 )
 
@@ -64,6 +64,9 @@ def normalize(raw, source_cfg):
         "category": raw.get("category") or "job",
         "title": (raw.get("title") or "").strip(),
         "company": raw.get("company"),
+        "audience": audience.classify(
+            raw.get("title") or "", util.strip_html(raw.get("description") or "", 600)
+        ),
         "url": raw.get("url") or "",
         "location_raw": raw.get("location_raw") or None,
         "nigeria_ok": nigeria_ok(raw.get("location_raw"), text, source_cfg),

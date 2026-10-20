@@ -166,6 +166,8 @@ def push(items, state, limit=5, daily_cap=20):
             break
         if item.get("status") != "active" or item.get("pushed_at"):
             continue
+        if item.get("audience") != "entry":
+            continue
         if item.get("tier") not in ("screened", "verified"):
             continue
 

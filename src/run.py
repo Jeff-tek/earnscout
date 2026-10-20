@@ -10,7 +10,7 @@ import argparse
 import copy
 import traceback
 
-from . import dedupe, normalize, rank, rules, store, telegram, util
+from . import dedupe, evidence, normalize, rank, rules, store, telegram, util
 from .sources import REGISTRY
 
 STATE_PATH = f"{util.DATA}/state.json"
@@ -89,10 +89,16 @@ def main():
 
     merged = dedupe.merge(raw_items)
     for item in merged:
-        engine.retier(item)
-        ranker.score(item)
         item.pop("_text", None)
         item.pop("_tags", None)
+
+    merged, evidence_checked = evidence.enrich(merged)
+    if evidence_checked:
+        print(f"[ev]   checked {evidence_checked} new domain(s)")
+
+    for item in merged:
+        engine.retier(item)
+        ranker.score(item)
 
     current = store.load()
     items = store.merge(current.get("items", []), merged)
@@ -107,10 +113,11 @@ def main():
     screened = sum(1 for i in items if i.get("tier") == "screened")
     verified = sum(1 for i in items if i.get("tier") == "verified")
     active = [i for i in items if i.get("status") == "active"]
+    entry = sum(1 for i in active if i.get("audience") == "entry")
 
     print(
         f"\nmerged={len(merged)} stored={len(items)} active={len(active)} "
-        f"blocked={blocked} screened={screened} verified={verified}"
+        f"entry={entry} blocked={blocked} screened={screened} verified={verified}"
     )
     print("top 5 active:")
     for item in active[:5]:

@@ -54,7 +54,7 @@ a { color: inherit; }
 
 .controls {
   display: grid;
-  grid-template-columns: 2fr repeat(4, minmax(120px, 1fr)) auto;
+  grid-template-columns: 2fr repeat(5, minmax(110px, 1fr)) auto;
   gap: 8px;
   margin: 18px 0 8px;
 }

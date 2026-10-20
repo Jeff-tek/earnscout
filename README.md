@@ -90,12 +90,25 @@ scripts/    maintenance helpers
 3. **Dashboard:** enable GitHub Pages on `main` / root, then open the Pages URL.
 4. **Schedule:** `.github/workflows/scan.yml` runs every 20 minutes; per-source gates enforce 40 minutes or longer.
 
+## Audience gate
+
+Every listing is classified `entry`, `skilled` or `unknown`.
+
+- **entry** — task-based work, support, annotation, transcription, assistant, sales rep, writing.
+- **skilled** — senior engineering, technical specialist, medical, legal, finance, management, design.
+- **unknown** — no clear signal in the title.
+
+The dashboard defaults to **Doable for me** (entry) and the bot only pushes entry items. The audience dropdown reveals the rest.
+
+**Known limitation (2026-10-20):** the current Wave 1 sources are professional/tech boards. Only ~14 of 231 active listings classify as entry, and several are full-time sales/support roles rather than side hustles. The next source pass targets entry-level task work (Freelancer data-entry/VA/transcription categories, support-only feeds, and microtask platform checks).
+
 ## Build status
 
 - [x] **Phase 0** — scaffolding, configs, rule schema, README
 - [x] **Phase 1** — ingest Wave 1 → normalize → dedupe → `listings.json` + functional dashboard
 - [x] **Phase 2** — Telegram bot: push cards, filters, Approve/Reject, update polling
-- [ ] **Phase 3** — automated checks (RDAP/DNS/redirects) + ranking + evidence pages
+- [x] **Phase 3a** — automated checks (DNS/RDAP/HTTP/redirects), evidence cache, explainable ranking
+- [ ] **Phase 3b** — employer-domain discovery + per-listing evidence pages + CAC manual check
 - [ ] **Phase 4** — speculative section (manual airdrops) + brand table wired in
 - [ ] **Phase 5** — extra sources, beauty pass, friends' chat-ID whitelist
 
