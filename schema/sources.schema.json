@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://earnscout.local/schema/sources.schema.json",
+  "title": "Sources config",
+  "type": "object",
+  "required": ["version", "heartbeat_minutes", "sources"],
+  "properties": {
+    "version": { "type": "integer" },
+    "updated_at": { "type": "string" },
+    "heartbeat_minutes": { "type": "integer", "minimum": 5 },
+    "notes": { "type": "string" },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "wave", "enabled", "categories", "access", "cadence_minutes"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "wave": { "type": "integer", "minimum": 1 },
+          "enabled": { "type": "boolean" },
+          "parser": { "type": "string" },
+          "categories": { "type": "array", "items": { "type": "string" } },
+          "access": {
+            "type": "object",
+            "required": ["type", "url"],
+            "properties": {
+              "type": { "type": "string" },
+              "url": { "type": "string", "format": "uri" },
+              "api": { "type": "string" },
+              "rss": { "type": "string" },
+              "auth": { "type": "string" }
+            }
+          },
+          "cadence_minutes": { "type": "integer", "minimum": 5 },
+          "location_scope": { "type": "string" },
+          "hard_currency": { "type": "boolean" },
+          "currency_notes": { "type": "string" },
+          "has_deadlines": { "type": "boolean" },
+          "rate_limit_note": { "type": "string" },
+          "compliance": {
+            "type": "object",
+            "properties": {
+              "robots": { "type": "string" },
+              "attribution": { "type": "boolean" },
+              "notes": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

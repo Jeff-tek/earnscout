@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://earnscout.local/schema/evidence.schema.json",
+  "title": "Evidence",
+  "type": "object",
+  "required": ["listing_id", "domain", "checked_at", "checks"],
+  "properties": {
+    "listing_id": { "type": "string" },
+    "domain": { "type": "string" },
+    "registered_at": { "type": ["string", "null"] },
+    "age_days": { "type": ["integer", "null"] },
+    "registrar": { "type": ["string", "null"] },
+    "mx": { "type": "array", "items": { "type": "string" } },
+    "redirects": { "type": "array", "items": { "type": "string" } },
+    "official_match": { "type": ["boolean", "null"] },
+    "cac": {
+      "type": "object",
+      "properties": {
+        "checked": { "type": "boolean" },
+        "rc": { "type": ["string", "null"] },
+        "match": { "type": ["boolean", "null"] },
+        "checked_at": { "type": ["string", "null"] }
+      }
+    },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "result", "checked_at"],
+        "properties": {
+          "id": { "type": "string" },
+          "result": { "type": "string" },
+          "detail": { "type": ["string", "null"] },
+          "checked_at": { "type": "string" }
+        }
+      }
+    },
+    "checked_at": { "type": "string", "format": "date-time" },
+    "notes": { "type": ["string", "null"] }
+  }
+}

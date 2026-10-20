@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://earnscout.local/schema/listing.schema.json",
+  "title": "Listing",
+  "type": "object",
+  "required": ["id", "source", "category", "title", "url", "first_seen_at", "tier", "status"],
+  "properties": {
+    "id": { "type": "string", "description": "Stable hash of source + normalized url" },
+    "source": { "type": "string" },
+    "category": { "enum": ["job", "freelance", "microtask", "hackathon", "bounty", "speculative"] },
+    "title": { "type": "string" },
+    "company": { "type": ["string", "null"] },
+    "url": { "type": "string", "format": "uri" },
+    "location_raw": { "type": ["string", "null"] },
+    "nigeria_ok": { "type": ["boolean", "null"] },
+    "remote": { "type": ["boolean", "null"] },
+    "payment_rails": { "type": "array", "items": { "type": "string" } },
+    "payment_protection": { "enum": ["escrow", "platform", "direct", "unknown"] },
+    "salary": {
+      "type": ["object", "null"],
+      "properties": {
+        "min": { "type": ["number", "null"] },
+        "max": { "type": ["number", "null"] },
+        "currency": { "type": ["string", "null"] },
+        "period": { "type": ["string", "null"] }
+      }
+    },
+    "posted_at": { "type": ["string", "null"], "format": "date-time" },
+    "first_seen_at": { "type": "string", "format": "date-time" },
+    "deadline": { "type": ["string", "null"], "format": "date-time" },
+    "snippet": { "type": ["string", "null"] },
+    "signals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "severity"],
+        "properties": {
+          "id": { "type": "string" },
+          "severity": { "enum": ["block", "weak", "positive"] },
+          "evidence": { "type": ["string", "array", "null"] }
+        }
+      }
+    },
+    "tier": { "enum": ["blocked", "unverified", "screened", "verified", "speculative"] },
+    "review": {
+      "type": "object",
+      "properties": {
+        "status": { "enum": ["pending", "approved", "rejected"] },
+        "by": { "type": ["string", "null"] },
+        "at": { "type": ["string", "null"] },
+        "note": { "type": ["string", "null"] }
+      }
+    },
+    "score": {
+      "type": ["object", "null"],
+      "properties": {
+        "total": { "type": "number" },
+        "components": { "type": "object" }
+      }
+    },
+    "sources_seen": { "type": "array", "items": { "type": "string" } },
+    "duplicate_of": { "type": ["string", "null"] },
+    "status": { "enum": ["active", "expired", "archived", "blocked"] }
+  }
+}

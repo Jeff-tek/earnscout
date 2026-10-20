@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-20",
+  "notes": "Ranking weights and classification vocabulary. Score components are always stored and displayed, so the ordering is explainable.",
+  "weights": {
+    "currency": {
+      "hard_currency_disclosed": 4,
+      "crypto_named": 3,
+      "payoneer_or_deel_named": 1,
+      "ngn_only": 0
+    },
+    "protection": {
+      "escrow": 2,
+      "platform": 1,
+      "direct": 0,
+      "unknown": 0
+    },
+    "international": {
+      "non_nigerian_employer": 2,
+      "global_remote": 1
+    },
+    "pay_quality": {
+      "above_floor": 2,
+      "disclosed": 1
+    },
+    "freshness": {
+      "lt_24h": 2,
+      "lt_72h": 1
+    },
+    "trending": {
+      "cross_source_duplicate": 1,
+      "engagement_normalized_max": 1
+    },
+    "tier": {
+      "verified": 2,
+      "screened": 1
+    }
+  },
+  "classification": {
+    "hard_currency": ["USD", "EUR", "GBP", "CAD", "AUD", "CHF", "SGD"],
+    "crypto": ["USDT", "USDC", "BTC", "ETH", "SOL", "BNB", "MATIC"],
+    "local_currency": ["NGN"],
+    "named_rails": ["Payoneer", "Deel", "Wise", "Grey", "Cleva", "Daya", "Chipper"],
+    "nigerian_employer_signals": ["nigeria", "lagos", "abuja", "port harcourt", "ngn", "₦"],
+    "global_remote_signals": ["worldwide", "anywhere", "global", "remote", "emea", "remote-first"]
+  },
+  "floors": {
+    "freelancer_min_budget_usd": 100,
+    "hackathon_min_prize_usd": 500,
+    "enforce_only_when_structured": true
+  },
+  "paypal": {
+    "mode": "hide_if_only_rail",
+    "note": "Owner cannot receive PayPal. Hide PayPal-only listings; show mixed-rail listings with a flag."
+  },
+  "suppression": {
+    "max_age_days": 14,
+    "archive_after_days": 90
+  },
+  "review": {
+    "verified_ttl_days": 30,
+    "max_queue_per_run": 10
+  },
+  "dedupe": {
+    "normalize_url": true,
+    "fuzzy_title_company_threshold": 0.86,
+    "cross_source_counts_as_trending": true
+  }
+}

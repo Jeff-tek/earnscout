@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-20",
+  "notes": "Login-gated platforms. They cannot be polled for new tasks without user credentials, so the app lists them for manual checking and links out. Hard-currency payouts only.",
+  "platforms": [
+    {
+      "name": "Mindrift (Toloka worker platform)",
+      "url": "https://mindrift.ai/",
+      "payout": "Payoneer",
+      "hard_currency": true,
+      "note": "Global including Nigeria; per-project eligibility. Login required."
+    },
+    {
+      "name": "Appen / CrowdGen",
+      "url": "https://www.appen.com/",
+      "payout": "Payoneer, bank, PayPal",
+      "hard_currency": true,
+      "note": "170+ countries including Nigeria; per-project. Login required."
+    }
+  ],
+  "excluded": [
+    {
+      "name": "uTest (Applause)",
+      "url": "https://www.utest.com/projects",
+      "reason": "PayPal-only payout, which the owner cannot receive. Kept out of the list rather than linked and wasted."
+    },
+    {
+      "name": "Freecash",
+      "url": "https://freecash.com/",
+      "reason": "Offerwall/cent-level rewards, not 'truly rewarding'; gift-card payouts are low value. Contradicts the pay-quality goal."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-20",
+  "notes": "Sources we deliberately do not poll. Each entry records why, so the decision is not silently reversed later. Link-out means the app may reference them but never ingests them.",
+  "excluded": [
+    {
+      "id": "remotive",
+      "name": "Remotive",
+      "reason": "robots.txt disallows /api/*; API terms forbid republishing Remotive jobs to third-party job sites",
+      "alternative": "link-out only",
+      "risk": "high"
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit (r/forhire, r/WorkOnline)",
+      "reason": "robots.txt Disallow: /; Public Content Policy restricts automated and commercial use; unauthenticated requests return 429 quickly",
+      "alternative": "link-out only; manual browsing",
+      "risk": "high"
+    },
+    {
+      "id": "jobberman",
+      "name": "Jobberman",
+      "reason": "robots disallows /job/ detail pages and filter query strings; Cloudflare + Laravel",
+      "alternative": "link-out",
+      "risk": "high"
+    },
+    {
+      "id": "upwork",
+      "name": "Upwork",
+      "reason": "RSS returns 403; no public jobs API; ToS prohibits automated scraping",
+      "alternative": "manual search; link-out",
+      "risk": "high"
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "reason": "ToS and anti-bot measures prohibit automated collection; no free public job API",
+      "alternative": "link-out",
+      "risk": "high"
+    },
+    {
+      "id": "indeed",
+      "name": "Indeed",
+      "reason": "ToS and anti-bot measures prohibit automated collection; no free public job API",
+      "alternative": "link-out",
+      "risk": "high"
+    },
+    {
+      "id": "wellfound",
+      "name": "Wellfound (AngelList)",
+      "reason": "Heavy anti-bot protection; no public API",
+      "alternative": "link-out",
+      "risk": "high"
+    },
+    {
+      "id": "prolific",
+      "name": "Prolific",
+      "reason": "Participant pool limited to selected countries; Nigeria is not supported",
+      "alternative": "do not list",
+      "risk": "n/a"
+    },
+    {
+      "id": "remotasks",
+      "name": "Remotasks",
+      "reason": "Discontinued operations in Nigeria in March 2024",
+      "alternative": "do not list",
+      "risk": "n/a"
+    },
+    {
+      "id": "toloka_worker",
+      "name": "Toloka (worker brand)",
+      "reason": "Worker platform migrated to Mindrift",
+      "alternative": "use Mindrift in manual-platforms.json",
+      "risk": "n/a"
+    },
+    {
+      "id": "fiverr",
+      "name": "Fiverr",
+      "reason": "No public task feed; Buyer Requests discontinued — nothing to poll",
+      "alternative": "link-out",
+      "risk": "low"
+    },
+    {
+      "id": "peopleperhour",
+      "name": "PeoplePerHour / Contra",
+      "reason": "HTML-only, robots restricts query URLs, thin Nigeria-specific volume",
+      "alternative": "defer",
+      "risk": "medium"
+    }
+  ]
+}

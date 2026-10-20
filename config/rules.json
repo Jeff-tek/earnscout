@@ -1,0 +1,365 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-20",
+  "notes": "Patterns run case-insensitive against title + snippet/description. Hard blocks remove an item from the opportunity feed. Weak signals only flag. Positive signals support the screened tier. The absence of a signal proves nothing.",
+  "hard_blocks": [
+    {
+      "id": "HB_PAY_TO_WORK",
+      "label": "Pay-to-work or pay-to-unlock demand",
+      "severity": "block",
+      "detector": {
+        "type": "regex_any",
+        "fields": ["title", "snippet", "description"],
+        "patterns": [
+          "\\b(?:registration|application|activation|training|placement|processing|clearance|uniform|medical|visa)\\s+fee\\b",
+          "\\bpay\\s+(?:₦|N|NGN|USD|\\$|€|£)?\\s?[\\d,]+\\s*(?:k)?\\s+to\\s+(?:start|activate|unlock|join|begin|get\\s+(?:the\\s+)?job)\\b",
+          "\\b(?:welfare|membership|upgrade)\\s+fund\\b",
+          "\\btask\\s+(?:deposit|top[- ]?up)\\b",
+          "\\bdeposit\\s+(?:to|before)\\s+(?:start|work|withdraw)\\b",
+          "\\bwithdrawal\\s+(?:fee|tax|charge)\\b",
+          "\\bunlock(?:ing)?\\s+fee\\b",
+          "\\b(?:pay|send)\\b.{0,30}\\b(?:to|before)\\s+(?:receive|withdraw|unlock)\\b"
+        ]
+      },
+      "evidence_required": ["matched_text"],
+      "false_positive_note": "Legitimate certifications and training exist, but they are never a condition of employment and never paid to a recruiter.",
+      "action": "exclude_from_opportunities"
+    },
+    {
+      "id": "HB_GIFT_CARD_DEMAND",
+      "label": "Gift-card demand",
+      "severity": "block",
+      "detector": {
+        "type": "regex_any",
+        "fields": ["title", "snippet", "description"],
+        "patterns": [
+          "\\bgift\\s*cards?\\b",
+          "\\b(?:itunes|amazon|steam|google\\s*play|razer\\s*gold|apple)\\s+(?:gift\\s*)?cards?\\b",
+          "\\bredeem\\s+codes?\\b"
+        ]
+      },
+      "evidence_required": ["matched_text"],
+      "false_positive_note": "Gift cards are never a wage rail; a gift-card demand in a job/earning context is categorical. A separate 'sell gift cards' business listing is still pay-to-participate risk.",
+      "action": "exclude_from_opportunities"
+    },
+    {
+      "id": "HB_CRYPTO_OUTFLOW",
+      "label": "Crypto or money flowing from worker to employer",
+      "severity": "block",
+      "detector": {
+        "type": "regex_any",
+        "fields": ["title", "snippet", "description"],
+        "patterns": [
+          "\\b(?:send|deposit|transfer|fund|top\\s*up)\\s+(?:usdt|usdc|btc|bitcoin|eth|ethereum|crypto|trc20|erc20|bnb)\\b",
+          "\\bnegative\\s+balance\\b",
+          "\\b(?:top\\s*up|recharge)\\s+(?:your\\s+)?(?:account|wallet)\\s+to\\s+(?:unlock|withdraw|continue)\\b"
+        ]
+      },
+      "evidence_required": ["matched_text"],
+      "false_positive_note": "Receiving crypto as salary is normal; sending crypto to an employer, or paying to unlock a balance, is the scam mechanic.",
+      "action": "exclude_from_opportunities"
+    },
+    {
+      "id": "HB_WALLET_SECURITY",
+      "label": "Seed phrase, wallet connection or 'wallet verification'",
+      "severity": "block",
+      "detector": {
+        "type": "regex_any",
+        "fields": ["title", "snippet", "description"],
+        "patterns": [
+          "\\b(?:seed|recovery|secret)\\s+phrase\\b",
+          "\\b(?:12|24)[- ]word\\b",
+          "\\bwallet\\s+(?:verification|validate|validation|sync)\\b",
+          "\\bconnect\\s+your\\s+wallet\\b",
+          "\\bvalidate\\s+your\\s+wallet\\b"
+        ]
+      },
+      "evidence_required": ["matched_text"],
+      "false_positive_note": "No legitimate employer or wallet needs a seed phrase. A hardware wallet's own firmware check is not this.",
+      "action": "exclude_from_opportunities"
+    },
+    {
+      "id": "HB_MULE",
+      "label": "Money-mule or account-rental offer",
+      "severity": "block",
+      "detector": {
+        "type": "regex_any",
+        "fields": ["title", "snippet", "description"],
+        "patterns": [
+          "\\breceive\\s+(?:funds|payments|money)\\s+and\\s+(?:forward|send|transfer)\\b",
+          "\\b(?:rent|lease|use)\\s+your\\s+(?:bank\\s+)?account\\b",
+          "\\bpayment\\s+processing\\s+(?:agent|job)\\b",
+          "\\bkeep\\s+(?:a\\s+)?(?:commission|percentage|cut|\\d+%)\\b.{0,60}\\b(?:transfer|forward|send)\\b"
+        ]
+      },
+      "evidence_required": ["matched_text"],
+      "false_positive_note": "A real employer may ask you to make purchases; it never asks you to move third-party funds through your personal account.",
+      "action": "exclude_from_opportunities"
+    },
+    {
+      "id": "HB_SIDELOAD_APK",
+      "label": "Sideloaded APK or remote-access tool",
+      "severity": "block",
+      "detector": {
+        "type": "regex_any",
+        "fields": ["title", "snippet", "description"],
+        "patterns": [
+          "\\.apk\\b",
+          "\\binstall\\s+(?:our|this)\\s+app\\s+(?:from|via)\\s+(?:whatsapp|telegram|link)\\b",
+          "\\benable\\s+(?:unknown\\s+sources|installation\\s+from\\s+unknown)\\b",
+          "\\b(?:anydesk|teamviewer|quicksupport|rustdesk)\\b"
+        ]
+      },
+      "evidence_required": ["matched_text"],
+      "false_positive_note": "Some legitimate beta apps use sideloading; in an unsolicited job offer, treat it as hostile.",
+      "action": "exclude_from_opportunities"
+    },
+    {
+      "id": "HB_IMPLAUSIBLE_PAY",
+      "label": "Implausible daily pay for trivial work",
+      "severity": "block",
+      "detector": {
+        "type": "composite_all",
+        "conditions": [
+          {
+            "type": "regex_any",
+            "fields": ["title", "snippet", "description"],
+            "patterns": ["\\b(?:like|watch|rate|click|review|share)\\b.{0,40}\\b(?:videos?|products?|ads?|posts?|pages?)\\b"]
+          },
+          {
+            "type": "regex_any",
+            "fields": ["title", "snippet", "description"],
+            "patterns": ["(?:₦|N|NGN|USD|\\$|€|£)\\s?[\\d,]{4,}\\s*(?:\\/|per\\s+)?(?:day|daily)"]
+          }
+        ]
+      },
+      "evidence_required": ["matched_text"],
+      "false_positive_note": "High pay alone is weak; high pay for no-skill work with no interview is the bait pattern documented in Nigerian cases.",
+      "action": "exclude_from_opportunities"
+    },
+    {
+      "id": "HB_BRAND_IMPERSONATION",
+      "label": "Brand impersonation (name matches a protected brand, domain does not)",
+      "severity": "block",
+      "detector": {
+        "type": "brand_domain_mismatch",
+        "brand_table": "config/brands.json",
+        "fields": ["title", "company", "snippet", "description"]
+      },
+      "evidence_required": ["brand", "claimed_domain", "official_domains"],
+      "false_positive_note": "Only the brand's own domain or an official careers page counts. A screenshot of a 'partnership' is not confirmation.",
+      "action": "exclude_from_opportunities"
+    }
+  ],
+  "weak_signals": [
+    {
+      "id": "WK_VERY_NEW_DOMAIN",
+      "label": "Domain registered <30 days ago",
+      "severity": "weak",
+      "detector": { "type": "domain_age", "lt_days": 30 },
+      "weight": 2,
+      "evidence_required": ["domain", "registered_at"],
+      "false_positive_note": "Legitimate startups launch new domains too."
+    },
+    {
+      "id": "WK_NEW_DOMAIN",
+      "label": "Domain registered <90 days ago",
+      "severity": "weak",
+      "detector": { "type": "domain_age", "lt_days": 90 },
+      "weight": 1,
+      "evidence_required": ["domain", "registered_at"],
+      "false_positive_note": "Scammers also buy aged domains; combine with payment signals."
+    },
+    {
+      "id": "WK_FREE_EMAIL",
+      "label": "Free email provider as contact",
+      "severity": "weak",
+      "detector": {
+        "type": "regex_any",
+        "fields": ["description", "contact"],
+        "patterns": ["@(?:gmail|yahoo|outlook|hotmail|protonmail|proton)\\.com"]
+      },
+      "weight": 1,
+      "evidence_required": ["matched_text"],
+      "false_positive_note": "Millions of legitimate small businesses use Gmail."
+    },
+    {
+      "id": "WK_ONLY_WHATSAPP",
+      "label": "WhatsApp/Telegram-only contact",
+      "severity": "weak",
+      "detector": {
+        "type": "regex_any",
+        "fields": ["description", "contact"],
+        "patterns": ["\\b(?:whatsapp|wa\\.me|telegram only|dm only|chat only)\\b"]
+      },
+      "weight": 1,
+      "evidence_required": ["matched_text"],
+      "false_positive_note": "Common for legitimate Nigerian SMEs; refusal to provide a company email or a video call is the stronger signal."
+    },
+    {
+      "id": "WK_URGENCY",
+      "label": "Urgency pressure",
+      "severity": "weak",
+      "detector": {
+        "type": "regex_any",
+        "fields": ["title", "snippet", "description"],
+        "patterns": ["\\b(?:urgent|limited slots?|only \\d+ (?:slots?|spaces?)|apply (?:now|immediately)|closing today|first come)\\b"]
+      },
+      "weight": 1,
+      "evidence_required": ["matched_text"],
+      "false_positive_note": "Sales tactics are common; urgency plus a payment demand is strong, urgency alone is not."
+    },
+    {
+      "id": "WK_CHEAP_TLD",
+      "label": "Cheap/abused TLD",
+      "severity": "weak",
+      "detector": { "type": "tld_in", "tlds": ["top", "xyz", "site", "online", "click", "buzz", "icu", "rest", "monster"] },
+      "weight": 1,
+      "evidence_required": ["domain"],
+      "false_positive_note": "Real projects use these too."
+    },
+    {
+      "id": "WK_CHAT_INTERVIEW",
+      "label": "Interview only via chat",
+      "severity": "weak",
+      "detector": {
+        "type": "regex_any",
+        "fields": ["description"],
+        "patterns": ["\\b(?:interview|hiring)\\b.{0,40}\\b(?:via|on)\\s+(?:whatsapp|telegram|chat)\\b"]
+      },
+      "weight": 1,
+      "evidence_required": ["matched_text"],
+      "false_positive_note": "Some legitimate remote hiring is chat-first; ask for a video call and a named human."
+    },
+    {
+      "id": "WK_NO_INTERVIEW",
+      "label": "No interview or experience required",
+      "severity": "weak",
+      "detector": {
+        "type": "regex_any",
+        "fields": ["description"],
+        "patterns": ["\\bno\\s+(?:interview|experience)\\s+(?:needed|required)\\b"]
+      },
+      "weight": 1,
+      "evidence_required": ["matched_text"],
+      "false_positive_note": "Some gig work is genuinely informal; combine with other signals."
+    },
+    {
+      "id": "WK_PERSONAL_ACCOUNT",
+      "label": "Payment to a personal account / name-mismatch language",
+      "severity": "weak",
+      "detector": {
+        "type": "regex_any",
+        "fields": ["description"],
+        "patterns": ["\\b(?:send|pay)\\s+(?:to\\s+)?(?:my|this)\\s+(?:personal\\s+)?account\\b"]
+      },
+      "weight": 2,
+      "evidence_required": ["matched_text"],
+      "false_positive_note": "Small Nigerian employers do sometimes pay from personal accounts; strong only with a name mismatch or rotating accounts."
+    },
+    {
+      "id": "WK_NO_CAC",
+      "label": "No matching CAC record (manual check)",
+      "severity": "weak",
+      "detector": {
+        "type": "manual",
+        "description": "CAC public search returns no matching RC/BN, or the RC returns a different name"
+      },
+      "weight": 1,
+      "evidence_required": ["cac_checked_at", "query", "result"],
+      "false_positive_note": "Many legitimate freelancers are unregistered; a false RC number is the strong signal, not a missing one."
+    },
+    {
+      "id": "WK_NO_TERMS",
+      "label": "No terms/privacy page",
+      "severity": "weak",
+      "detector": { "type": "page_missing", "patterns": ["terms", "privacy"] },
+      "weight": 1,
+      "evidence_required": ["checked_url", "checked_at"],
+      "false_positive_note": "Common for small sites and scam sites alike."
+    },
+    {
+      "id": "WK_NO_NAMED_HUMAN",
+      "label": "No named person, company email or address",
+      "severity": "weak",
+      "detector": {
+        "type": "composite_all",
+        "conditions": [
+          { "type": "not_present", "fields": ["description", "contact"], "patterns": ["@"] },
+          { "type": "not_present", "fields": ["description"], "patterns": ["\\b(?:address|suite|floor|street|road)\\b"] }
+        ]
+      },
+      "weight": 1,
+      "evidence_required": ["checked_fields"],
+      "false_positive_note": "Many legitimate remote-first companies publish little; treat as a review prompt."
+    }
+  ],
+  "positive_signals": [
+    {
+      "id": "PS_OFFICIAL_DOMAIN",
+      "label": "Listing appears on the employer's official domain/careers page",
+      "severity": "positive",
+      "detector": { "type": "official_domain_match" },
+      "support": 2,
+      "evidence_required": ["listing_url", "official_url", "checked_at"]
+    },
+    {
+      "id": "PS_ESCROW_PLATFORM",
+      "label": "Source has escrow or verified payouts",
+      "severity": "positive",
+      "detector": { "type": "source_in", "sources": ["superteam", "freelancer", "laborx"] },
+      "support": 2,
+      "evidence_required": ["source"]
+    },
+    {
+      "id": "PS_ESTABLISHED_BOARD",
+      "label": "Established job board",
+      "severity": "positive",
+      "detector": { "type": "source_in", "sources": ["himalayas", "remoteok", "weworkremotely", "cryptojobslist", "hn_whoishiring", "devpost", "jobicy"] },
+      "support": 1,
+      "evidence_required": ["source"]
+    },
+    {
+      "id": "PS_DOMAIN_AGE_2Y",
+      "label": "Domain older than 2 years",
+      "severity": "positive",
+      "detector": { "type": "domain_age", "gte_days": 730 },
+      "support": 1,
+      "evidence_required": ["domain", "registered_at"]
+    },
+    {
+      "id": "PS_COMPANY_EMAIL_MATCH",
+      "label": "Recruiter email domain matches company/listing domain",
+      "severity": "positive",
+      "detector": { "type": "email_domain_match" },
+      "support": 1,
+      "evidence_required": ["email", "domain"]
+    },
+    {
+      "id": "PS_CAC_MATCH",
+      "label": "CAC RC/BN matches the stated company name (manual)",
+      "severity": "positive",
+      "detector": {
+        "type": "manual",
+        "description": "CAC public search returns the stated name for the RC/BN"
+      },
+      "support": 2,
+      "evidence_required": ["rc", "company", "checked_at"]
+    },
+    {
+      "id": "PS_DISCLOSED_PAY",
+      "label": "Pay is disclosed",
+      "severity": "positive",
+      "detector": { "type": "field_present", "field": "salary" },
+      "support": 1,
+      "evidence_required": ["salary"]
+    }
+  ],
+  "tier_rules": {
+    "blocked": "any hard block matched",
+    "speculative": "manual airdrop entries only; never promoted to verified",
+    "verified": "screened AND review.status == approved AND review.at within review TTL",
+    "screened": "no hard blocks AND positive support >= 2 AND no unresolved (WK_VERY_NEW_DOMAIN with WK_URGENCY)",
+    "unverified": "default"
+  }
+}

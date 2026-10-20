@@ -1,0 +1,395 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-20",
+  "heartbeat_minutes": 40,
+  "notes": "cadence_minutes is the minimum time between fetches for that source. enabled=false means documented but not polled yet. heartbeat_minutes is the workflow beat; per-source cadence gates decide what actually runs.",
+  "sources": [
+    {
+      "id": "superteam",
+      "name": "Superteam Earn Nigeria",
+      "wave": 1,
+      "enabled": true,
+      "parser": "superteam",
+      "categories": ["freelance", "bounty", "hackathon"],
+      "access": {
+        "type": "html+json",
+        "url": "https://superteam.fun/earn/regions/nigeria/",
+        "api": "https://superteam.fun/api/agents/listings/live",
+        "auth": "free agent API key for api; HTML is public"
+      },
+      "cadence_minutes": 40,
+      "location_scope": "nigeria",
+      "hard_currency": true,
+      "currency_notes": "USDC on Solana; KYC required for sponsored payouts",
+      "has_deadlines": true,
+      "rate_limit_note": "No published limit; be conservative.",
+      "compliance": {
+        "robots": "allows; points AI agents to skill.md",
+        "attribution": false,
+        "notes": "Official agent API documented; prefer it over scraping."
+      }
+    },
+    {
+      "id": "himalayas",
+      "name": "Himalayas",
+      "wave": 1,
+      "enabled": true,
+      "parser": "himalayas",
+      "categories": ["job"],
+      "access": {
+        "type": "json",
+        "url": "https://himalayas.app/jobs/api",
+        "rss": "https://himalayas.app/jobs/rss",
+        "auth": "none; optional free key for higher limits"
+      },
+      "cadence_minutes": 360,
+      "location_scope": "global",
+      "hard_currency": true,
+      "currency_notes": "Salary fields in USD where disclosed",
+      "has_deadlines": false,
+      "rate_limit_note": "60 req/min, 10,000/day with free key; HTTP 429 when exceeded",
+      "compliance": {
+        "robots": "allows",
+        "attribution": false,
+        "notes": "locationRestrictions[] per job (empty usually means worldwide); filter client-side, no server-side country filter."
+      }
+    },
+    {
+      "id": "remoteok",
+      "name": "Remote OK",
+      "wave": 1,
+      "enabled": true,
+      "parser": "remoteok",
+      "categories": ["job"],
+      "access": {
+        "type": "json",
+        "url": "https://remoteok.com/api",
+        "rss": "https://remoteok.com/remote-jobs.rss",
+        "auth": "none"
+      },
+      "cadence_minutes": 80,
+      "location_scope": "global",
+      "hard_currency": true,
+      "currency_notes": "Employer-paid, USD common; location field often empty",
+      "has_deadlines": false,
+      "rate_limit_note": "robots Crawl-delay: 1",
+      "compliance": {
+        "robots": "allows with Crawl-delay: 1",
+        "attribution": true,
+        "notes": "API terms require a do-follow link back and 'Remote OK' credit, or access is suspended."
+      }
+    },
+    {
+      "id": "weworkremotely",
+      "name": "We Work Remotely",
+      "wave": 1,
+      "enabled": true,
+      "parser": "weworkremotely",
+      "categories": ["job"],
+      "access": {
+        "type": "rss",
+        "url": "https://weworkremotely.com/remote-jobs.rss",
+        "auth": "none"
+      },
+      "cadence_minutes": 40,
+      "location_scope": "global",
+      "hard_currency": true,
+      "currency_notes": "Employer-paid; USD common",
+      "has_deadlines": false,
+      "rate_limit_note": "Feed ttl 60; cache-friendly",
+      "compliance": {
+        "robots": "allows",
+        "attribution": false,
+        "notes": "Items carry <region> and <country>; most main-feed items are 'Anywhere in the World'."
+      }
+    },
+    {
+      "id": "cryptojobslist",
+      "name": "CryptoJobsList",
+      "wave": 1,
+      "enabled": true,
+      "parser": "cryptojobslist",
+      "categories": ["job"],
+      "access": {
+        "type": "rss",
+        "url": "https://cryptojobslist.com/rss",
+        "auth": "none"
+      },
+      "cadence_minutes": 80,
+      "location_scope": "global",
+      "hard_currency": true,
+      "currency_notes": "Often crypto or USD",
+      "has_deadlines": false,
+      "rate_limit_note": "No published limit",
+      "compliance": {
+        "robots": "allows /jobs/, disallows /api/",
+        "attribution": false,
+        "notes": "RSS is the compliant path; 100 items per feed."
+      }
+    },
+    {
+      "id": "hn_whoishiring",
+      "name": "HN Who is Hiring (Algolia)",
+      "wave": 2,
+      "enabled": true,
+      "parser": "hn_whoishiring",
+      "categories": ["job"],
+      "access": {
+        "type": "json",
+        "url": "https://hn.algolia.com/api/v1/search?tags=story&query=Who%20is%20hiring",
+        "auth": "none"
+      },
+      "cadence_minutes": 360,
+      "location_scope": "global",
+      "hard_currency": true,
+      "currency_notes": "USD common",
+      "has_deadlines": false,
+      "rate_limit_note": "10,000 req/hour/IP",
+      "compliance": {
+        "robots": "no robots on hn.algolia.com",
+        "attribution": false,
+        "notes": "Monthly thread; comments contain 'Location: Nigeria', 'Remote: Yes'."
+      }
+    },
+    {
+      "id": "laborx",
+      "name": "LaborX",
+      "wave": 2,
+      "enabled": true,
+      "parser": "laborx",
+      "categories": ["freelance"],
+      "access": {
+        "type": "html_jsonld",
+        "url": "https://laborx.com/",
+        "auth": "none to read; account to apply"
+      },
+      "cadence_minutes": 80,
+      "location_scope": "global",
+      "hard_currency": true,
+      "currency_notes": "Crypto per listing",
+      "has_deadlines": true,
+      "rate_limit_note": "No published limit; be conservative",
+      "compliance": {
+        "robots": "allows",
+        "attribution": false,
+        "notes": "schema.org JobPosting JSON-LD; applicantLocationRequirements includes Nigeria; TELECOMMUTE flag."
+      }
+    },
+    {
+      "id": "freelancer",
+      "name": "Freelancer.com",
+      "wave": 2,
+      "enabled": true,
+      "parser": "freelancer",
+      "categories": ["freelance"],
+      "access": {
+        "type": "json",
+        "url": "https://www.freelancer.com/api/projects/0.1/projects/active/",
+        "auth": "none for public active projects"
+      },
+      "cadence_minutes": 80,
+      "location_scope": "global",
+      "hard_currency": true,
+      "currency_notes": "USD, PayPal, Payoneer per project",
+      "has_deadlines": true,
+      "rate_limit_note": "No published limit; keep under ~1 req/s",
+      "compliance": {
+        "robots": "allows",
+        "attribution": false,
+        "notes": "Budget fields let us enforce the $100 floor; bid count is a competition signal. Review API terms before production use."
+      }
+    },
+    {
+      "id": "devpost",
+      "name": "Devpost",
+      "wave": 2,
+      "enabled": true,
+      "parser": "devpost",
+      "categories": ["hackathon"],
+      "access": {
+        "type": "json",
+        "url": "https://devpost.com/api/hackathons?status[]=open",
+        "auth": "none"
+      },
+      "cadence_minutes": 360,
+      "location_scope": "global",
+      "hard_currency": true,
+      "currency_notes": "Cash prizes; occasionally crypto",
+      "has_deadlines": true,
+      "rate_limit_note": "No published limit",
+      "compliance": {
+        "robots": "allows",
+        "attribution": false,
+        "notes": "Eligibility varies per hackathon; some are US-only — check rules before ranking."
+      }
+    },
+    {
+      "id": "jobzilla",
+      "name": "Jobzilla Nigeria",
+      "wave": 2,
+      "enabled": true,
+      "parser": "jobzilla",
+      "categories": ["job"],
+      "access": {
+        "type": "rss",
+        "url": "https://www.jobzilla.ng/rss",
+        "auth": "none"
+      },
+      "cadence_minutes": 80,
+      "location_scope": "nigeria",
+      "hard_currency": false,
+      "currency_notes": "NGN",
+      "has_deadlines": false,
+      "rate_limit_note": "No published limit",
+      "compliance": {
+        "robots": "allows except /download/ and document files",
+        "attribution": false,
+        "notes": "Nigeria-only by definition; regex title/description for remote/hybrid. Demoted per international focus."
+      }
+    },
+    {
+      "id": "jobgurus",
+      "name": "Jobgurus",
+      "wave": 2,
+      "enabled": true,
+      "parser": "jobgurus",
+      "categories": ["job"],
+      "access": {
+        "type": "rss",
+        "url": "https://www.jobgurus.com.ng/jobs/feed",
+        "auth": "none"
+      },
+      "cadence_minutes": 360,
+      "location_scope": "nigeria",
+      "hard_currency": false,
+      "currency_notes": "NGN",
+      "has_deadlines": false,
+      "rate_limit_note": "Daily batch around 20:46 UTC",
+      "compliance": {
+        "robots": "allows; disallows /applicants and /uploads",
+        "attribution": false,
+        "notes": "No structured location beyond title."
+      }
+    },
+    {
+      "id": "fuzu_ng",
+      "name": "Fuzu Nigeria",
+      "wave": 2,
+      "enabled": true,
+      "parser": "fuzu",
+      "categories": ["job"],
+      "access": {
+        "type": "sitemap",
+        "url": "https://www.fuzu.com/nigeria/sitemap-job-listings.xml.gz",
+        "auth": "none"
+      },
+      "cadence_minutes": 720,
+      "location_scope": "nigeria",
+      "hard_currency": false,
+      "currency_notes": "NGN or USD",
+      "has_deadlines": false,
+      "rate_limit_note": "Daily lastmod",
+      "compliance": {
+        "robots": "explicitly lists country sitemaps",
+        "attribution": false,
+        "notes": "Gzipped sitemap index split by occupation."
+      }
+    },
+    {
+      "id": "jobicy",
+      "name": "Jobicy",
+      "wave": 2,
+      "enabled": true,
+      "parser": "jobicy",
+      "categories": ["job"],
+      "access": {
+        "type": "json",
+        "url": "https://jobicy.com/api/jobs",
+        "auth": "none"
+      },
+      "cadence_minutes": 60,
+      "location_scope": "global",
+      "hard_currency": true,
+      "currency_notes": "Employer-paid",
+      "has_deadlines": false,
+      "rate_limit_note": "Maximum once per hour",
+      "compliance": {
+        "robots": "allows",
+        "attribution": true,
+        "notes": "jobGeo is free text; geo slugs have no Nigeria/Africa option — keyword match."
+      }
+    },
+    {
+      "id": "reliefweb",
+      "name": "ReliefWeb Jobs",
+      "wave": 2,
+      "enabled": false,
+      "parser": "reliefweb",
+      "categories": ["job"],
+      "access": {
+        "type": "json",
+        "url": "https://api.reliefweb.int/v2/jobs",
+        "auth": "free pre-approved appname required"
+      },
+      "cadence_minutes": 360,
+      "location_scope": "nigeria",
+      "hard_currency": true,
+      "currency_notes": "USD via bank",
+      "has_deadlines": true,
+      "rate_limit_note": "Per appname; near real-time",
+      "compliance": {
+        "robots": "n/a (API)",
+        "attribution": true,
+        "notes": "appname mandatory since Nov 2025. Enable after approval; NGO/humanitarian niche."
+      }
+    },
+    {
+      "id": "myjobmag",
+      "name": "MyJobMag",
+      "wave": 2,
+      "enabled": false,
+      "parser": "myjobmag",
+      "categories": ["job"],
+      "access": {
+        "type": "sitemap",
+        "url": "https://www.myjobmag.com/sitemapindex.xml",
+        "auth": "none"
+      },
+      "cadence_minutes": 1440,
+      "location_scope": "nigeria",
+      "hard_currency": false,
+      "currency_notes": "NGN",
+      "has_deadlines": false,
+      "rate_limit_note": "Daily",
+      "compliance": {
+        "robots": "allows sitemaps but disallows all query-string URLs",
+        "attribution": false,
+        "notes": "Do not crawl search pages. Sitemap has no location tags."
+      }
+    },
+    {
+      "id": "hotnigerianjobs",
+      "name": "Hot Nigerian Jobs",
+      "wave": 2,
+      "enabled": false,
+      "parser": "hotnigerianjobs",
+      "categories": ["job"],
+      "access": {
+        "type": "sitemap",
+        "url": "https://www.hotnigerianjobs.com/sitemap.xml",
+        "auth": "none"
+      },
+      "cadence_minutes": 1440,
+      "location_scope": "nigeria",
+      "hard_currency": false,
+      "currency_notes": "NGN",
+      "has_deadlines": false,
+      "rate_limit_note": "Daily",
+      "compliance": {
+        "robots": "sitemap allowed; AI-bot blocks; Cloudflare bot management",
+        "attribution": false,
+        "notes": "Test from the target network before enabling."
+      }
+    }
+  ]
+}
