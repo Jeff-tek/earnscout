@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updated_at": "2026-10-20T19:52:36Z",
+  "updated_at": "2026-10-20T22:57:55Z",
   "sources": {
     "superteam": {
       "ok": true,
       "fetched": 0,
       "kept": 0,
       "dropped_location": 0,
-      "last_fetch": "2026-10-20T19:51:55Z"
+      "last_fetch": "2026-10-20T22:57:44Z"
     },
     "himalayas": {
       "ok": true,
@@ -21,28 +21,28 @@
       "fetched": 99,
       "kept": 93,
       "dropped_location": 6,
-      "last_fetch": "2026-10-20T19:51:55Z"
+      "last_fetch": "2026-10-20T22:57:44Z"
     },
     "weworkremotely": {
       "ok": true,
       "fetched": 92,
       "kept": 91,
       "dropped_location": 1,
-      "last_fetch": "2026-10-20T19:51:55Z"
+      "last_fetch": "2026-10-20T22:57:44Z"
     },
     "cryptojobslist": {
       "ok": true,
       "fetched": 100,
       "kept": 89,
       "dropped_location": 11,
-      "last_fetch": "2026-10-20T19:51:55Z"
+      "last_fetch": "2026-10-20T22:57:44Z"
     },
     "bluesky": {
       "ok": true,
-      "fetched": 1,
-      "kept": 1,
+      "fetched": 3,
+      "kept": 3,
       "dropped_location": 0,
-      "last_fetch": "2026-10-20T19:51:55Z"
+      "last_fetch": "2026-10-20T22:57:44Z"
     }
   },
   "telegram_offset": 295591790,
