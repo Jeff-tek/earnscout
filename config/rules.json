@@ -33,13 +33,14 @@
         "type": "regex_any",
         "fields": ["title", "snippet", "description"],
         "patterns": [
-          "\\bgift\\s*cards?\\b",
+          "\\b(?:buy|purchase|send|provide|get)\\b.{0,25}\\bgift\\s*cards?\\b",
+          "\\bgift\\s*cards?\\b.{0,25}\\b(?:to\\s+pay|as\\s+payment|for\\s+payment|deposit)\\b",
           "\\b(?:itunes|amazon|steam|google\\s*play|razer\\s*gold|apple)\\s+(?:gift\\s*)?cards?\\b",
           "\\bredeem\\s+codes?\\b"
         ]
       },
       "evidence_required": ["matched_text"],
-      "false_positive_note": "Gift cards are never a wage rail; a gift-card demand in a job/earning context is categorical. A separate 'sell gift cards' business listing is still pay-to-participate risk.",
+      "false_positive_note": "Receiving a gift card as pay is unusual but not automatically a scam; demanding that the worker buy or send one is. The owner wants gift-card pay ranked, so only the demand direction is blocked.",
       "action": "exclude_from_opportunities"
     },
     {
@@ -50,7 +51,8 @@
         "type": "regex_any",
         "fields": ["title", "snippet", "description"],
         "patterns": [
-          "\\b(?:send|deposit|transfer|fund|top\\s*up)\\s+(?:usdt|usdc|btc|bitcoin|eth|ethereum|crypto|trc20|erc20|bnb)\\b",
+          "\\b(?:send|deposit|transfer|fund)\\b.{0,20}\\b(?:usdt|usdc|btc|bitcoin|eth|ethereum|crypto|trc20|erc20|bnb)\\b",
+          "\\bpay\\b.{0,15}\\b(?:usdt|usdc|btc|eth|crypto)\\b.{0,40}\\b(?:activate|unlock|verify|start|join|withdraw|continue)\\b",
           "\\bnegative\\s+balance\\b",
           "\\b(?:top\\s*up|recharge)\\s+(?:your\\s+)?(?:account|wallet)\\s+to\\s+(?:unlock|withdraw|continue)\\b"
         ]
@@ -67,11 +69,12 @@
         "type": "regex_any",
         "fields": ["title", "snippet", "description"],
         "patterns": [
-          "\\b(?:seed|recovery|secret)\\s+phrase\\b",
-          "\\b(?:12|24)[- ]word\\b",
+          "\\b(?:share|send|enter|provide|give|reveal|submit|type)\\b.{0,40}\\b(?:seed|recovery|secret)\\s+phrase\\b",
+          "\\b(?:seed|recovery|secret)\\s+phrase\\b.{0,40}\\b(?:verify|validate|claim|unlock|recover|sync)\\b",
           "\\bwallet\\s+(?:verification|validate|validation|sync)\\b",
           "\\bconnect\\s+your\\s+wallet\\b",
-          "\\bvalidate\\s+your\\s+wallet\\b"
+          "\\bvalidate\\s+your\\s+wallet\\b",
+          "\\b(?:12|24)[- ]word\\b.{0,30}\\b(?:phrase|seed|recovery)\\b"
         ]
       },
       "evidence_required": ["matched_text"],
@@ -119,18 +122,11 @@
       "label": "Implausible daily pay for trivial work",
       "severity": "block",
       "detector": {
-        "type": "composite_all",
-        "conditions": [
-          {
-            "type": "regex_any",
-            "fields": ["title", "snippet", "description"],
-            "patterns": ["\\b(?:like|watch|rate|click|review|share)\\b.{0,40}\\b(?:videos?|products?|ads?|posts?|pages?)\\b"]
-          },
-          {
-            "type": "regex_any",
-            "fields": ["title", "snippet", "description"],
-            "patterns": ["(?:₦|N|NGN|USD|\\$|€|£)\\s?[\\d,]{4,}\\s*(?:\\/|per\\s+)?(?:day|daily)"]
-          }
+        "type": "regex_any",
+        "fields": ["title", "snippet", "description"],
+        "patterns": [
+          "\\b(?:like|liking|watch|watching|rate|rating|click|clicking|review|reviewing|share|sharing)\\b[^.!?]{0,120}(?:₦|N|NGN|USD|\\$|€|£)\\s?[\\d,]{5,}[^.!?]{0,40}(?:per\\s+day|daily|a day)",
+          "(?:₦|N|NGN|USD|\\$|€|£)\\s?[\\d,]{5,}\\s*(?:per\\s+day|daily|a day)[^.!?]{0,120}\\b(?:like|liking|watch|watching|rate|rating|click|clicking|review|reviewing|share|sharing)\\b"
         ]
       },
       "evidence_required": ["matched_text"],

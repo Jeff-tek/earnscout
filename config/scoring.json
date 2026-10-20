@@ -4,9 +4,10 @@
   "notes": "Ranking weights and classification vocabulary. Score components are always stored and displayed, so the ordering is explainable.",
   "weights": {
     "currency": {
-      "hard_currency_disclosed": 4,
-      "crypto_named": 3,
-      "payoneer_or_deel_named": 1,
+      "hard_currency_disclosed": 3,
+      "crypto_named": 4,
+      "gift_card_named": 3,
+      "payoneer_or_deel_named": 2,
       "ngn_only": 0
     },
     "protection": {
@@ -39,6 +40,7 @@
   "classification": {
     "hard_currency": ["USD", "EUR", "GBP", "CAD", "AUD", "CHF", "SGD"],
     "crypto": ["USDT", "USDC", "BTC", "ETH", "SOL", "BNB", "MATIC"],
+    "gift_card": ["gift card", "gift cards", "itunes card", "amazon card", "steam card", "google play card", "razer gold"],
     "local_currency": ["NGN"],
     "named_rails": ["Payoneer", "Deel", "Wise", "Grey", "Cleva", "Daya", "Chipper"],
     "nigerian_employer_signals": ["nigeria", "lagos", "abuja", "port harcourt", "ngn", "₦"],

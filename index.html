@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EarnScout — hard-currency opportunities</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <div class="brand">
+        <span class="dot"></span>
+        <h1>EarnScout</h1>
+        <span class="tag">Nigeria · hard currency first</span>
+      </div>
+      <div class="stats" id="stats"></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="controls">
+      <input id="q" type="search" placeholder="Search title, company, tag…" autocomplete="off" />
+      <select id="tier">
+        <option value="all">All tiers</option>
+        <option value="verified">✅ Verified</option>
+        <option value="screened">🟢 Screened</option>
+        <option value="unverified">🟡 Unverified</option>
+        <option value="speculative">🔮 Speculative</option>
+      </select>
+      <select id="category">
+        <option value="all">All categories</option>
+        <option value="job">Jobs</option>
+        <option value="freelance">Freelance</option>
+        <option value="bounty">Bounties</option>
+        <option value="hackathon">Hackathons</option>
+        <option value="speculative">Airdrops</option>
+      </select>
+      <select id="rail">
+        <option value="all">Any pay rail</option>
+        <option value="crypto">Crypto</option>
+        <option value="usd">USD / hard currency</option>
+        <option value="gift_card">Gift card</option>
+        <option value="payoneer">Payoneer / Deel</option>
+        <option value="ngn">NGN</option>
+      </select>
+      <select id="source"><option value="all">All sources</option></select>
+      <label class="toggle"><input id="expired" type="checkbox" /> show old</label>
+    </section>
+
+    <p class="note" id="updated"></p>
+    <section id="grid" class="grid"></section>
+    <p class="empty" id="empty" hidden>Nothing matches these filters.</p>
+  </main>
+
+  <footer class="wrap foot">
+    <p>Labels are dated evidence, never a guarantee. Never pay to get a job; never share a seed phrase.</p>
+    <p class="muted">Blocked items are hidden. Verified = reviewed by you, not certified safe.</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
