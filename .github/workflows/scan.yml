@@ -1,0 +1,42 @@
+name: scan
+
+on:
+  schedule:
+    - cron: "*/20 * * * *"   # 20-min beat; per-source cadence gates enforce 40 min+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: earnscout-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run scanner
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SUPERTEAM_API_KEY: ${{ secrets.SUPERTEAM_API_KEY }}
+        run: python3 -m src.run
+
+      - name: Commit data
+        run: |
+          git config user.name "EarnScout Bot"
+          git config user.email "earnscout@users.noreply.github.com"
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m "data: scan $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo "no data changes"
+          fi

@@ -20,6 +20,8 @@ def merge(old_items, new_items, max_age_days=14, archive_days=90):
         old = by_id.get(new["id"])
         if old:
             new["first_seen_at"] = old.get("first_seen_at") or new["first_seen_at"]
+            if old.get("pushed_at"):
+                new["pushed_at"] = old["pushed_at"]
             review = old.get("review") or {}
             if review.get("status") == "approved":
                 new["review"] = review

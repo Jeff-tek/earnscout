@@ -1,21 +1,25 @@
 """Pipeline entry point.
 
 Usage:
-    python3 -m src.run                 # wave 1 enabled sources
-    python3 -m src.run --sources remoteok,himalayas
-    python3 -m src.run --dry           # fetch + score, do not save
+    python3 -m src.run                    # beat run: cadence gates + Telegram
+    python3 -m src.run --force            # ignore cadence gates (local testing)
+    python3 -m src.run --sources remoteok,himalayas --force
+    python3 -m src.run --dry              # fetch + score, save nothing
 """
 import argparse
 import traceback
 
-from . import dedupe, normalize, rank, rules, store, util
+from . import dedupe, normalize, rank, rules, store, telegram, util
 from .sources import REGISTRY
+
+STATE_PATH = f"{util.DATA}/state.json"
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--sources", default="", help="comma-separated source ids")
     ap.add_argument("--dry", action="store_true", help="do not write data/listings.json")
+    ap.add_argument("--force", action="store_true", help="ignore per-source cadence gates")
     args = ap.parse_args()
 
     cfg = util.load_json(f"{util.CONFIG}/sources.json")
@@ -24,16 +28,30 @@ def main():
     if not wanted:
         wanted = [s["id"] for s in cfg["sources"] if s["enabled"] and s["wave"] == 1]
 
+    state = util.load_json(STATE_PATH, {}) or {}
+    source_state = state.get("sources", {}) or {}
+    now = util.now_utc()
+
     engine = rules.Rules()
     ranker = rank.Ranker()
     raw_items = []
-    source_status = {}
 
     for sid in wanted:
         source = by_id.get(sid)
         if not source:
             print(f"[skip] unknown source: {sid}")
             continue
+
+        previous = source_state.get(sid, {}) or {}
+        last_fetch = util.parse_dt(previous.get("last_fetch"))
+        cadence = int(source.get("cadence_minutes", 40))
+        if not args.force and last_fetch:
+            age_min = (now - last_fetch).total_seconds() / 60
+            if age_min < cadence:
+                wait = cadence - age_min
+                print(f"[gate] {sid}: next fetch in {wait:.0f}m")
+                continue
+
         try:
             raws = REGISTRY[sid]()
             normalized = [normalize.normalize(r, source) for r in raws]
@@ -45,18 +63,25 @@ def main():
             out_of_region = [n for n in normalized if n.get("nigeria_ok") is False]
             normalized = [n for n in normalized if n.get("nigeria_ok") is not False]
             raw_items.extend(normalized)
-            source_status[sid] = {
+
+            source_state[sid] = {
+                **previous,
                 "ok": True,
                 "fetched": len(raws),
                 "kept": len(normalized),
                 "dropped_location": len(out_of_region),
+                "last_fetch": util.iso(now),
             }
             print(
                 f"[ok]   {sid}: fetched={len(raws)} kept={len(normalized)} "
                 f"dropped_location={len(out_of_region)}"
             )
         except Exception as exc:  # a broken source must not kill the run
-            source_status[sid] = {"ok": False, "error": f"{type(exc).__name__}: {exc}"}
+            source_state[sid] = {
+                **previous,
+                "ok": False,
+                "error": f"{type(exc).__name__}: {exc}",
+            }
             print(f"[FAIL] {sid}: {type(exc).__name__}: {exc}")
             traceback.print_exc(limit=1)
 
@@ -69,6 +94,12 @@ def main():
 
     current = store.load()
     items = store.merge(current.get("items", []), merged)
+
+    # Review actions first, then push new cards. Dry runs must never touch Telegram.
+    tg_offset = int(state.get("telegram_offset", 0) or 0)
+    if not args.dry:
+        items, tg_offset = telegram.sync(items, tg_offset)
+        items = telegram.push(items, state)
 
     blocked = sum(1 for i in items if i.get("tier") == "blocked")
     screened = sum(1 for i in items if i.get("tier") == "screened")
@@ -87,8 +118,15 @@ def main():
     if not args.dry:
         store.save(items)
         util.save_json(
-            f"{util.DATA}/state.json",
-            {"updated_at": util.iso(util.now_utc()), "sources": source_status},
+            STATE_PATH,
+            {
+                "version": 1,
+                "updated_at": util.iso(util.now_utc()),
+                "sources": source_state,
+                "telegram_offset": tg_offset,
+                "push_day": state.get("push_day"),
+                "push_count": state.get("push_count", 0),
+            },
         )
         print("saved data/listings.json")
     else:

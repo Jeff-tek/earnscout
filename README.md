@@ -61,7 +61,8 @@ PayPal: hidden when it is the only rail (owner cannot receive it); mixed-rail li
 
 ## Architecture
 
-- **Scheduler:** GitHub Actions, 40-minute heartbeat. Per-source cadence gates inside the run (RSS on the beat, JSON boards ~80 min, Himalayas 6 h).
+- **Scheduler:** GitHub Actions, 20-minute beat; per-source cadence gates (RSS 40 min, JSON boards ~80 min, Himalayas 6 h).
+- **Push budget:** max 5 cards per run and 20/day, newest first, so a backlog never floods the chat.
 - **Runtime:** Python 3, stdlib + `feedparser`, `httpx`, `beautifulsoup4`. No LLM calls (not free), heuristics only.
 - **Storage:** JSON committed to the repo. Git history is the audit trail. No database.
 - **Delivery:** Telegram Bot API push; Approve/Reject inline buttons. Dashboard on GitHub Pages.
@@ -79,11 +80,21 @@ scripts/    maintenance helpers
 .github/    Actions workflows
 ```
 
+## Setup
+
+1. **Secrets** — local `.env` (gitignored) and GitHub Actions secrets use the same names:
+   - `TELEGRAM_BOT_TOKEN` — from @BotFather
+   - `TELEGRAM_CHAT_ID` — send `/start` to the bot, then run `python3 scripts/tg_whoami.py`
+   - `SUPERTEAM_API_KEY` — free agent key from `POST https://superteam.fun/api/agents`
+2. **First run:** `python3 -m src.run --force`
+3. **Dashboard:** enable GitHub Pages on `main` / root, then open the Pages URL.
+4. **Schedule:** `.github/workflows/scan.yml` runs every 20 minutes; per-source gates enforce 40 minutes or longer.
+
 ## Build status
 
 - [x] **Phase 0** — scaffolding, configs, rule schema, README
-- [ ] **Phase 1** — ingest Wave 1 → normalize → dedupe → `listings.json` + functional dashboard
-- [ ] **Phase 2** — Telegram bot: push cards, filters, Approve/Reject, update polling
+- [x] **Phase 1** — ingest Wave 1 → normalize → dedupe → `listings.json` + functional dashboard
+- [x] **Phase 2** — Telegram bot: push cards, filters, Approve/Reject, update polling
 - [ ] **Phase 3** — automated checks (RDAP/DNS/redirects) + ranking + evidence pages
 - [ ] **Phase 4** — speculative section (manual airdrops) + brand table wired in
 - [ ] **Phase 5** — extra sources, beauty pass, friends' chat-ID whitelist

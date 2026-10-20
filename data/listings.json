@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-20T11:12:59Z",
+  "updated_at": "2026-10-20T11:19:26Z",
   "items": [
     {
       "id": "6d43d71a0bdbb58f",
@@ -69,7 +69,8 @@
         "cryptojobslist"
       ],
       "duplicate_of": null,
-      "status": "active"
+      "status": "active",
+      "pushed_at": "2026-10-20T11:18:17Z"
     },
     {
       "id": "a843b325e38891db",
@@ -206,7 +207,8 @@
         "himalayas"
       ],
       "duplicate_of": null,
-      "status": "active"
+      "status": "active",
+      "pushed_at": "2026-10-20T11:18:18Z"
     },
     {
       "id": "f9560e0bd440585f",
@@ -274,7 +276,8 @@
         "himalayas"
       ],
       "duplicate_of": null,
-      "status": "active"
+      "status": "active",
+      "pushed_at": "2026-10-20T11:18:19Z"
     },
     {
       "id": "4b1e24d39f3b2635",
@@ -337,7 +340,8 @@
         "himalayas"
       ],
       "duplicate_of": null,
-      "status": "active"
+      "status": "active",
+      "pushed_at": "2026-10-20T11:18:20Z"
     },
     {
       "id": "84f8c092e415514f",
@@ -405,7 +409,8 @@
         "himalayas"
       ],
       "duplicate_of": null,
-      "status": "active"
+      "status": "active",
+      "pushed_at": "2026-10-20T11:18:20Z"
     },
     {
       "id": "0e37f946e85a1fad",
@@ -813,7 +818,8 @@
         "remoteok"
       ],
       "duplicate_of": null,
-      "status": "active"
+      "status": "active",
+      "pushed_at": "2026-10-20T11:19:26Z"
     },
     {
       "id": "7c7860cc282cf2ac",
@@ -876,7 +882,8 @@
         "remoteok"
       ],
       "duplicate_of": null,
-      "status": "active"
+      "status": "active",
+      "pushed_at": "2026-10-20T11:19:26Z"
     },
     {
       "id": "2180ede161782968",
@@ -939,7 +946,8 @@
         "remoteok"
       ],
       "duplicate_of": null,
-      "status": "active"
+      "status": "active",
+      "pushed_at": "2026-10-20T11:19:26Z"
     },
     {
       "id": "50de8a5ddda947ba",
@@ -1012,7 +1020,8 @@
         "remoteok"
       ],
       "duplicate_of": null,
-      "status": "active"
+      "status": "active",
+      "pushed_at": "2026-10-20T11:19:26Z"
     },
     {
       "id": "325cd038eb76c92c",
@@ -7304,7 +7313,8 @@
         "remoteok"
       ],
       "duplicate_of": null,
-      "status": "active"
+      "status": "active",
+      "pushed_at": "2026-10-20T11:19:26Z"
     },
     {
       "id": "3466e1173a901fe0",
