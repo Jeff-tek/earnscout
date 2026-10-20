@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-20T11:45:54Z",
+  "updated_at": "2026-10-20T11:49:40Z",
   "sources": {
     "superteam": {
       "ok": true,
@@ -42,10 +42,10 @@
       "fetched": 17,
       "kept": 17,
       "dropped_location": 0,
-      "last_fetch": "2026-10-20T11:45:04Z"
+      "last_fetch": "2026-10-20T11:49:03Z"
     }
   },
   "telegram_offset": 295591790,
   "push_day": "2026-10-20",
-  "push_count": 10
+  "push_count": 15
 }
