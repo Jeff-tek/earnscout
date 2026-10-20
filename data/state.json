@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-20T12:21:15Z",
+  "updated_at": "2026-10-20T12:54:14Z",
   "sources": {
     "superteam": {
       "ok": true,
@@ -37,12 +37,12 @@
       "dropped_location": 11,
       "last_fetch": "2026-10-20T12:20:52Z"
     },
-    "freelancer": {
+    "bluesky": {
       "ok": true,
-      "fetched": 17,
-      "kept": 17,
+      "fetched": 3,
+      "kept": 3,
       "dropped_location": 0,
-      "last_fetch": "2026-10-20T12:20:52Z"
+      "last_fetch": "2026-10-20T12:53:54Z"
     }
   },
   "telegram_offset": 295591790,

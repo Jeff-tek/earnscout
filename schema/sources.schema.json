@@ -38,6 +38,7 @@
           "currency_notes": { "type": "string" },
           "has_deadlines": { "type": "boolean" },
           "rate_limit_note": { "type": "string" },
+          "social": { "type": "boolean" },
           "compliance": {
             "type": "object",
             "properties": {

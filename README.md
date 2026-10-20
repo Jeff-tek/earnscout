@@ -33,15 +33,19 @@ Labels are **dated claims**, never "safe":
 
 > "No payment demand found (checked 2026-10-20). Domain registered 12 days ago; no CAC match."
 
+Social leads cannot be screened by domain evidence: the only evidence is the public post. They are pushed as **unverified** with a warning, and never relabelled "legit" by the scanner.
+
 ## Sources
 
-**Wave 1 (international-first):** Superteam Earn Nigeria, Himalayas, Remote OK, We Work Remotely, CryptoJobsList, Freelancer (entry-level task feed).
+**Wave 1 (international-first):** Superteam Earn Nigeria, Himalayas, Remote OK, We Work Remotely, CryptoJobsList, Bluesky public search (unverified social leads).
 
 **Wave 2:** HN "Who is Hiring", LaborX, Devpost, Jobzilla, Jobgurus, Fuzu NG, Jobicy, ReliefWeb (pending free appname).
 
 **Excluded** (ToS/robots conflicts, login-gated, or dead): see `config/excluded.json` — Remotive, Reddit, Jobberman, Upwork, LinkedIn, Indeed, Wellfound, Prolific, Remotasks, Toloka, Fiverr, PeoplePerHour/Contra.
 
 **Login-gated platforms** (manual checking only, no polling): see `config/manual-platforms.json`.
+
+**Social-lead policy:** Bluesky is the only social feed polled because its public AppView search works without credentials. Every Bluesky item is an **unverified public post**, not an employer-verified job. Reddit remains link-out only because its robots/Public Content Policy conflicts with automated ingestion; X, Facebook and Instagram require login or paid access. We do not bypass those controls.
 
 ## Ranking
 
@@ -55,15 +59,15 @@ score = currency      (hard currency disclosed +4, crypto +3, Payoneer/Deel +1, 
       + tier          (verified +2, screened +1)
 ```
 
-Floors (hybrid policy): Freelancer projects ≥ **$10** budget, hackathons ≥ **$500** prize pool. Everywhere else, pay is scored and flagged "undisclosed" — never fabricated.
+Floors (hybrid policy): hackathons ≥ **$500** prize pool; social task leads with disclosed pay below **$10** are dropped. Everywhere else, pay is scored and flagged "undisclosed" — never fabricated. No marketplace freelance projects.
 
 PayPal: hidden when it is the only rail (owner cannot receive it); mixed-rail listings are shown with a flag.
 
 ## Architecture
 
 - **Scheduler:** GitHub Actions, 20-minute beat; per-source cadence gates (RSS 40 min, JSON boards ~80 min, Himalayas 6 h).
-- **Push budget:** max 5 cards per run and 20/day, newest first, so a backlog never floods the chat.
-- **Runtime:** Python 3, stdlib + `feedparser`, `httpx`, `beautifulsoup4`. No LLM calls (not free), heuristics only.
+- **Push budget:** max 5 cards per run and 20/day, newest first, so a backlog never floods the chat. Screened/verified items push normally; unverified social leads push with a loud warning and an Approve/Reject button.
+- **Runtime:** Python 3, standard library only. No LLM calls (not free), heuristics only.
 - **Storage:** JSON committed to the repo. Git history is the audit trail. No database.
 - **Delivery:** Telegram Bot API push; Approve/Reject inline buttons. Dashboard on GitHub Pages.
 - **Cost:** $0. Public repo (unlimited Actions minutes). Bot token lives in Actions secrets.
@@ -98,9 +102,9 @@ Every listing is classified `entry`, `skilled` or `unknown`.
 - **skilled** — senior engineering, technical specialist, medical, legal, finance, management, design.
 - **unknown** — no clear signal in the title.
 
-The dashboard defaults to **Doable for me** (entry) and the bot only pushes entry items. The audience dropdown reveals the rest.
+The dashboard defaults to **Doable for me** (entry) and the bot only pushes entry items, plus unverified entry-level social leads with a warning. The audience dropdown reveals the rest.
 
-**Current coverage (2026-10-20):** Freelancer's public API now feeds entry-level data-entry, typing, transcription and proofreading projects with a $10 floor and hard-currency budgets. The remaining gap is surveys/user testing (most pay PayPal only) and dashboard-only microtask platforms (Appen, Clickworker, Microworkers), which cannot be scanned without an account.
+**Current coverage (2026-10-20):** marketplace freelance projects are removed. Bluesky public search feeds direct paid-task and part-time posts, filtered to entry-level work with scam/spam screens. Social leads are unverified and carry a warning on the dashboard and in Telegram. Reddit is link-out only; X, Facebook and Instagram are not polled.
 
 ## Build status
 

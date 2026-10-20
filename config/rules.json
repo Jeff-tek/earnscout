@@ -303,7 +303,7 @@
       "id": "PS_ESCROW_PLATFORM",
       "label": "Source has escrow or verified payouts",
       "severity": "positive",
-      "detector": { "type": "source_in", "sources": ["superteam", "freelancer", "laborx"] },
+      "detector": { "type": "source_in", "sources": ["superteam", "laborx"] },
       "support": 2,
       "evidence_required": ["source"]
     },

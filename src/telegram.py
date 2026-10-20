@@ -12,6 +12,14 @@ TIER_EMOJI = {
     "speculative": "🔮",
 }
 
+SOURCE_LABEL = {
+    "bluesky": "Bluesky",
+    "remoteok": "Remote OK",
+    "weworkremotely": "We Work Remotely",
+    "cryptojobslist": "CryptoJobsList",
+    "superteam": "Superteam",
+}
+
 
 def _token():
     return os.environ.get("TELEGRAM_BOT_TOKEN", "")
@@ -56,13 +64,23 @@ def send(chat_id, text, keyboard=None):
 
 def card_text(item):
     score = (item.get("score") or {}).get("total", "—")
-    lines = [
-        f"{TIER_EMOJI.get(item.get('tier'), '•')} {str(item.get('tier', '')).upper()} · score {score}",
-        item.get("title") or "(untitled)",
-    ]
+    social = bool(item.get("social"))
+    lines = []
+    if social:
+        lines.append("⚠️ UNVERIFIED SOCIAL LEAD — verify the poster. Never pay to apply.")
+    lines.append(
+        f"{TIER_EMOJI.get(item.get('tier'), '•')} {str(item.get('tier', '')).upper()} · score {score}"
+    )
+    lines.append(item.get("title") or "(untitled)")
     if item.get("company"):
         lines.append(str(item["company"]))
-    lines.append(f"{item.get('source')} · {item.get('location_raw') or 'location n/a'}")
+    source = str(item.get("source") or "")
+    source_label = SOURCE_LABEL.get(source, source)
+    lines.append(f"{source_label} · {item.get('location_raw') or 'location n/a'}")
+    if social:
+        handle = (item.get("extra") or {}).get("handle")
+        if handle:
+            lines.append(f"Poster: @{handle}")
     salary = item.get("salary") or {}
     currency = salary.get("currency")
     low, high = salary.get("min"), salary.get("max")
@@ -71,19 +89,35 @@ def card_text(item):
             amount = f"{low:g}–{high:g}"
         else:
             amount = f"{low if low is not None else high:g}"
-        suffix = " /hr" if salary.get("period") == "hour" else ""
+        suffix = {
+            "hour": " /hr",
+            "task": " /task",
+            "day": " /day",
+            "week": " /week",
+            "month": " /month",
+            "year": " /yr",
+        }.get(salary.get("period"), "")
         pay = f"{currency} {amount}{suffix}"
     else:
         pay = ", ".join(item.get("payment_rails") or ["unknown"])
-    lines.append(
-        f"Pay: {pay} · {item.get('payment_protection') or 'unknown'} protection"
-    )
+    protection = item.get("payment_protection") or "unknown"
+    protection_label = {
+        "escrow": "escrow",
+        "platform": "platform protection",
+        "direct": "direct pay, no escrow",
+        "unknown": "unknown protection",
+    }.get(protection, protection)
+    lines.append(f"Pay: {pay} · {protection_label}")
     if item.get("competition") is not None:
         lines.append(f"Competition: {item['competition']} bids")
     if item.get("deadline"):
         lines.append(f"Closes: {item['deadline'][:10]}")
     if item.get("posted_at"):
         lines.append(f"Posted: {item['posted_at'][:10]}")
+    if item.get("apply_url"):
+        lines.append(f"Apply: {item['apply_url']}")
+    if social:
+        lines.append("Evidence: public post only; no independent verification.")
     components = (item.get("score") or {}).get("components") or {}
     if components:
         lines.append("Why: " + ", ".join(f"{k} {v}" for k, v in components.items()))
@@ -115,7 +149,8 @@ def sync(items, offset=0):
                     chat_id,
                     "EarnScout connected.\n\n"
                     "You will receive fresh, hard-currency opportunities with dated evidence.\n"
-                    "Every card is screened; press ✅ only after you have checked it.\n\n"
+                    "Cards are screened, or clearly labelled unverified social leads. "
+                    "Press ✅ only after you have checked it.\n\n"
                     f"Your chat id: {chat_id}\n"
                     "Add it as TELEGRAM_CHAT_ID (secret / .env) so scheduled runs can push.",
                 )
@@ -151,9 +186,11 @@ def sync(items, offset=0):
 
 
 def push(items, state, limit=5, daily_cap=20):
-    """Send new screened/verified items to the owner's chat.
+    """Send new screened/verified items plus unverified social leads.
 
-    A daily cap prevents a backlog from flooding the chat on first run.
+    Social leads carry a loud warning because a public post is the only
+    evidence. A daily cap prevents a backlog from flooding the chat on first
+    run.
     """
     chat_id = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
     if not chat_id:
@@ -183,11 +220,14 @@ def push(items, state, limit=5, daily_cap=20):
             continue
         if item.get("nigeria_ok") is False:
             continue
-        if item.get("tier") not in ("screened", "verified"):
+        social = bool(item.get("social"))
+        if item.get("tier") not in ("screened", "verified") and not (
+            social and item.get("tier") == "unverified"
+        ):
             continue
 
         keyboard = None
-        if item.get("tier") == "screened":
+        if item.get("tier") == "screened" or (social and item.get("tier") == "unverified"):
             keyboard = [[
                 {"text": "✅ I checked it", "callback_data": f"approve:{item['id']}"},
                 {"text": "🚫 Reject", "callback_data": f"reject:{item['id']}"},

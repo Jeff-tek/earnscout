@@ -140,6 +140,34 @@
       }
     },
     {
+      "id": "bluesky",
+      "name": "Bluesky public search",
+      "wave": 1,
+      "enabled": true,
+      "parser": "bluesky",
+      "categories": [
+        "microtask",
+        "job"
+      ],
+      "access": {
+        "type": "json",
+        "url": "https://api.bsky.app/xrpc/app.bsky.feed.searchPosts",
+        "auth": "none"
+      },
+      "cadence_minutes": 40,
+      "location_scope": "global",
+      "hard_currency": true,
+      "currency_notes": "Pay parsed from post text; frequently undisclosed",
+      "has_deadlines": false,
+      "rate_limit_note": "Public AppView; seven queries per run, 0.6s apart.",
+      "social": true,
+      "compliance": {
+        "robots": "public AppView endpoint, no credentials",
+        "attribution": true,
+        "notes": "Every item links back to the author's public post. Leads are unverified social posts, never employer-verified."
+      }
+    },
+    {
       "id": "hn_whoishiring",
       "name": "HN Who is Hiring (Algolia)",
       "wave": 2,
@@ -190,47 +218,6 @@
         "attribution": false,
         "notes": "schema.org JobPosting JSON-LD; applicantLocationRequirements includes Nigeria; TELECOMMUTE flag."
       }
-    },
-    {
-      "id": "freelancer",
-      "name": "Freelancer.com",
-      "wave": 1,
-      "enabled": true,
-      "parser": "freelancer",
-      "categories": [
-        "freelance"
-      ],
-      "access": {
-        "type": "json",
-        "url": "https://www.freelancer.com/api/projects/0.1/projects/active/",
-        "auth": "none for public active projects"
-      },
-      "cadence_minutes": 80,
-      "location_scope": "global",
-      "hard_currency": true,
-      "currency_notes": "Budgets in USD/EUR/GBP/AUD/CAD/INR; Payoneer payout works for the owner.",
-      "has_deadlines": true,
-      "rate_limit_note": "6 keyword queries x 50 results per scan, 0.3s apart.",
-      "compliance": {
-        "robots": "allows",
-        "attribution": false,
-        "notes": "Public active-projects API without auth. Budget/currency/exchange-rate fields enforce the $10 floor. Bid count is a competition signal."
-      },
-      "queries": [
-        "data entry",
-        "data annotation",
-        "virtual assistant",
-        "transcription",
-        "proofreading",
-        "content writing",
-        "copy typing",
-        "email handling",
-        "excel",
-        "captioning",
-        "pdf data entry",
-        "typing",
-        "customer support"
-      ]
     },
     {
       "id": "devpost",

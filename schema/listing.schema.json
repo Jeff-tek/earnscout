@@ -11,6 +11,8 @@
     "title": { "type": "string" },
     "company": { "type": ["string", "null"] },
     "url": { "type": "string", "format": "uri" },
+    "apply_url": { "type": ["string", "null"], "format": "uri" },
+    "social": { "type": "boolean" },
     "location_raw": { "type": ["string", "null"] },
     "nigeria_ok": { "type": ["boolean", "null"] },
     "remote": { "type": ["boolean", "null"] },

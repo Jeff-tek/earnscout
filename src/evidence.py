@@ -304,6 +304,8 @@ def enrich(items, max_new=MAX_NEW_PER_RUN):
 
     targets = {}
     for item in items:
+        if item.get("social"):
+            continue
         host = util.domain_of(item.get("url"))
         if not host:
             continue
@@ -327,6 +329,9 @@ def enrich(items, max_new=MAX_NEW_PER_RUN):
         time.sleep(SLEEP_SECONDS)
 
     for item in items:
+        if item.get("social"):
+            item["evidence"] = None
+            continue
         host = util.domain_of(item.get("url"))
         entry = domains.get(registrable(host)) if host else None
         _attach(item, entry, is_platform(host, platforms))

@@ -23,6 +23,14 @@ const TIER_LABEL = {
   speculative: "🔮 Speculative",
 };
 
+const SOURCE_LABEL = {
+  bluesky: "Bluesky",
+  remoteok: "Remote OK",
+  weworkremotely: "We Work Remotely",
+  cryptojobslist: "CryptoJobsList",
+  superteam: "Superteam",
+};
+
 function text(el, value) {
   el.textContent = value == null ? "" : String(value);
   return el;
@@ -108,7 +116,8 @@ function card(item) {
   h3.appendChild(a);
   node.appendChild(h3);
 
-  const metaBits = [item.company, item.source, item.location_raw].filter(Boolean);
+  const sourceLabel = SOURCE_LABEL[item.source] || item.source;
+  const metaBits = [item.company, sourceLabel, item.location_raw].filter(Boolean);
   node.appendChild(el("div", "meta", metaBits.join(" · ")));
 
   const chips = el("div", "chips");
@@ -121,7 +130,16 @@ function card(item) {
   if (item.nigeria_ok === true) chips.appendChild(el("span", "chip", "Nigeria-eligible"));
   if (item.audience === "entry") chips.appendChild(el("span", "chip", "entry-level"));
   if (item.competition != null) chips.appendChild(el("span", "chip", `${item.competition} bids`));
+  if (item.social) chips.appendChild(el("span", "chip warn", "social post"));
   node.appendChild(chips);
+
+  if (item.social) {
+    node.appendChild(el(
+      "p",
+      "social-warning",
+      "Unverified social lead — verify the poster and never pay to apply.",
+    ));
+  }
 
   if (item.evidence) {
     const ev = item.evidence;
@@ -160,6 +178,13 @@ function card(item) {
     if (!Number.isNaN(d.getTime())) {
       foot.appendChild(el("span", "deadline", `closes ${d.toISOString().slice(0, 10)}`));
     }
+  }
+  if (item.apply_url) {
+    const apply = el("a", "apply-link", "Apply →");
+    apply.href = safeUrl(item.apply_url);
+    apply.target = "_blank";
+    apply.rel = "noopener noreferrer nofollow";
+    foot.appendChild(apply);
   }
   node.appendChild(foot);
 
@@ -227,7 +252,7 @@ function fillSources() {
   for (const source of sources) {
     const opt = document.createElement("option");
     opt.value = source;
-    opt.textContent = source;
+    opt.textContent = SOURCE_LABEL[source] || source;
     select.appendChild(opt);
   }
 }

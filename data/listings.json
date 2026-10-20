@@ -1,1462 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-20T12:21:15Z",
+  "updated_at": "2026-10-20T12:54:14Z",
   "items": [
-    {
-      "id": "4036b05bb4d3b104",
-      "source": "freelancer",
-      "category": "freelance",
-      "title": "Retype Documents Into Word",
-      "company": null,
-      "audience": "entry",
-      "competition": 72,
-      "audience_locked": true,
-      "url": "https://www.freelancer.com/projects/proofreading/Retype-Documents-Into-Word",
-      "location_raw": "Worldwide",
-      "nigeria_ok": true,
-      "remote": true,
-      "payment_rails": [
-        "USD"
-      ],
-      "payment_protection": "platform",
-      "salary": {
-        "min": 250.0,
-        "max": 750.0,
-        "currency": "USD",
-        "period": "project",
-        "usd_min": 250.0,
-        "usd_max": 750.0
-      },
-      "posted_at": "2026-10-20T11:17:39Z",
-      "first_seen_at": "2026-10-20T11:40:57Z",
-      "deadline": null,
-      "snippet": "I have a collection of already-typed pages that I need transferred into an editable Word file (.docx",
-      "signals": [
-        {
-          "id": "WK_NO_NAMED_HUMAN",
-          "severity": "weak",
-          "evidence": "No named person, company email or address"
-        },
-        {
-          "id": "PS_ESCROW_PLATFORM",
-          "severity": "positive",
-          "support": 2,
-          "evidence": "freelancer"
-        },
-        {
-          "id": "PS_DISCLOSED_PAY",
-          "severity": "positive",
-          "support": 1,
-          "evidence": "salary"
-        }
-      ],
-      "tier": "screened",
-      "review": {
-        "status": "pending",
-        "by": null,
-        "at": null,
-        "note": null
-      },
-      "score": {
-        "total": 15,
-        "components": {
-          "currency": 3,
-          "protection": 1,
-          "international": 3,
-          "pay_quality": 2,
-          "freshness": 2,
-          "trending": 0,
-          "ease": 3,
-          "tier": 1
-        }
-      },
-      "sources_seen": [
-        "freelancer"
-      ],
-      "duplicate_of": null,
-      "status": "active",
-      "evidence": {
-        "domain": "freelancer.com",
-        "registered_at": "1995-08-18T04:00:00Z",
-        "age_days": 11386,
-        "registrar": "eNom, LLC",
-        "resolves": true,
-        "http_status": 206,
-        "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
-        "checked_at": "2026-10-20T11:36:53Z",
-        "self_hosted": false
-      },
-      "pushed_at": "2026-10-20T11:49:37Z"
-    },
-    {
-      "id": "9e1dcd1730736d3b",
-      "source": "freelancer",
-      "category": "freelance",
-      "title": "Comprehensive Report Editing in Word",
-      "company": null,
-      "audience": "entry",
-      "competition": 52,
-      "audience_locked": true,
-      "url": "https://www.freelancer.com/projects/microsoft-word/Comprehensive-Report-Editing-Word",
-      "location_raw": "Worldwide",
-      "nigeria_ok": true,
-      "remote": true,
-      "payment_rails": [
-        "GBP"
-      ],
-      "payment_protection": "platform",
-      "salary": {
-        "min": 10.0,
-        "max": 15.0,
-        "currency": "GBP",
-        "period": "hour",
-        "usd_min": 13.36,
-        "usd_max": 20.04
-      },
-      "posted_at": "2026-10-20T10:41:33Z",
-      "first_seen_at": "2026-10-20T11:40:57Z",
-      "deadline": null,
-      "snippet": "I have a set of MS Word reports that need a thorough polish. Every document must read smoothly, be f",
-      "signals": [
-        {
-          "id": "WK_NO_NAMED_HUMAN",
-          "severity": "weak",
-          "evidence": "No named person, company email or address"
-        },
-        {
-          "id": "PS_ESCROW_PLATFORM",
-          "severity": "positive",
-          "support": 2,
-          "evidence": "freelancer"
-        },
-        {
-          "id": "PS_DISCLOSED_PAY",
-          "severity": "positive",
-          "support": 1,
-          "evidence": "salary"
-        }
-      ],
-      "tier": "screened",
-      "review": {
-        "status": "pending",
-        "by": null,
-        "at": null,
-        "note": null
-      },
-      "score": {
-        "total": 15,
-        "components": {
-          "currency": 3,
-          "protection": 1,
-          "international": 3,
-          "pay_quality": 2,
-          "freshness": 2,
-          "trending": 0,
-          "ease": 3,
-          "tier": 1
-        }
-      },
-      "sources_seen": [
-        "freelancer"
-      ],
-      "duplicate_of": null,
-      "status": "active",
-      "evidence": {
-        "domain": "freelancer.com",
-        "registered_at": "1995-08-18T04:00:00Z",
-        "age_days": 11386,
-        "registrar": "eNom, LLC",
-        "resolves": true,
-        "http_status": 206,
-        "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
-        "checked_at": "2026-10-20T11:36:53Z",
-        "self_hosted": false
-      },
-      "pushed_at": "2026-10-20T11:49:38Z"
-    },
-    {
-      "id": "676b80e4cf366798",
-      "source": "freelancer",
-      "category": "freelance",
-      "title": "Flexible Freelance Assistance Needed",
-      "company": null,
-      "audience": "entry",
-      "competition": 57,
-      "audience_locked": true,
-      "url": "https://www.freelancer.com/projects/content-writing/Flexible-Freelance-Assistance-Needed",
-      "location_raw": "Worldwide",
-      "nigeria_ok": true,
-      "remote": true,
-      "payment_rails": [
-        "USD"
-      ],
-      "payment_protection": "platform",
-      "salary": {
-        "min": 250.0,
-        "max": 750.0,
-        "currency": "USD",
-        "period": "project",
-        "usd_min": 250.0,
-        "usd_max": 750.0
-      },
-      "posted_at": "2026-10-20T08:22:04Z",
-      "first_seen_at": "2026-10-20T11:40:57Z",
-      "deadline": null,
-      "snippet": "I’m looking for a versatile freelancer who can jump in quickly and help me move a priority task acro",
-      "signals": [
-        {
-          "id": "WK_NO_NAMED_HUMAN",
-          "severity": "weak",
-          "evidence": "No named person, company email or address"
-        },
-        {
-          "id": "PS_ESCROW_PLATFORM",
-          "severity": "positive",
-          "support": 2,
-          "evidence": "freelancer"
-        },
-        {
-          "id": "PS_DISCLOSED_PAY",
-          "severity": "positive",
-          "support": 1,
-          "evidence": "salary"
-        }
-      ],
-      "tier": "screened",
-      "review": {
-        "status": "pending",
-        "by": null,
-        "at": null,
-        "note": null
-      },
-      "score": {
-        "total": 15,
-        "components": {
-          "currency": 3,
-          "protection": 1,
-          "international": 3,
-          "pay_quality": 2,
-          "freshness": 2,
-          "trending": 0,
-          "ease": 3,
-          "tier": 1
-        }
-      },
-      "sources_seen": [
-        "freelancer"
-      ],
-      "duplicate_of": null,
-      "status": "active",
-      "evidence": {
-        "domain": "freelancer.com",
-        "registered_at": "1995-08-18T04:00:00Z",
-        "age_days": 11386,
-        "registrar": "eNom, LLC",
-        "resolves": true,
-        "http_status": 206,
-        "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
-        "checked_at": "2026-10-20T11:36:53Z",
-        "self_hosted": false
-      },
-      "pushed_at": "2026-10-20T11:49:38Z"
-    },
-    {
-      "id": "833a14250dcaf027",
-      "source": "freelancer",
-      "category": "freelance",
-      "title": "Feedback Data Entry Into Excel",
-      "company": null,
-      "audience": "entry",
-      "competition": 54,
-      "audience_locked": true,
-      "url": "https://www.freelancer.com/projects/data-analysis/Feedback-Data-Entry-Into-Excel",
-      "location_raw": "Worldwide",
-      "nigeria_ok": true,
-      "remote": true,
-      "payment_rails": [
-        "USD"
-      ],
-      "payment_protection": "platform",
-      "salary": {
-        "min": 250.0,
-        "max": 750.0,
-        "currency": "USD",
-        "period": "project",
-        "usd_min": 250.0,
-        "usd_max": 750.0
-      },
-      "posted_at": "2026-10-20T08:15:51Z",
-      "first_seen_at": "2026-10-20T11:40:57Z",
-      "deadline": null,
-      "snippet": "I have a batch of written feedback that needs to be organised in a clean, searchable Excel workbook.",
-      "signals": [
-        {
-          "id": "WK_NO_NAMED_HUMAN",
-          "severity": "weak",
-          "evidence": "No named person, company email or address"
-        },
-        {
-          "id": "PS_ESCROW_PLATFORM",
-          "severity": "positive",
-          "support": 2,
-          "evidence": "freelancer"
-        },
-        {
-          "id": "PS_DISCLOSED_PAY",
-          "severity": "positive",
-          "support": 1,
-          "evidence": "salary"
-        }
-      ],
-      "tier": "screened",
-      "review": {
-        "status": "pending",
-        "by": null,
-        "at": null,
-        "note": null
-      },
-      "score": {
-        "total": 15,
-        "components": {
-          "currency": 3,
-          "protection": 1,
-          "international": 3,
-          "pay_quality": 2,
-          "freshness": 2,
-          "trending": 0,
-          "ease": 3,
-          "tier": 1
-        }
-      },
-      "sources_seen": [
-        "freelancer"
-      ],
-      "duplicate_of": null,
-      "status": "active",
-      "evidence": {
-        "domain": "freelancer.com",
-        "registered_at": "1995-08-18T04:00:00Z",
-        "age_days": 11386,
-        "registrar": "eNom, LLC",
-        "resolves": true,
-        "http_status": 206,
-        "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
-        "checked_at": "2026-10-20T11:36:53Z",
-        "self_hosted": false
-      },
-      "pushed_at": "2026-10-20T11:49:39Z"
-    },
-    {
-      "id": "c60cc780b5a5b56f",
-      "source": "freelancer",
-      "category": "freelance",
-      "title": "Transcribe Printed Docs to Excel",
-      "company": null,
-      "audience": "entry",
-      "competition": 49,
-      "audience_locked": true,
-      "url": "https://www.freelancer.com/projects/data-entry/Transcribe-Printed-Docs-Excel",
-      "location_raw": "Worldwide",
-      "nigeria_ok": true,
-      "remote": true,
-      "payment_rails": [
-        "USD"
-      ],
-      "payment_protection": "platform",
-      "salary": {
-        "min": 25.0,
-        "max": 50.0,
-        "currency": "USD",
-        "period": "hour",
-        "usd_min": 25.0,
-        "usd_max": 50.0
-      },
-      "posted_at": "2026-10-20T03:32:26Z",
-      "first_seen_at": "2026-10-20T11:40:57Z",
-      "deadline": null,
-      "snippet": "I have a batch of printed documents that need to be keyed into an Excel spreadsheet exactly as they",
-      "signals": [
-        {
-          "id": "WK_NO_NAMED_HUMAN",
-          "severity": "weak",
-          "evidence": "No named person, company email or address"
-        },
-        {
-          "id": "PS_ESCROW_PLATFORM",
-          "severity": "positive",
-          "support": 2,
-          "evidence": "freelancer"
-        },
-        {
-          "id": "PS_DISCLOSED_PAY",
-          "severity": "positive",
-          "support": 1,
-          "evidence": "salary"
-        }
-      ],
-      "tier": "screened",
-      "review": {
-        "status": "pending",
-        "by": null,
-        "at": null,
-        "note": null
-      },
-      "score": {
-        "total": 15,
-        "components": {
-          "currency": 3,
-          "protection": 1,
-          "international": 3,
-          "pay_quality": 2,
-          "freshness": 2,
-          "trending": 0,
-          "ease": 3,
-          "tier": 1
-        }
-      },
-      "sources_seen": [
-        "freelancer"
-      ],
-      "duplicate_of": null,
-      "status": "active",
-      "evidence": {
-        "domain": "freelancer.com",
-        "registered_at": "1995-08-18T04:00:00Z",
-        "age_days": 11386,
-        "registrar": "eNom, LLC",
-        "resolves": true,
-        "http_status": 206,
-        "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
-        "checked_at": "2026-10-20T11:36:53Z",
-        "self_hosted": false
-      },
-      "pushed_at": "2026-10-20T11:49:40Z"
-    },
-    {
-      "id": "72547424943e498c",
-      "source": "freelancer",
-      "category": "freelance",
-      "title": "Clean 101-500 Data Entries",
-      "company": null,
-      "audience": "entry",
-      "competition": 78,
-      "audience_locked": true,
-      "url": "https://www.freelancer.com/projects/copy-typing/Clean-Data-Entries",
-      "location_raw": "Worldwide",
-      "nigeria_ok": true,
-      "remote": true,
-      "payment_rails": [
-        "USD"
-      ],
-      "payment_protection": "platform",
-      "salary": {
-        "min": 250.0,
-        "max": 750.0,
-        "currency": "USD",
-        "period": "project",
-        "usd_min": 250.0,
-        "usd_max": 750.0
-      },
-      "posted_at": "2026-10-19T11:56:49Z",
-      "first_seen_at": "2026-10-20T11:40:57Z",
-      "deadline": null,
-      "snippet": "I have between 101 and 500 individual records that need to be entered into a spreadsheet and then pr",
-      "signals": [
-        {
-          "id": "WK_NO_NAMED_HUMAN",
-          "severity": "weak",
-          "evidence": "No named person, company email or address"
-        },
-        {
-          "id": "PS_ESCROW_PLATFORM",
-          "severity": "positive",
-          "support": 2,
-          "evidence": "freelancer"
-        },
-        {
-          "id": "PS_DISCLOSED_PAY",
-          "severity": "positive",
-          "support": 1,
-          "evidence": "salary"
-        }
-      ],
-      "tier": "screened",
-      "review": {
-        "status": "pending",
-        "by": null,
-        "at": null,
-        "note": null
-      },
-      "score": {
-        "total": 14,
-        "components": {
-          "currency": 3,
-          "protection": 1,
-          "international": 3,
-          "pay_quality": 2,
-          "freshness": 1,
-          "trending": 0,
-          "ease": 3,
-          "tier": 1
-        }
-      },
-      "sources_seen": [
-        "freelancer"
-      ],
-      "duplicate_of": null,
-      "status": "active",
-      "evidence": {
-        "domain": "freelancer.com",
-        "registered_at": "1995-08-18T04:00:00Z",
-        "age_days": 11386,
-        "registrar": "eNom, LLC",
-        "resolves": true,
-        "http_status": 206,
-        "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
-        "checked_at": "2026-10-20T11:36:53Z",
-        "self_hosted": false
-      },
-      "pushed_at": "2026-10-20T12:21:13Z"
-    },
-    {
-      "id": "014b812a6436851e",
-      "source": "freelancer",
-      "category": "freelance",
-      "title": "Precise Forms Re-Typing",
-      "company": null,
-      "audience": "entry",
-      "competition": 56,
-      "audience_locked": true,
-      "url": "https://www.freelancer.com/projects/data-entry/Precise-Forms-Typing",
-      "location_raw": "Worldwide",
-      "nigeria_ok": true,
-      "remote": true,
-      "payment_rails": [
-        "USD"
-      ],
-      "payment_protection": "platform",
-      "salary": {
-        "min": 250.0,
-        "max": 750.0,
-        "currency": "USD",
-        "period": "project",
-        "usd_min": 250.0,
-        "usd_max": 750.0
-      },
-      "posted_at": "2026-10-19T04:48:24Z",
-      "first_seen_at": "2026-10-20T11:40:57Z",
-      "deadline": null,
-      "snippet": "I have a set of printed forms that need to be turned into clean, editable digital files. Every label",
-      "signals": [
-        {
-          "id": "WK_NO_NAMED_HUMAN",
-          "severity": "weak",
-          "evidence": "No named person, company email or address"
-        },
-        {
-          "id": "PS_ESCROW_PLATFORM",
-          "severity": "positive",
-          "support": 2,
-          "evidence": "freelancer"
-        },
-        {
-          "id": "PS_DISCLOSED_PAY",
-          "severity": "positive",
-          "support": 1,
-          "evidence": "salary"
-        }
-      ],
-      "tier": "screened",
-      "review": {
-        "status": "pending",
-        "by": null,
-        "at": null,
-        "note": null
-      },
-      "score": {
-        "total": 14,
-        "components": {
-          "currency": 3,
-          "protection": 1,
-          "international": 3,
-          "pay_quality": 2,
-          "freshness": 1,
-          "trending": 0,
-          "ease": 3,
-          "tier": 1
-        }
-      },
-      "sources_seen": [
-        "freelancer"
-      ],
-      "duplicate_of": null,
-      "status": "active",
-      "evidence": {
-        "domain": "freelancer.com",
-        "registered_at": "1995-08-18T04:00:00Z",
-        "age_days": 11386,
-        "registrar": "eNom, LLC",
-        "resolves": true,
-        "http_status": 206,
-        "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
-        "checked_at": "2026-10-20T11:36:53Z",
-        "self_hosted": false
-      },
-      "pushed_at": "2026-10-20T12:21:14Z"
-    },
-    {
-      "id": "0787af68446f1ee6",
-      "source": "freelancer",
-      "category": "freelance",
-      "title": "Versatile Typing & Writing Support",
-      "company": null,
-      "audience": "entry",
-      "competition": 29,
-      "audience_locked": true,
-      "url": "https://www.freelancer.com/projects/copywriting/Versatile-Typing-Writing-Support",
-      "location_raw": "Worldwide",
-      "nigeria_ok": true,
-      "remote": true,
-      "payment_rails": [
-        "EUR"
-      ],
-      "payment_protection": "platform",
-      "salary": {
-        "min": 250.0,
-        "max": 750.0,
-        "currency": "EUR",
-        "period": "project",
-        "usd_min": 280.47,
-        "usd_max": 841.42
-      },
-      "posted_at": "2026-10-18T19:10:11Z",
-      "first_seen_at": "2026-10-20T11:40:57Z",
-      "deadline": null,
-      "snippet": "I have an ongoing stream of documents that need to be turned into clean, well-formatted text. Someti",
-      "signals": [
-        {
-          "id": "WK_NO_NAMED_HUMAN",
-          "severity": "weak",
-          "evidence": "No named person, company email or address"
-        },
-        {
-          "id": "PS_ESCROW_PLATFORM",
-          "severity": "positive",
-          "support": 2,
-          "evidence": "freelancer"
-        },
-        {
-          "id": "PS_DISCLOSED_PAY",
-          "severity": "positive",
-          "support": 1,
-          "evidence": "salary"
-        }
-      ],
-      "tier": "screened",
-      "review": {
-        "status": "pending",
-        "by": null,
-        "at": null,
-        "note": null
-      },
-      "score": {
-        "total": 14,
-        "components": {
-          "currency": 3,
-          "protection": 1,
-          "international": 3,
-          "pay_quality": 2,
-          "freshness": 1,
-          "trending": 0,
-          "ease": 3,
-          "tier": 1
-        }
-      },
-      "sources_seen": [
-        "freelancer"
-      ],
-      "duplicate_of": null,
-      "status": "active",
-      "evidence": {
-        "domain": "freelancer.com",
-        "registered_at": "1995-08-18T04:00:00Z",
-        "age_days": 11386,
-        "registrar": "eNom, LLC",
-        "resolves": true,
-        "http_status": 206,
-        "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
-        "checked_at": "2026-10-20T11:36:53Z",
-        "self_hosted": false
-      },
-      "pushed_at": "2026-10-20T12:21:14Z"
-    },
-    {
-      "id": "41e5095bed300bab",
-      "source": "freelancer",
-      "category": "freelance",
-      "title": "PDF Data Entry & Conversion",
-      "company": null,
-      "audience": "entry",
-      "competition": 52,
-      "audience_locked": true,
-      "url": "https://www.freelancer.com/projects/typing/PDF-Data-Entry-Conversion",
-      "location_raw": "Worldwide",
-      "nigeria_ok": true,
-      "remote": true,
-      "payment_rails": [
-        "USD"
-      ],
-      "payment_protection": "platform",
-      "salary": {
-        "min": 15.0,
-        "max": 25.0,
-        "currency": "USD",
-        "period": "hour",
-        "usd_min": 15.0,
-        "usd_max": 25.0
-      },
-      "posted_at": "2026-10-18T16:06:24Z",
-      "first_seen_at": "2026-10-20T11:40:57Z",
-      "deadline": null,
-      "snippet": "I have between one and fifty PDF pages that need to be re-typed into Excel and Word while preserving",
-      "signals": [
-        {
-          "id": "WK_NO_NAMED_HUMAN",
-          "severity": "weak",
-          "evidence": "No named person, company email or address"
-        },
-        {
-          "id": "PS_ESCROW_PLATFORM",
-          "severity": "positive",
-          "support": 2,
-          "evidence": "freelancer"
-        },
-        {
-          "id": "PS_DISCLOSED_PAY",
-          "severity": "positive",
-          "support": 1,
-          "evidence": "salary"
-        }
-      ],
-      "tier": "screened",
-      "review": {
-        "status": "pending",
-        "by": null,
-        "at": null,
-        "note": null
-      },
-      "score": {
-        "total": 14,
-        "components": {
-          "currency": 3,
-          "protection": 1,
-          "international": 3,
-          "pay_quality": 2,
-          "freshness": 1,
-          "trending": 0,
-          "ease": 3,
-          "tier": 1
-        }
-      },
-      "sources_seen": [
-        "freelancer"
-      ],
-      "duplicate_of": null,
-      "status": "active",
-      "evidence": {
-        "domain": "freelancer.com",
-        "registered_at": "1995-08-18T04:00:00Z",
-        "age_days": 11386,
-        "registrar": "eNom, LLC",
-        "resolves": true,
-        "http_status": 206,
-        "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
-        "checked_at": "2026-10-20T11:36:53Z",
-        "self_hosted": false
-      },
-      "pushed_at": "2026-10-20T12:21:14Z"
-    },
-    {
-      "id": "efa9124b176e690a",
-      "source": "freelancer",
-      "category": "freelance",
-      "title": "Accurate Data Entry & Typing",
-      "company": null,
-      "audience": "entry",
-      "competition": 74,
-      "audience_locked": true,
-      "url": "https://www.freelancer.com/projects/microsoft-word/Accurate-Data-Entry-Typing",
-      "location_raw": "Worldwide",
-      "nigeria_ok": true,
-      "remote": true,
-      "payment_rails": [
-        "USD"
-      ],
-      "payment_protection": "platform",
-      "salary": {
-        "min": 10.0,
-        "max": 30.0,
-        "currency": "USD",
-        "period": "project",
-        "usd_min": 10.0,
-        "usd_max": 30.0
-      },
-      "posted_at": "2026-10-17T17:30:13Z",
-      "first_seen_at": "2026-10-20T11:40:57Z",
-      "deadline": null,
-      "snippet": "I have a personal project that involves handling a mix of numeric and text information with accuracy",
-      "signals": [
-        {
-          "id": "WK_NO_NAMED_HUMAN",
-          "severity": "weak",
-          "evidence": "No named person, company email or address"
-        },
-        {
-          "id": "PS_ESCROW_PLATFORM",
-          "severity": "positive",
-          "support": 2,
-          "evidence": "freelancer"
-        },
-        {
-          "id": "PS_DISCLOSED_PAY",
-          "severity": "positive",
-          "support": 1,
-          "evidence": "salary"
-        }
-      ],
-      "tier": "screened",
-      "review": {
-        "status": "pending",
-        "by": null,
-        "at": null,
-        "note": null
-      },
-      "score": {
-        "total": 14,
-        "components": {
-          "currency": 3,
-          "protection": 1,
-          "international": 3,
-          "pay_quality": 2,
-          "freshness": 1,
-          "trending": 0,
-          "ease": 3,
-          "tier": 1
-        }
-      },
-      "sources_seen": [
-        "freelancer"
-      ],
-      "duplicate_of": null,
-      "status": "active",
-      "evidence": {
-        "domain": "freelancer.com",
-        "registered_at": "1995-08-18T04:00:00Z",
-        "age_days": 11386,
-        "registrar": "eNom, LLC",
-        "resolves": true,
-        "http_status": 206,
-        "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
-        "checked_at": "2026-10-20T11:36:53Z",
-        "self_hosted": false
-      },
-      "pushed_at": "2026-10-20T12:21:15Z"
-    },
-    {
-      "id": "1d826a8509e92e47",
-      "source": "freelancer",
-      "category": "freelance",
-      "title": "Word Report Data Entry",
-      "company": null,
-      "audience": "entry",
-      "competition": 76,
-      "audience_locked": true,
-      "url": "https://www.freelancer.com/projects/data-entry/Word-Report-Data-Entry-40772750",
-      "location_raw": "Worldwide",
-      "nigeria_ok": true,
-      "remote": true,
-      "payment_rails": [
-        "USD"
-      ],
-      "payment_protection": "platform",
-      "salary": {
-        "min": 750.0,
-        "max": 1500.0,
-        "currency": "USD",
-        "period": "project",
-        "usd_min": 750.0,
-        "usd_max": 1500.0
-      },
-      "posted_at": "2026-10-17T11:20:06Z",
-      "first_seen_at": "2026-10-20T11:40:57Z",
-      "deadline": null,
-      "snippet": "I have several existing Word files that need to be re-entered and consolidated into a single, polish",
-      "signals": [
-        {
-          "id": "WK_NO_NAMED_HUMAN",
-          "severity": "weak",
-          "evidence": "No named person, company email or address"
-        },
-        {
-          "id": "PS_ESCROW_PLATFORM",
-          "severity": "positive",
-          "support": 2,
-          "evidence": "freelancer"
-        },
-        {
-          "id": "PS_DISCLOSED_PAY",
-          "severity": "positive",
-          "support": 1,
-          "evidence": "salary"
-        }
-      ],
-      "tier": "screened",
-      "review": {
-        "status": "pending",
-        "by": null,
-        "at": null,
-        "note": null
-      },
-      "score": {
-        "total": 13,
-        "components": {
-          "currency": 3,
-          "protection": 1,
-          "international": 3,
-          "pay_quality": 2,
-          "freshness": 0,
-          "trending": 0,
-          "ease": 3,
-          "tier": 1
-        }
-      },
-      "sources_seen": [
-        "freelancer"
-      ],
-      "duplicate_of": null,
-      "status": "active",
-      "evidence": {
-        "domain": "freelancer.com",
-        "registered_at": "1995-08-18T04:00:00Z",
-        "age_days": 11386,
-        "registrar": "eNom, LLC",
-        "resolves": true,
-        "http_status": 206,
-        "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
-        "checked_at": "2026-10-20T11:36:53Z",
-        "self_hosted": false
-      }
-    },
-    {
-      "id": "18d2d12705b8797c",
-      "source": "freelancer",
-      "category": "freelance",
-      "title": "Handwriting Transcription for Enquiry",
-      "company": null,
-      "audience": "entry",
-      "competition": 46,
-      "audience_locked": true,
-      "url": "https://www.freelancer.com/projects/copy-typing/Handwriting-Transcription-for-Enquiry",
-      "location_raw": "Worldwide",
-      "nigeria_ok": true,
-      "remote": true,
-      "payment_rails": [
-        "AUD"
-      ],
-      "payment_protection": "platform",
-      "salary": {
-        "min": 250.0,
-        "max": 750.0,
-        "currency": "AUD",
-        "period": "project",
-        "usd_min": 174.73,
-        "usd_max": 524.2
-      },
-      "posted_at": "2026-10-17T08:34:33Z",
-      "first_seen_at": "2026-10-20T11:40:57Z",
-      "deadline": null,
-      "snippet": "I need pages 3-6, 35-45, and 104-146 of handwritten text transcribed into a Word document. Require",
-      "signals": [
-        {
-          "id": "WK_NO_NAMED_HUMAN",
-          "severity": "weak",
-          "evidence": "No named person, company email or address"
-        },
-        {
-          "id": "PS_ESCROW_PLATFORM",
-          "severity": "positive",
-          "support": 2,
-          "evidence": "freelancer"
-        },
-        {
-          "id": "PS_DISCLOSED_PAY",
-          "severity": "positive",
-          "support": 1,
-          "evidence": "salary"
-        }
-      ],
-      "tier": "screened",
-      "review": {
-        "status": "pending",
-        "by": null,
-        "at": null,
-        "note": null
-      },
-      "score": {
-        "total": 13,
-        "components": {
-          "currency": 3,
-          "protection": 1,
-          "international": 3,
-          "pay_quality": 2,
-          "freshness": 0,
-          "trending": 0,
-          "ease": 3,
-          "tier": 1
-        }
-      },
-      "sources_seen": [
-        "freelancer"
-      ],
-      "duplicate_of": null,
-      "status": "active",
-      "evidence": {
-        "domain": "freelancer.com",
-        "registered_at": "1995-08-18T04:00:00Z",
-        "age_days": 11386,
-        "registrar": "eNom, LLC",
-        "resolves": true,
-        "http_status": 206,
-        "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
-        "checked_at": "2026-10-20T11:36:53Z",
-        "self_hosted": false
-      }
-    },
-    {
-      "id": "6263692107280206",
-      "source": "freelancer",
-      "category": "freelance",
-      "title": "Word Notes to Styled PDF",
-      "company": null,
-      "audience": "entry",
-      "competition": 42,
-      "audience_locked": true,
-      "url": "https://www.freelancer.com/projects/adobe-acrobat/Word-Notes-Styled-PDF",
-      "location_raw": "Worldwide",
-      "nigeria_ok": true,
-      "remote": true,
-      "payment_rails": [
-        "USD"
-      ],
-      "payment_protection": "platform",
-      "salary": {
-        "min": 250.0,
-        "max": 750.0,
-        "currency": "USD",
-        "period": "project",
-        "usd_min": 250.0,
-        "usd_max": 750.0
-      },
-      "posted_at": "2026-10-17T01:45:02Z",
-      "first_seen_at": "2026-10-20T11:40:57Z",
-      "deadline": null,
-      "snippet": "I have a set of typed notes in a Word document that I need turned into a clean, ready-to-share PDF.",
-      "signals": [
-        {
-          "id": "WK_NO_NAMED_HUMAN",
-          "severity": "weak",
-          "evidence": "No named person, company email or address"
-        },
-        {
-          "id": "PS_ESCROW_PLATFORM",
-          "severity": "positive",
-          "support": 2,
-          "evidence": "freelancer"
-        },
-        {
-          "id": "PS_DISCLOSED_PAY",
-          "severity": "positive",
-          "support": 1,
-          "evidence": "salary"
-        }
-      ],
-      "tier": "screened",
-      "review": {
-        "status": "pending",
-        "by": null,
-        "at": null,
-        "note": null
-      },
-      "score": {
-        "total": 13,
-        "components": {
-          "currency": 3,
-          "protection": 1,
-          "international": 3,
-          "pay_quality": 2,
-          "freshness": 0,
-          "trending": 0,
-          "ease": 3,
-          "tier": 1
-        }
-      },
-      "sources_seen": [
-        "freelancer"
-      ],
-      "duplicate_of": null,
-      "status": "active",
-      "evidence": {
-        "domain": "freelancer.com",
-        "registered_at": "1995-08-18T04:00:00Z",
-        "age_days": 11386,
-        "registrar": "eNom, LLC",
-        "resolves": true,
-        "http_status": 206,
-        "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
-        "checked_at": "2026-10-20T11:36:53Z",
-        "self_hosted": false
-      }
-    },
-    {
-      "id": "43b9a00debce0e2d",
-      "source": "freelancer",
-      "category": "freelance",
-      "title": "Handwritten Lecture Notes Transcribed",
-      "company": null,
-      "audience": "entry",
-      "competition": 42,
-      "audience_locked": true,
-      "url": "https://www.freelancer.com/projects/typing/Handwritten-Lecture-Notes-Transcribed",
-      "location_raw": "Worldwide",
-      "nigeria_ok": true,
-      "remote": true,
-      "payment_rails": [
-        "USD"
-      ],
-      "payment_protection": "platform",
-      "salary": {
-        "min": 250.0,
-        "max": 750.0,
-        "currency": "USD",
-        "period": "project",
-        "usd_min": 250.0,
-        "usd_max": 750.0
-      },
-      "posted_at": "2026-10-16T05:23:53Z",
-      "first_seen_at": "2026-10-20T11:40:57Z",
-      "deadline": null,
-      "snippet": "I have a series of handwritten lecture notes saved as scanned images. I need every page accurately t",
-      "signals": [
-        {
-          "id": "WK_NO_NAMED_HUMAN",
-          "severity": "weak",
-          "evidence": "No named person, company email or address"
-        },
-        {
-          "id": "PS_ESCROW_PLATFORM",
-          "severity": "positive",
-          "support": 2,
-          "evidence": "freelancer"
-        },
-        {
-          "id": "PS_DISCLOSED_PAY",
-          "severity": "positive",
-          "support": 1,
-          "evidence": "salary"
-        }
-      ],
-      "tier": "screened",
-      "review": {
-        "status": "pending",
-        "by": null,
-        "at": null,
-        "note": null
-      },
-      "score": {
-        "total": 13,
-        "components": {
-          "currency": 3,
-          "protection": 1,
-          "international": 3,
-          "pay_quality": 2,
-          "freshness": 0,
-          "trending": 0,
-          "ease": 3,
-          "tier": 1
-        }
-      },
-      "sources_seen": [
-        "freelancer"
-      ],
-      "duplicate_of": null,
-      "status": "active",
-      "evidence": {
-        "domain": "freelancer.com",
-        "registered_at": "1995-08-18T04:00:00Z",
-        "age_days": 11386,
-        "registrar": "eNom, LLC",
-        "resolves": true,
-        "http_status": 206,
-        "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
-        "checked_at": "2026-10-20T11:36:53Z",
-        "self_hosted": false
-      }
-    },
-    {
-      "id": "24152f6da5b6f3dc",
-      "source": "freelancer",
-      "category": "freelance",
-      "title": "Copy Typing & Data Research",
-      "company": null,
-      "audience": "entry",
-      "competition": 10,
-      "audience_locked": true,
-      "url": "https://www.freelancer.com/projects/microsoft-word/Copy-Typing-Data-Research",
-      "location_raw": "Worldwide",
-      "nigeria_ok": true,
-      "remote": true,
-      "payment_rails": [
-        "USD"
-      ],
-      "payment_protection": "platform",
-      "salary": {
-        "min": 50.0,
-        "max": 50.0,
-        "currency": "USD",
-        "period": "hour",
-        "usd_min": 50.0,
-        "usd_max": 50.0
-      },
-      "posted_at": "2026-10-15T13:31:43Z",
-      "first_seen_at": "2026-10-20T11:40:57Z",
-      "deadline": null,
-      "snippet": "I have a backlog of scanned documents that need to be turned into clean, editable text and, alongsid",
-      "signals": [
-        {
-          "id": "WK_NO_NAMED_HUMAN",
-          "severity": "weak",
-          "evidence": "No named person, company email or address"
-        },
-        {
-          "id": "PS_ESCROW_PLATFORM",
-          "severity": "positive",
-          "support": 2,
-          "evidence": "freelancer"
-        },
-        {
-          "id": "PS_DISCLOSED_PAY",
-          "severity": "positive",
-          "support": 1,
-          "evidence": "salary"
-        }
-      ],
-      "tier": "screened",
-      "review": {
-        "status": "pending",
-        "by": null,
-        "at": null,
-        "note": null
-      },
-      "score": {
-        "total": 13,
-        "components": {
-          "currency": 3,
-          "protection": 1,
-          "international": 3,
-          "pay_quality": 2,
-          "freshness": 0,
-          "trending": 0,
-          "ease": 3,
-          "tier": 1
-        }
-      },
-      "sources_seen": [
-        "freelancer"
-      ],
-      "duplicate_of": null,
-      "status": "active",
-      "evidence": {
-        "domain": "freelancer.com",
-        "registered_at": "1995-08-18T04:00:00Z",
-        "age_days": 11386,
-        "registrar": "eNom, LLC",
-        "resolves": true,
-        "http_status": 206,
-        "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
-        "checked_at": "2026-10-20T11:36:53Z",
-        "self_hosted": false
-      }
-    },
-    {
-      "id": "5a8d9c8e62e67f7a",
-      "source": "freelancer",
-      "category": "freelance",
-      "title": "Mixed Data Entry from Word",
-      "company": null,
-      "audience": "entry",
-      "competition": 80,
-      "audience_locked": true,
-      "url": "https://www.freelancer.com/projects/microsoft-word/Mixed-Data-Entry-from-Word-40769097",
-      "location_raw": "Worldwide",
-      "nigeria_ok": true,
-      "remote": true,
-      "payment_rails": [
-        "USD"
-      ],
-      "payment_protection": "platform",
-      "salary": {
-        "min": 250.0,
-        "max": 750.0,
-        "currency": "USD",
-        "period": "project",
-        "usd_min": 250.0,
-        "usd_max": 750.0
-      },
-      "posted_at": "2026-10-15T07:46:43Z",
-      "first_seen_at": "2026-10-20T11:40:57Z",
-      "deadline": null,
-      "snippet": "I have a collection of Word documents that contain both text and numerical fields, and I need every",
-      "signals": [
-        {
-          "id": "WK_NO_NAMED_HUMAN",
-          "severity": "weak",
-          "evidence": "No named person, company email or address"
-        },
-        {
-          "id": "PS_ESCROW_PLATFORM",
-          "severity": "positive",
-          "support": 2,
-          "evidence": "freelancer"
-        },
-        {
-          "id": "PS_DISCLOSED_PAY",
-          "severity": "positive",
-          "support": 1,
-          "evidence": "salary"
-        }
-      ],
-      "tier": "screened",
-      "review": {
-        "status": "pending",
-        "by": null,
-        "at": null,
-        "note": null
-      },
-      "score": {
-        "total": 13,
-        "components": {
-          "currency": 3,
-          "protection": 1,
-          "international": 3,
-          "pay_quality": 2,
-          "freshness": 0,
-          "trending": 0,
-          "ease": 3,
-          "tier": 1
-        }
-      },
-      "sources_seen": [
-        "freelancer"
-      ],
-      "duplicate_of": null,
-      "status": "active",
-      "evidence": {
-        "domain": "freelancer.com",
-        "registered_at": "1995-08-18T04:00:00Z",
-        "age_days": 11386,
-        "registrar": "eNom, LLC",
-        "resolves": true,
-        "http_status": 206,
-        "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
-        "checked_at": "2026-10-20T11:36:53Z",
-        "self_hosted": false
-      }
-    },
-    {
-      "id": "5129f4d3824f8017",
-      "source": "freelancer",
-      "category": "freelance",
-      "title": "Retype 70 Page Play Script",
-      "company": null,
-      "audience": "entry",
-      "competition": 48,
-      "audience_locked": true,
-      "url": "https://www.freelancer.com/projects/transcription/Retype-Page-Play-Script",
-      "location_raw": "Worldwide",
-      "nigeria_ok": true,
-      "remote": true,
-      "payment_rails": [
-        "USD"
-      ],
-      "payment_protection": "platform",
-      "salary": {
-        "min": 250.0,
-        "max": 750.0,
-        "currency": "USD",
-        "period": "project",
-        "usd_min": 250.0,
-        "usd_max": 750.0
-      },
-      "posted_at": "2026-10-15T07:01:15Z",
-      "first_seen_at": "2026-10-20T11:40:57Z",
-      "deadline": null,
-      "snippet": "I have a printed, 70-page stage play that needs as a clean DOCX file. I am not looking for any rewr",
-      "signals": [
-        {
-          "id": "WK_NO_NAMED_HUMAN",
-          "severity": "weak",
-          "evidence": "No named person, company email or address"
-        },
-        {
-          "id": "PS_ESCROW_PLATFORM",
-          "severity": "positive",
-          "support": 2,
-          "evidence": "freelancer"
-        },
-        {
-          "id": "PS_DISCLOSED_PAY",
-          "severity": "positive",
-          "support": 1,
-          "evidence": "salary"
-        }
-      ],
-      "tier": "screened",
-      "review": {
-        "status": "pending",
-        "by": null,
-        "at": null,
-        "note": null
-      },
-      "score": {
-        "total": 13,
-        "components": {
-          "currency": 3,
-          "protection": 1,
-          "international": 3,
-          "pay_quality": 2,
-          "freshness": 0,
-          "trending": 0,
-          "ease": 3,
-          "tier": 1
-        }
-      },
-      "sources_seen": [
-        "freelancer"
-      ],
-      "duplicate_of": null,
-      "status": "active",
-      "evidence": {
-        "domain": "freelancer.com",
-        "registered_at": "1995-08-18T04:00:00Z",
-        "age_days": 11386,
-        "registrar": "eNom, LLC",
-        "resolves": true,
-        "http_status": 206,
-        "final_url": "https://www.freelancer.com/projects/web-design/Health-App-Website-Redesign-Marketing",
-        "checked_at": "2026-10-20T11:36:53Z",
-        "self_hosted": false
-      }
-    },
     {
       "id": "3f2e292fcedf99bf",
       "source": "remoteok",
@@ -1916,6 +461,158 @@
         "checked_at": "2026-10-20T11:26:45Z",
         "self_hosted": false
       }
+    },
+    {
+      "id": "e0456b8d4ffb386b",
+      "source": "bluesky",
+      "category": "job",
+      "title": "Hiring now (remote): Consumer Reviewer - $20-30/hr through micro1.",
+      "company": null,
+      "audience": "entry",
+      "competition": null,
+      "audience_locked": true,
+      "url": "https://bsky.app/profile/mtlremotejobs.bsky.social/post/3my2xm52kek2o",
+      "apply_url": "https://jobs.micro1.ai/post/f6338e16-d6aa-4fab-bedc-f93a0c594294?referralCode=ad48d1c9-dff0-4467-b808-725b2a2c2747",
+      "location_raw": "Remote",
+      "social": true,
+      "nigeria_ok": null,
+      "remote": true,
+      "payment_rails": [
+        "USD"
+      ],
+      "payment_protection": "direct",
+      "salary": {
+        "min": 20.0,
+        "max": 30.0,
+        "currency": "USD",
+        "period": "hour"
+      },
+      "posted_at": "2026-10-17T11:14:58Z",
+      "first_seen_at": "2026-10-20T12:54:14Z",
+      "deadline": null,
+      "snippet": "Hiring now (remote): Consumer Reviewer - $20-30/hr through micro1. Good fit if you like reviewing products and sharing honest feedback. Apply here: jobs.micro1.ai/post/f6338e1... DM with questions.",
+      "extra": {
+        "handle": "mtlremotejobs.bsky.social",
+        "uri": "at://did:plc:wrbqgb725qqwwqxgvjdo7ity/app.bsky.feed.post/3my2xm52kek2o",
+        "query": "\"hiring\" \"remote\" \"DM\"",
+        "likes": 0,
+        "replies": 0
+      },
+      "signals": [
+        {
+          "id": "WK_NO_NAMED_HUMAN",
+          "severity": "weak",
+          "evidence": "No named person, company email or address"
+        },
+        {
+          "id": "PS_DISCLOSED_PAY",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "salary"
+        }
+      ],
+      "tier": "unverified",
+      "review": {
+        "status": "pending",
+        "by": null,
+        "at": null,
+        "note": null
+      },
+      "score": {
+        "total": 10,
+        "components": {
+          "currency": 3,
+          "protection": 0,
+          "international": 3,
+          "pay_quality": 1,
+          "freshness": 0,
+          "trending": 0,
+          "ease": 3,
+          "tier": 0
+        }
+      },
+      "sources_seen": [
+        "bluesky"
+      ],
+      "duplicate_of": null,
+      "status": "active",
+      "evidence": null
+    },
+    {
+      "id": "858f50f6e0f1a4d9",
+      "source": "bluesky",
+      "category": "job",
+      "title": "Hiring now (remote): Usability Tester - $20-30/hr through micro1.",
+      "company": null,
+      "audience": "entry",
+      "competition": null,
+      "audience_locked": true,
+      "url": "https://bsky.app/profile/mtlremotejobs.bsky.social/post/3mxzw3nzvmc2i",
+      "apply_url": "https://jobs.micro1.ai/post/2332e3d6-3b9a-4f09-be33-a21b73150544?referralCode=ad48d1c9-dff0-4467-b808-725b2a2c2747",
+      "location_raw": "Remote",
+      "social": true,
+      "nigeria_ok": null,
+      "remote": true,
+      "payment_rails": [
+        "USD"
+      ],
+      "payment_protection": "direct",
+      "salary": {
+        "min": 20.0,
+        "max": 30.0,
+        "currency": "USD",
+        "period": "hour"
+      },
+      "posted_at": "2026-10-17T01:15:12Z",
+      "first_seen_at": "2026-10-20T12:54:14Z",
+      "deadline": null,
+      "snippet": "Hiring now (remote): Usability Tester - $20-30/hr through micro1. Good fit if you like testing products and giving clear feedback. Apply here: jobs.micro1.ai/post/2332e3d... DM with questions.",
+      "extra": {
+        "handle": "mtlremotejobs.bsky.social",
+        "uri": "at://did:plc:wrbqgb725qqwwqxgvjdo7ity/app.bsky.feed.post/3mxzw3nzvmc2i",
+        "query": "\"hiring\" \"remote\" \"DM\"",
+        "likes": 0,
+        "replies": 0
+      },
+      "signals": [
+        {
+          "id": "WK_NO_NAMED_HUMAN",
+          "severity": "weak",
+          "evidence": "No named person, company email or address"
+        },
+        {
+          "id": "PS_DISCLOSED_PAY",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "salary"
+        }
+      ],
+      "tier": "unverified",
+      "review": {
+        "status": "pending",
+        "by": null,
+        "at": null,
+        "note": null
+      },
+      "score": {
+        "total": 10,
+        "components": {
+          "currency": 3,
+          "protection": 0,
+          "international": 3,
+          "pay_quality": 1,
+          "freshness": 0,
+          "trending": 0,
+          "ease": 3,
+          "tier": 0
+        }
+      },
+      "sources_seen": [
+        "bluesky"
+      ],
+      "duplicate_of": null,
+      "status": "active",
+      "evidence": null
     },
     {
       "id": "6d43d71a0bdbb58f",
@@ -10359,13 +9056,13 @@
         "note": null
       },
       "score": {
-        "total": 6,
+        "total": 5,
         "components": {
           "currency": 0,
           "protection": 1,
           "international": 3,
           "pay_quality": 0,
-          "freshness": 2,
+          "freshness": 1,
           "trending": 0,
           "ease": 0,
           "tier": 0
@@ -10459,6 +9156,71 @@
         "checked_at": "2026-10-20T11:26:33Z",
         "self_hosted": false
       }
+    },
+    {
+      "id": "b830ce4c4759818f",
+      "source": "bluesky",
+      "category": "microtask",
+      "title": "Hiring now (remote): Video Data Annotation Specialist through Turing.",
+      "company": null,
+      "audience": "entry",
+      "competition": null,
+      "audience_locked": true,
+      "url": "https://bsky.app/profile/mtlremotejobs.bsky.social/post/3mxjlf2zmfs2q",
+      "apply_url": "https://work.turing.com/r/aNSkXS90Pl",
+      "location_raw": "Remote",
+      "social": true,
+      "nigeria_ok": null,
+      "remote": true,
+      "payment_rails": [
+        "unknown"
+      ],
+      "payment_protection": "direct",
+      "salary": null,
+      "posted_at": "2026-10-10T13:21:01Z",
+      "first_seen_at": "2026-10-20T12:54:14Z",
+      "deadline": null,
+      "snippet": "Hiring now (remote): Video Data Annotation Specialist through Turing. Good fit if you are detail-oriented and want flexible AI video annotation work. Apply here: work.turing.com/r/aNSkXS90Pl DM with questions.",
+      "extra": {
+        "handle": "mtlremotejobs.bsky.social",
+        "uri": "at://did:plc:wrbqgb725qqwwqxgvjdo7ity/app.bsky.feed.post/3mxjlf2zmfs2q",
+        "query": "\"data annotation\" \"hiring\"",
+        "likes": 0,
+        "replies": 0
+      },
+      "signals": [
+        {
+          "id": "WK_NO_NAMED_HUMAN",
+          "severity": "weak",
+          "evidence": "No named person, company email or address"
+        }
+      ],
+      "tier": "unverified",
+      "review": {
+        "status": "pending",
+        "by": null,
+        "at": null,
+        "note": null
+      },
+      "score": {
+        "total": 6,
+        "components": {
+          "currency": 0,
+          "protection": 0,
+          "international": 3,
+          "pay_quality": 0,
+          "freshness": 0,
+          "trending": 0,
+          "ease": 3,
+          "tier": 0
+        }
+      },
+      "sources_seen": [
+        "bluesky"
+      ],
+      "duplicate_of": null,
+      "status": "active",
+      "evidence": null
     },
     {
       "id": "7263f73fcb931144",

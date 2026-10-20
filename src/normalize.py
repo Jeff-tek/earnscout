@@ -9,7 +9,7 @@ NAMED_RAILS = ["payoneer", "deel", "wise", "grey", "cleva", "daya", "chipper"]
 NIGERIA_RE = re.compile(r"\b(nigeria|nigerian|africa|worldwide|anywhere|global|emea)\b", re.I)
 EXCLUDE_RE = re.compile(
     r"\b(?:usa|u\.s\.|united states|canada|uk|united kingdom|europe|eu|india|"
-    r"philippines|latam|australia|apac|onsite)\b",
+    r"philippines|latam|australia|apac|onsite|el salvador)\b",
     re.I,
 )
 
@@ -73,7 +73,9 @@ def normalize(raw, source_cfg):
         "competition": raw.get("competition"),
         "audience_locked": bool(raw.get("audience_locked")),
         "url": raw.get("url") or "",
+        "apply_url": raw.get("apply_url") or None,
         "location_raw": raw.get("location_raw") or None,
+        "social": bool(raw.get("social", source_cfg.get("social", False))),
         "nigeria_ok": nigeria_ok(
             raw.get("location_raw"), text, source_cfg, raw.get("title") or ""
         ),
@@ -87,6 +89,7 @@ def normalize(raw, source_cfg):
         "first_seen_at": util.iso(util.now_utc()),
         "deadline": util.iso(util.parse_dt(raw.get("deadline"))) if raw.get("deadline") else None,
         "snippet": util.strip_html(raw.get("description") or "", 480),
+        "extra": raw.get("extra") or {},
         "signals": [],
         "tier": "unverified",
         "review": {"status": "pending", "by": None, "at": None, "note": None},
@@ -102,9 +105,10 @@ def normalize(raw, source_cfg):
 def refresh_derived(items, sources_by_id):
     """Recompute audience and location eligibility for stored items.
 
-    Freelancer items carry an explicit audience decided by the source filter, so
-    they are locked. Everything else is re-derived from the title/snippet, which
-    keeps older stored items consistent after classifier changes.
+    Some sources carry an explicit audience decided by their own filter, so
+    those items are locked. Everything else is re-derived from the
+    title/snippet, which keeps older stored items consistent after classifier
+    changes.
     """
     for item in items:
         title = item.get("title") or ""
