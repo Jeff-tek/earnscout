@@ -63,10 +63,23 @@ def card_text(item):
     if item.get("company"):
         lines.append(str(item["company"]))
     lines.append(f"{item.get('source')} · {item.get('location_raw') or 'location n/a'}")
+    salary = item.get("salary") or {}
+    currency = salary.get("currency")
+    low, high = salary.get("min"), salary.get("max")
+    if currency and (low is not None or high is not None):
+        if low is not None and high is not None and low != high:
+            amount = f"{low:g}–{high:g}"
+        else:
+            amount = f"{low if low is not None else high:g}"
+        suffix = " /hr" if salary.get("period") == "hour" else ""
+        pay = f"{currency} {amount}{suffix}"
+    else:
+        pay = ", ".join(item.get("payment_rails") or ["unknown"])
     lines.append(
-        "Pay: " + ", ".join(item.get("payment_rails") or ["unknown"])
-        + f" · {item.get('payment_protection') or 'unknown'} protection"
+        f"Pay: {pay} · {item.get('payment_protection') or 'unknown'} protection"
     )
+    if item.get("competition") is not None:
+        lines.append(f"Competition: {item['competition']} bids")
     if item.get("deadline"):
         lines.append(f"Closes: {item['deadline'][:10]}")
     if item.get("posted_at"):
