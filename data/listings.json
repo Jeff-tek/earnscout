@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-23T00:43:41Z",
+  "updated_at": "2026-10-23T05:47:50Z",
   "items": [
     {
       "id": "3f2e292fcedf99bf",
@@ -723,6 +723,76 @@
         "http_status": 200,
         "final_url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-sothebys-1137545",
         "checked_at": "2026-10-20T11:26:36Z",
+        "self_hosted": false
+      }
+    },
+    {
+      "id": "afc92936ce305dca",
+      "source": "cryptojobslist",
+      "category": "job",
+      "title": "Copywriter - Kraken Pro",
+      "company": "Kraken",
+      "audience": "entry",
+      "competition": null,
+      "audience_locked": false,
+      "url": "https://cryptojobslist.com/jobs/copywriter-kraken-pro-united-states-at-kraken",
+      "apply_url": null,
+      "location_raw": "United States",
+      "social": false,
+      "nigeria_ok": true,
+      "remote": true,
+      "payment_rails": [
+        "CRYPTO"
+      ],
+      "payment_protection": "platform",
+      "salary": null,
+      "posted_at": null,
+      "first_seen_at": "2026-10-23T05:47:43Z",
+      "deadline": null,
+      "snippet": "Tags: Web3 Jobs • Web3 Copywriter Jobs • Web3 Cryptography Jobs • Blockchain Remote Jobs • Cryptocurrency Full Time Jobs • Blockchain Web3 Jobs Building the Future of Open Finance Payward - the parent company behind Kraken, NinjaTrader, Breakout, xStocks, Payward Services and CF Benchmarks - has spent the last 15 years building one of the most modern and globally accessible financial infrastructure platforms in the industry, built to advance an open, global financial system. ",
+      "extra": {},
+      "signals": [
+        {
+          "id": "PS_ESTABLISHED_BOARD",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "cryptojobslist"
+        }
+      ],
+      "tier": "unverified",
+      "review": {
+        "status": "pending",
+        "by": null,
+        "at": null,
+        "note": null
+      },
+      "score": {
+        "total": 10,
+        "components": {
+          "currency": 4,
+          "protection": 1,
+          "international": 2,
+          "pay_quality": 0,
+          "freshness": 0,
+          "trending": 0,
+          "ease": 3,
+          "tier": 0
+        }
+      },
+      "sources_seen": [
+        "cryptojobslist"
+      ],
+      "duplicate_of": null,
+      "status": "active",
+      "evidence": {
+        "domain": "cryptojobslist.com",
+        "registered_at": "2017-09-27T19:50:55Z",
+        "age_days": 3309,
+        "registrar": "Porkbun LLC",
+        "resolves": true,
+        "http_status": 206,
+        "final_url": "https://cryptojobslist.com/jobs/senior-technical-product-manager-keet-dubai-dubai-united-arab-emirates-at-tether-operations-limited",
+        "checked_at": "2026-10-20T11:26:45Z",
         "self_hosted": false
       }
     },
@@ -1577,7 +1647,7 @@
       "posted_at": "2026-10-21T23:33:07Z",
       "first_seen_at": "2026-10-23T00:43:31Z",
       "deadline": null,
-      "snippet": "sdfsdfsdf Please mention the word **LOVELINESS** and tag RNjQuMjM2LjIwMC4xMTM= when applying to show you read the job post completely (#RNjQuMjM2LjIwMC4xMTM=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "snippet": "sdfsdfsdf Please mention the word **LOVELINESS** and tag RMjAuNTEuMTk5LjE5NA== when applying to show you read the job post completely (#RMjAuNTEuMTk5LjE5NA==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
       "extra": {
         "id": "1137553",
         "apply_url": "https://remoteOK.com/remote-jobs/remote-lkjlkjxcv-scvsdv-1137553"
@@ -1740,7 +1810,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Internship Jobs • Blockchain Entry Level Jobs • Web3 Remote Jobs • Blockchain Business Development Jobs • Web3 Full Time Jobs About the Company CertiK is the largest blockchain security auditor and provides a comprehensive suite of tools to secure the industry at scale. To date, CertiK has worked with over 4,900 Enterprise clients, secured over $557 billion worth of digital assets, and has detected over 18,000 vulnerabilities in blockchain code. O",
+      "snippet": "Tags: Web3 Jobs • Blockchain Internship Jobs • Web3 Entry Level Jobs • Web3 Remote Jobs • Cryptocurrency Business Development Jobs • Cryptocurrency Full Time Jobs About the Company CertiK is the largest blockchain security auditor and provides a comprehensive suite of tools to secure the industry at scale. To date, CertiK has worked with over 4,900 Enterprise clients, secured over $557 billion worth of digital assets, and has detected over 18,000 vulnerabilities in blockchain",
       "extra": {},
       "signals": [
         {
@@ -1810,7 +1880,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Entry Level Jobs • Blockchain Internship Jobs • Web3 Remote Jobs • Cryptocurrency Web3 Jobs • Blockchain Stablecoin Jobs The Circle Internship Program is a 12-week immersive experience running from June 1 to August 20, 2027. As a Circle intern, you’ll gain hands-on exposure to the technologies and systems powering the future of global finance. This is a remote-first program with three in-person experiences during the summer: Circle Forward Wee",
+      "snippet": "Tags: Web3 Jobs • Blockchain Entry Level Jobs • Web3 Internship Jobs • Web3 Remote Jobs • Web3 Web3 Jobs • Blockchain Stablecoin Jobs The Circle Internship Program is a 12-week immersive experience running from June 1 to August 20, 2027. As a Circle intern, you’ll gain hands-on exposure to the technologies and systems powering the future of global finance. This is a remote-first program with three in-person experiences during the summer: Circle Forward Week (Miami, FL), New Y",
       "extra": {},
       "signals": [
         {
@@ -1885,7 +1955,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Operations Jobs • Cryptocurrency KYC Jobs • Blockchain Remote Jobs • Cryptocurrency Full Time Jobs • Web3 Web3 Jobs • Web3 Stablecoin Jobs Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchain",
+      "snippet": "Tags: Web3 Jobs • Web3 Operations Jobs • Web3 KYC Jobs • Cryptocurrency Remote Jobs • Blockchain Full Time Jobs • Cryptocurrency Web3 Jobs • Web3 Stablecoin Jobs Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By ",
       "extra": {},
       "signals": [
         {
@@ -3717,7 +3787,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Product Designer Jobs • Web3 Senior Jobs • Cryptocurrency Finance Jobs • Web3 Remote Jobs • Web3 Full Time Jobs • Blockchain Web3 Jobs About Figure Figure Technology Solutions, Inc. (Nasdaq: FIGR; OPEN: FGRS) is the leading blockchain-native capital marketplace for the origination, funding, sale and trading of tokenized assets. More than 480 partners use its loan origination system and capital marketplace. Collectively, Figure and its partners have orig",
+      "snippet": "Tags: Web3 Jobs • Blockchain Product Designer Jobs • Blockchain Senior Jobs • Cryptocurrency Finance Jobs • Cryptocurrency Remote Jobs • Blockchain Full Time Jobs • Cryptocurrency Web3 Jobs About Figure Figure Technology Solutions, Inc. (Nasdaq: FIGR; OPEN: FGRS) is the leading blockchain-native capital marketplace for the origination, funding, sale and trading of tokenized assets. More than 480 partners use its loan origination system and capital marketplace. Collectively, F",
       "extra": {},
       "signals": [
         {
@@ -3792,7 +3862,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Quality Assurance Jobs • Cryptocurrency Mobile Jobs • Web3 Remote Jobs • Blockchain Full Time Jobs • Blockchain Web3 Jobs • Web3 Stablecoin Jobs Join Tether and Shape the Future of Digital Finance. At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Quality Assurance Jobs • Cryptocurrency Mobile Jobs • Blockchain Remote Jobs • Web3 Full Time Jobs • Web3 Web3 Jobs • Web3 Stablecoin Jobs Join Tether and Shape the Future of Digital Finance. At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across block",
       "extra": {},
       "signals": [
         {
@@ -3862,7 +3932,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Backend Jobs • Blockchain Golang Jobs • Cryptocurrency Infrastructure Jobs • Web3 Remote Jobs • Cryptocurrency Full Time Jobs • Cryptocurrency Web3 Jobs • Cryptocurrency Stablecoin Jobs About the Job zerohash is looking for a Senior Blockchain Engineer to help architect and build the infrastructure that powers digital asset transactions across multiple blockchain networks. We are a high-performing team looking for an equally ambitious and driven teammat",
+      "snippet": "Tags: Web3 Jobs • Web3 Backend Jobs • Cryptocurrency Golang Jobs • Cryptocurrency Infrastructure Jobs • Cryptocurrency Remote Jobs • Cryptocurrency Full Time Jobs • Web3 Web3 Jobs • Cryptocurrency Stablecoin Jobs About the Job zerohash is looking for a Senior Blockchain Engineer to help architect and build the infrastructure that powers digital asset transactions across multiple blockchain networks. We are a high-performing team looking for an equally ambitious and driven tea",
       "extra": {},
       "signals": [
         {
@@ -3937,7 +4007,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Senior Jobs • Cryptocurrency Golang Jobs • Cryptocurrency Backend Jobs • Cryptocurrency Remote Jobs • Blockchain Full Time Jobs • Blockchain Web3 Jobs • Blockchain Stablecoin Jobs About the Job Zero Hash is looking for a Senior Software Engineer to help architect and build new features, as well as scaling the gateway to Finance 2.0. We are a high performing team looking for an equally ambitious and driven teammate.The right candidate for this position i",
+      "snippet": "Tags: Web3 Jobs • Web3 Senior Jobs • Cryptocurrency Golang Jobs • Cryptocurrency Backend Jobs • Web3 Remote Jobs • Web3 Full Time Jobs • Cryptocurrency Web3 Jobs • Web3 Stablecoin Jobs About the Job Zero Hash is looking for a Senior Software Engineer to help architect and build new features, as well as scaling the gateway to Finance 2.0. We are a high performing team looking for an equally ambitious and driven teammate.The right candidate for this position is detail oriented,",
       "extra": {},
       "signals": [
         {
@@ -4012,7 +4082,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Ai Jobs • Web3 Engineering Jobs • Cryptocurrency Remote Jobs • Blockchain Full Time Jobs • Blockchain Web3 Jobs • Web3 Stablecoin Jobs Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. B",
+      "snippet": "Tags: Web3 Jobs • Web3 Ai Jobs • Web3 Engineering Jobs • Blockchain Remote Jobs • Cryptocurrency Full Time Jobs • Blockchain Web3 Jobs • Cryptocurrency Stablecoin Jobs Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchain",
       "extra": {},
       "signals": [
         {
@@ -4082,7 +4152,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Project Manager Jobs • Web3 Junior Level Jobs • Blockchain Remote Jobs • Blockchain Full Time Jobs • Blockchain Web3 Jobs • Blockchain Stablecoin Jobs Join Tether and Shape the Future of Digital Finance. At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens ",
+      "snippet": "Tags: Web3 Jobs • Blockchain Project Manager Jobs • Blockchain Junior Level Jobs • Blockchain Remote Jobs • Cryptocurrency Full Time Jobs • Cryptocurrency Web3 Jobs • Cryptocurrency Stablecoin Jobs Join Tether and Shape the Future of Digital Finance. At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-",
       "extra": {},
       "signals": [
         {
@@ -4152,7 +4222,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Ai Jobs • Cryptocurrency Marketing Jobs • Cryptocurrency Remote Jobs • Cryptocurrency Full Time Jobs • Blockchain Web3 Jobs • Blockchain Stablecoin Jobs Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across bl",
+      "snippet": "Tags: Web3 Jobs • Web3 Ai Jobs • Blockchain Marketing Jobs • Blockchain Remote Jobs • Web3 Full Time Jobs • Blockchain Web3 Jobs • Blockchain Stablecoin Jobs Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harn",
       "extra": {},
       "signals": [
         {
@@ -4222,7 +4292,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Engineering Jobs • Blockchain Ai Jobs • Cryptocurrency Mobile Jobs • Blockchain Remote Jobs • Web3 Full Time Jobs • Web3 Web3 Jobs • Blockchain Stablecoin Jobs Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens ac",
+      "snippet": "Tags: Web3 Jobs • Blockchain Engineering Jobs • Cryptocurrency Ai Jobs • Web3 Mobile Jobs • Web3 Remote Jobs • Web3 Full Time Jobs • Blockchain Web3 Jobs • Cryptocurrency Stablecoin Jobs Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed token",
       "extra": {},
       "signals": [
         {
@@ -4292,7 +4362,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Frontend Jobs • Cryptocurrency React Jobs • Blockchain Remote Jobs • Web3 Full Time Jobs • Cryptocurrency Web3 Jobs • Web3 Stablecoin Jobs Join Tether and Shape the Future of Digital Finance. At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchai",
+      "snippet": "Tags: Web3 Jobs • Blockchain Frontend Jobs • Cryptocurrency React Jobs • Blockchain Remote Jobs • Cryptocurrency Full Time Jobs • Web3 Web3 Jobs • Cryptocurrency Stablecoin Jobs Join Tether and Shape the Future of Digital Finance. At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across",
       "extra": {},
       "signals": [
         {
@@ -4362,7 +4432,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Frontend Jobs • Web3 React Jobs • Blockchain Remote Jobs • Cryptocurrency Full Time Jobs • Cryptocurrency Web3 Jobs • Cryptocurrency Stablecoin Jobs Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockc",
+      "snippet": "Tags: Web3 Jobs • Web3 Frontend Jobs • Cryptocurrency React Jobs • Cryptocurrency Remote Jobs • Blockchain Full Time Jobs • Web3 Web3 Jobs • Cryptocurrency Stablecoin Jobs Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockc",
       "extra": {},
       "signals": [
         {
@@ -4432,7 +4502,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Full Stack Jobs • Cryptocurrency Ai Jobs • Web3 Remote Jobs • Web3 Full Time Jobs • Cryptocurrency Web3 Jobs • Web3 Stablecoin Jobs At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enabl",
+      "snippet": "Tags: Web3 Jobs • Blockchain Full Stack Jobs • Blockchain Ai Jobs • Web3 Remote Jobs • Web3 Full Time Jobs • Web3 Web3 Jobs • Web3 Stablecoin Jobs At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you t",
       "extra": {},
       "signals": [
         {
@@ -4502,7 +4572,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Python Jobs • Web3 Backend Jobs • Blockchain Security Jobs • Blockchain Remote Jobs • Blockchain Full Time Jobs • Cryptocurrency Web3 Jobs • Web3 Stablecoin Jobs About the Job zerohash's Applied AI team manages two fronts: an internal Intelligence Core (a system connectivity and control layer) and external agentic-commerce products. This role acts as the engineering backbone for both—building the access layer, audit logging, skills/agents, and system ar",
+      "snippet": "Tags: Web3 Jobs • Blockchain Python Jobs • Cryptocurrency Backend Jobs • Cryptocurrency Security Jobs • Web3 Remote Jobs • Web3 Full Time Jobs • Blockchain Web3 Jobs • Cryptocurrency Stablecoin Jobs About the Job zerohash's Applied AI team manages two fronts: an internal Intelligence Core (a system connectivity and control layer) and external agentic-commerce products. This role acts as the engineering backbone for both—building the access layer, audit logging, skills/agents,",
       "extra": {},
       "signals": [
         {
@@ -4577,7 +4647,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Data Jobs • Web3 Machine Learning Jobs • Blockchain Remote Jobs • Blockchain Full Time Jobs • Blockchain Web3 Jobs • Web3 Stablecoin Jobs About the Job This role builds a canonical entity and knowledge graph across Intelligence Core connectors to resolve identities (people, agents, systems, data entities). The entity layer supports data classification at the source to unify transaction reporting. Core Objective: Automate system-level identity, aut",
+      "snippet": "Tags: Web3 Jobs • Blockchain Data Jobs • Blockchain Machine Learning Jobs • Blockchain Remote Jobs • Blockchain Full Time Jobs • Blockchain Web3 Jobs • Blockchain Stablecoin Jobs About the Job This role builds a canonical entity and knowledge graph across Intelligence Core connectors to resolve identities (people, agents, systems, data entities). The entity layer supports data classification at the source to unify transaction reporting. Core Objective: Automate system-level i",
       "extra": {},
       "signals": [
         {
@@ -4652,7 +4722,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Business Development Jobs • Web3 Finance Jobs • Web3 Manager Jobs • Cryptocurrency Remote Jobs • Blockchain Full Time Jobs • Blockchain Web3 Jobs • Cryptocurrency Stablecoin Jobs We are seeking a highly driven Head of Financial Infrastructure Expansion to develop strategic solutions for banks, financial institutions, fintechs, payment companies, telcos, and large enterprises, institutions, governments globally. The role will act as a key bridg",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Business Development Jobs • Cryptocurrency Finance Jobs • Cryptocurrency Manager Jobs • Cryptocurrency Remote Jobs • Blockchain Full Time Jobs • Web3 Web3 Jobs • Blockchain Stablecoin Jobs We are seeking a highly driven Head of Financial Infrastructure Expansion to develop strategic solutions for banks, financial institutions, fintechs, payment companies, telcos, and large enterprises, institutions, governments globally. The role will act as a",
       "extra": {},
       "signals": [
         {
@@ -4727,7 +4797,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Mobile Jobs • Blockchain React Native Jobs • Blockchain Remote Jobs • Cryptocurrency Full Time Jobs • Web3 Web3 Jobs • Blockchain Stablecoin Jobs Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blo",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Mobile Jobs • Cryptocurrency React Native Jobs • Web3 Remote Jobs • Cryptocurrency Full Time Jobs • Blockchain Web3 Jobs • Web3 Stablecoin Jobs Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across b",
       "extra": {},
       "signals": [
         {
@@ -4797,7 +4867,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Sales Jobs • Blockchain Remote Jobs • Blockchain Full Time Jobs • Blockchain Web3 Jobs • Web3 Stablecoin Jobs As a Partner Development Associate, you’ll be the first point of contact for partners and prospective customers exploring Circle’s products. You'll evaluate fit, qualify inbound leads, and route them to the right BD or sales motion — ensuring every serious opportunity is handled with speed and care. You'll own the full qualification motion on ou",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Sales Jobs • Blockchain Remote Jobs • Web3 Full Time Jobs • Blockchain Web3 Jobs • Web3 Stablecoin Jobs As a Partner Development Associate, you’ll be the first point of contact for partners and prospective customers exploring Circle’s products. You'll evaluate fit, qualify inbound leads, and route them to the right BD or sales motion — ensuring every serious opportunity is handled with speed and care. You'll own the full qualification motion o",
       "extra": {},
       "signals": [
         {
@@ -4872,7 +4942,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Business Development Jobs • Cryptocurrency Remote Jobs • Web3 Full Time Jobs • Web3 Web3 Jobs • Cryptocurrency Stablecoin Jobs As a Partner Development Coordinator, you'll be one of the first points of contact for partners and prospective customers exploring Circle's products. Your job is to triage inbound interest, respond quickly, and make sure every lead is properly tracked and routed to the right next step. This is a role for someone who thriv",
+      "snippet": "Tags: Web3 Jobs • Blockchain Business Development Jobs • Blockchain Remote Jobs • Blockchain Full Time Jobs • Blockchain Web3 Jobs • Cryptocurrency Stablecoin Jobs As a Partner Development Coordinator, you'll be one of the first points of contact for partners and prospective customers exploring Circle's products. Your job is to triage inbound interest, respond quickly, and make sure every lead is properly tracked and routed to the right next step. This is a role for someone w",
       "extra": {},
       "signals": [
         {
@@ -4947,7 +5017,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Senior Jobs • Blockchain Data Analyst Jobs • Blockchain Remote Jobs • Blockchain Full Time Jobs • Blockchain Web3 Jobs • Cryptocurrency Stablecoin Jobs Circle has made its reputation on being compliant and transparent. As a Senior Data Analyst working on financial reporting at Circle, you’ll work closely with our product, treasury, finance, and accounting teams to ensure that we meet our reporting and regulatory requirements and continue to be",
+      "snippet": "Tags: Web3 Jobs • Web3 Senior Jobs • Cryptocurrency Data Analyst Jobs • Web3 Remote Jobs • Cryptocurrency Full Time Jobs • Web3 Web3 Jobs • Web3 Stablecoin Jobs Circle has made its reputation on being compliant and transparent. As a Senior Data Analyst working on financial reporting at Circle, you’ll work closely with our product, treasury, finance, and accounting teams to ensure that we meet our reporting and regulatory requirements and continue to be a trusted, compliant ac",
       "extra": {},
       "signals": [
         {
@@ -5022,7 +5092,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Senior Jobs • Web3 Node Js Jobs • Cryptocurrency Remote Jobs • Blockchain Full Time Jobs • Web3 Web3 Jobs • Cryptocurrency Stablecoin Jobs Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockc",
+      "snippet": "Tags: Web3 Jobs • Web3 Senior Jobs • Web3 Node Js Jobs • Web3 Remote Jobs • Blockchain Full Time Jobs • Cryptocurrency Web3 Jobs • Web3 Stablecoin Jobs Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing",
       "extra": {},
       "signals": [
         {
@@ -5092,7 +5162,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Remote Jobs • Cryptocurrency Web3 Jobs • Blockchain Research Jobs • Blockchain Developer Jobs • Blockchain Engineering Jobs • Cryptocurrency Operations Jobs • Web3 EVM Jobs • Cryptocurrency Startup Jobs • Web3 Solidity Jobs • Web3 Contract Jobs • Web3 Open Source Jobs • Blockchain Smart Contract Jobs • Cryptocurrency Ai Jobs • Web3 Full Time Jobs About Ritual Ritual is building a sovereign layer for AI. Our first phase, Infernet, is the first ",
+      "snippet": "Tags: Web3 Jobs • Blockchain Remote Jobs • Blockchain Web3 Jobs • Cryptocurrency Research Jobs • Web3 Developer Jobs • Cryptocurrency Engineering Jobs • Web3 Operations Jobs • Web3 EVM Jobs • Blockchain Startup Jobs • Cryptocurrency Solidity Jobs • Cryptocurrency Contract Jobs • Web3 Open Source Jobs • Web3 Smart Contract Jobs • Blockchain Ai Jobs • Cryptocurrency Full Time Jobs About Ritual Ritual is building a sovereign layer for AI. Our first phase, Infernet, is the first ",
       "extra": {},
       "signals": [
         {
@@ -5167,7 +5237,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Director Jobs • Web3 Sales Jobs • Cryptocurrency Remote Jobs • Cryptocurrency Full Time Jobs • Cryptocurrency Web3 Jobs • Blockchain Stablecoin Jobs About the Job As a Director of Enterprise Sales, you’ll be joining the Revenue team at zerohash to support our continued expansion in the US and globally. We are looking for a self-starting individual who has demonstrated success operating in a high-growth environment, with excellent communication skills, c",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Director Jobs • Web3 Sales Jobs • Blockchain Remote Jobs • Blockchain Full Time Jobs • Blockchain Web3 Jobs • Cryptocurrency Stablecoin Jobs About the Job As a Director of Enterprise Sales, you’ll be joining the Revenue team at zerohash to support our continued expansion in the US and globally. We are looking for a self-starting individual who has demonstrated success operating in a high-growth environment, with excellent communication skills,",
       "extra": {},
       "signals": [
         {
@@ -5458,7 +5528,7 @@
       "posted_at": "2026-08-15T00:00:25Z",
       "first_seen_at": "2026-10-20T11:08:27Z",
       "deadline": null,
-      "snippet": "Looking to start or restart your career in Software Quality Assurance?Ace IT Careers is reviewing candidates for QA Tester and QA Analyst opportunities with employers and staffing partners across the United States.This opportunity may be suitable for r... Please mention the word **SMOOTHES** and tag RNjQuMjM2LjIwMC4xMTM= when applying to show you read the job post completely (#RNjQuMjM2LjIwMC4xMTM=). This is a beta feature to avoid spam applicants. Companies can search these ",
+      "snippet": "Looking to start or restart your career in Software Quality Assurance?Ace IT Careers is reviewing candidates for QA Tester and QA Analyst opportunities with employers and staffing partners across the United States.This opportunity may be suitable for r... Please mention the word **SMOOTHES** and tag RMjAuNTEuMTk5LjE5NA== when applying to show you read the job post completely (#RMjAuNTEuMTk5LjE5NA==). This is a beta feature to avoid spam applicants. Companies can search these ",
       "extra": {
         "id": "1136701",
         "apply_url": "https://remoteOK.com/remote-jobs/remote-qa-tester-entry-level-ace-it-careers-1136701"
@@ -6252,7 +6322,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-21T06:33:12Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Remote Jobs • Web3 Web3 Jobs • Web3 Operations Jobs • Web3 Startup Jobs • Web3 Ai Jobs • Web3 Full Time Jobs About Ritual Ritual is building a sovereign layer for AI. Our first phase, Infernet, is the first product of its kind to enable developers to access models both on-chain via smart contracts and off-chain. Our next phase, the Ritual chain, will be a sovereign layer custom-built to support AI-native operations and enable a new class of ap",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Remote Jobs • Web3 Web3 Jobs • Web3 Operations Jobs • Cryptocurrency Startup Jobs • Blockchain Ai Jobs • Blockchain Full Time Jobs About Ritual Ritual is building a sovereign layer for AI. Our first phase, Infernet, is the first product of its kind to enable developers to access models both on-chain via smart contracts and off-chain. Our next phase, the Ritual chain, will be a sovereign layer custom-built to support AI-native operations and en",
       "extra": {},
       "signals": [
         {
@@ -8452,6 +8522,357 @@
       }
     },
     {
+      "id": "bb2881911e72af99",
+      "source": "himalayas",
+      "category": "job",
+      "title": "Associate Marketing Production Manager",
+      "company": "Ancestry",
+      "audience": "skilled",
+      "competition": null,
+      "audience_locked": false,
+      "url": "https://himalayas.app/companies/ancestry-com/jobs/associate-marketing-production-manager?utm_source=api",
+      "apply_url": null,
+      "location_raw": "United States",
+      "social": false,
+      "nigeria_ok": true,
+      "remote": true,
+      "payment_rails": [
+        "USD"
+      ],
+      "payment_protection": "platform",
+      "salary": {
+        "min": 57860,
+        "max": 68704,
+        "currency": "USD",
+        "period": "annual"
+      },
+      "posted_at": null,
+      "first_seen_at": "2026-10-23T05:47:41Z",
+      "deadline": null,
+      "snippet": "About Ancestry : When you join Ancestry , you join a human-centered company where every person’s story is important. Ancestry ®, the global leader in family history, connects everyone with their past so they can discover, preserve, and share their unique family stories. With our unparalleled collection of more than 65 billion records, over 3.5 million subscribers, and over 27 million people in our growing DNA network, customers can discover their family story and gain a new l",
+      "extra": {
+        "guid": "https://himalayas.app/companies/ancestry-com/jobs/associate-marketing-production-manager",
+        "timezones": [
+          -10,
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          14
+        ]
+      },
+      "signals": [
+        {
+          "id": "WK_NO_NAMED_HUMAN",
+          "severity": "weak",
+          "evidence": "No named person, company email or address"
+        },
+        {
+          "id": "PS_ESTABLISHED_BOARD",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "himalayas"
+        },
+        {
+          "id": "PS_DISCLOSED_PAY",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "salary"
+        }
+      ],
+      "tier": "screened",
+      "review": {
+        "status": "pending",
+        "by": null,
+        "at": null,
+        "note": null
+      },
+      "score": {
+        "total": 8,
+        "components": {
+          "currency": 3,
+          "protection": 1,
+          "international": 2,
+          "pay_quality": 1,
+          "freshness": 0,
+          "trending": 0,
+          "ease": 0,
+          "tier": 1
+        }
+      },
+      "sources_seen": [
+        "himalayas"
+      ],
+      "duplicate_of": null,
+      "status": "active",
+      "evidence": {
+        "domain": "himalayas.app",
+        "registered_at": "2020-04-27T11:32:29.351Z",
+        "age_days": 2366,
+        "registrar": "Namecheap Inc.",
+        "resolves": true,
+        "http_status": 403,
+        "final_url": "https://himalayas.app/companies/agrocommercial/jobs/zoho-developer-crm-automation-specialist?utm_source=api",
+        "checked_at": "2026-10-20T11:26:42Z",
+        "self_hosted": false
+      }
+    },
+    {
+      "id": "6849b21c7b4f0933",
+      "source": "himalayas",
+      "category": "job",
+      "title": "Software Engineer, AI Data - Berlin, Germany",
+      "company": "Speechify",
+      "audience": "skilled",
+      "competition": null,
+      "audience_locked": false,
+      "url": "https://himalayas.app/companies/speechify/jobs/software-engineer-ai-data-berlin-germany?utm_source=api",
+      "apply_url": null,
+      "location_raw": "Germany",
+      "social": false,
+      "nigeria_ok": null,
+      "remote": true,
+      "payment_rails": [
+        "USD"
+      ],
+      "payment_protection": "platform",
+      "salary": {
+        "min": 30000,
+        "max": 120000,
+        "currency": "USD",
+        "period": "annual"
+      },
+      "posted_at": null,
+      "first_seen_at": "2026-10-23T05:47:41Z",
+      "deadline": null,
+      "snippet": "Mission The mission of Speechify is to make sure that reading is never a barrier to learning. Over 50 million people use Speechify 's text-to-speech products to turn whatever they're reading – PDFs, books, Google Docs, news articles, websites – into audio, so they can read faster, read more, and remember more. Speechify 's text-to-speech reading products include its iOS app, Android App, Mac App, Chrome Extension, and Web App. Google recently named Speechify the Chrome Extens",
+      "extra": {
+        "guid": "https://himalayas.app/companies/speechify/jobs/software-engineer-ai-data-berlin-germany",
+        "timezones": [
+          1
+        ]
+      },
+      "signals": [
+        {
+          "id": "WK_NO_NAMED_HUMAN",
+          "severity": "weak",
+          "evidence": "No named person, company email or address"
+        },
+        {
+          "id": "PS_ESTABLISHED_BOARD",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "himalayas"
+        },
+        {
+          "id": "PS_DISCLOSED_PAY",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "salary"
+        }
+      ],
+      "tier": "screened",
+      "review": {
+        "status": "pending",
+        "by": null,
+        "at": null,
+        "note": null
+      },
+      "score": {
+        "total": 8,
+        "components": {
+          "currency": 3,
+          "protection": 1,
+          "international": 2,
+          "pay_quality": 1,
+          "freshness": 0,
+          "trending": 0,
+          "ease": 0,
+          "tier": 1
+        }
+      },
+      "sources_seen": [
+        "himalayas"
+      ],
+      "duplicate_of": null,
+      "status": "active",
+      "evidence": {
+        "domain": "himalayas.app",
+        "registered_at": "2020-04-27T11:32:29.351Z",
+        "age_days": 2366,
+        "registrar": "Namecheap Inc.",
+        "resolves": true,
+        "http_status": 403,
+        "final_url": "https://himalayas.app/companies/agrocommercial/jobs/zoho-developer-crm-automation-specialist?utm_source=api",
+        "checked_at": "2026-10-20T11:26:42Z",
+        "self_hosted": false
+      }
+    },
+    {
+      "id": "54f4f70004da517e",
+      "source": "himalayas",
+      "category": "job",
+      "title": "Sr. Regional Sales Manager",
+      "company": "Lantronix",
+      "audience": "skilled",
+      "competition": null,
+      "audience_locked": false,
+      "url": "https://himalayas.app/companies/lantronix/jobs/sr-regional-sales-manager?utm_source=api",
+      "apply_url": null,
+      "location_raw": "Germany, Portugal, Spain",
+      "social": false,
+      "nigeria_ok": null,
+      "remote": true,
+      "payment_rails": [
+        "EUR"
+      ],
+      "payment_protection": "platform",
+      "salary": {
+        "min": 87000,
+        "max": 110000,
+        "currency": "EUR",
+        "period": "annual"
+      },
+      "posted_at": null,
+      "first_seen_at": "2026-10-23T05:47:41Z",
+      "deadline": null,
+      "snippet": "**Important: An English-language resume is mandatoryforthis application.** About Lantronix At Lantronix , we are powering innovation through connected intelligence. We help customers around the world increase productivity and solve complex challenges through secure, reliable, and innovative connectivity and Edge AI solutions. We believe great companies are built by great people. Our culture is rooted in innovation, collaboration, open communication, and accountability. We enc",
+      "extra": {
+        "guid": "https://himalayas.app/companies/lantronix/jobs/sr-regional-sales-manager",
+        "timezones": [
+          -1,
+          0,
+          1
+        ]
+      },
+      "signals": [
+        {
+          "id": "PS_ESTABLISHED_BOARD",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "himalayas"
+        },
+        {
+          "id": "PS_DISCLOSED_PAY",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "salary"
+        }
+      ],
+      "tier": "screened",
+      "review": {
+        "status": "pending",
+        "by": null,
+        "at": null,
+        "note": null
+      },
+      "score": {
+        "total": 8,
+        "components": {
+          "currency": 3,
+          "protection": 1,
+          "international": 2,
+          "pay_quality": 1,
+          "freshness": 0,
+          "trending": 0,
+          "ease": 0,
+          "tier": 1
+        }
+      },
+      "sources_seen": [
+        "himalayas"
+      ],
+      "duplicate_of": null,
+      "status": "active",
+      "evidence": {
+        "domain": "himalayas.app",
+        "registered_at": "2020-04-27T11:32:29.351Z",
+        "age_days": 2366,
+        "registrar": "Namecheap Inc.",
+        "resolves": true,
+        "http_status": 403,
+        "final_url": "https://himalayas.app/companies/agrocommercial/jobs/zoho-developer-crm-automation-specialist?utm_source=api",
+        "checked_at": "2026-10-20T11:26:42Z",
+        "self_hosted": false
+      }
+    },
+    {
+      "id": "1b1f58b43f4e3968",
+      "source": "cryptojobslist",
+      "category": "job",
+      "title": "Chief Auditor",
+      "company": "MoonPay",
+      "audience": "skilled",
+      "competition": null,
+      "audience_locked": false,
+      "url": "https://cryptojobslist.com/jobs/chief-auditor-united-states-remote-at-moonpay",
+      "apply_url": null,
+      "location_raw": "United States - Remote",
+      "social": false,
+      "nigeria_ok": true,
+      "remote": true,
+      "payment_rails": [
+        "CRYPTO"
+      ],
+      "payment_protection": "platform",
+      "salary": null,
+      "posted_at": null,
+      "first_seen_at": "2026-10-23T05:47:43Z",
+      "deadline": null,
+      "snippet": "Tags: Web3 Jobs • Web3 Full Time Jobs • Web3 Remote Jobs • Blockchain Trading Jobs • Blockchain KYC Jobs • Blockchain Legal Jobs • Web3 Stablecoin Jobs About MoonPay Hi, we’re MoonPay. We’re here to onboard the world to the decentralized economy by making digital money move as universally and effortlessly as the internet. Why? Because crypto, stablecoins and blockchain aren’t just technologies. They’re tools for global financial empowerment. They give people and businesses mo",
+      "extra": {},
+      "signals": [
+        {
+          "id": "WK_NO_NAMED_HUMAN",
+          "severity": "weak",
+          "evidence": "No named person, company email or address"
+        },
+        {
+          "id": "PS_ESTABLISHED_BOARD",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "cryptojobslist"
+        }
+      ],
+      "tier": "unverified",
+      "review": {
+        "status": "pending",
+        "by": null,
+        "at": null,
+        "note": null
+      },
+      "score": {
+        "total": 8,
+        "components": {
+          "currency": 4,
+          "protection": 1,
+          "international": 3,
+          "pay_quality": 0,
+          "freshness": 0,
+          "trending": 0,
+          "ease": 0,
+          "tier": 0
+        }
+      },
+      "sources_seen": [
+        "cryptojobslist"
+      ],
+      "duplicate_of": null,
+      "status": "active",
+      "evidence": {
+        "domain": "cryptojobslist.com",
+        "registered_at": "2017-09-27T19:50:55Z",
+        "age_days": 3309,
+        "registrar": "Porkbun LLC",
+        "resolves": true,
+        "http_status": 206,
+        "final_url": "https://cryptojobslist.com/jobs/senior-technical-product-manager-keet-dubai-dubai-united-arab-emirates-at-tether-operations-limited",
+        "checked_at": "2026-10-20T11:26:45Z",
+        "self_hosted": false
+      }
+    },
+    {
       "id": "39c6103b39d31ff0",
       "source": "weworkremotely",
       "category": "job",
@@ -8632,7 +9053,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Product Manager Jobs • Blockchain Senior Jobs • Cryptocurrency Web3 Jobs • Cryptocurrency Remote Jobs • Blockchain Full Time Jobs • Blockchain Stablecoin Jobs Join Tether and Shape the Future of Digital Finance. At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Product Manager Jobs • Blockchain Senior Jobs • Web3 Web3 Jobs • Cryptocurrency Remote Jobs • Web3 Full Time Jobs • Blockchain Stablecoin Jobs Join Tether and Shape the Future of Digital Finance. At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across b",
       "extra": {},
       "signals": [
         {
@@ -8707,7 +9128,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Product Designer Jobs • Web3 Frontend Jobs • Blockchain Ai Jobs • Web3 Research Jobs • Blockchain Full Time Jobs • Blockchain Web3 Jobs About OG.com OG.com is a fast-growing, CFTC-regulated Prediction Market platform powered by cutting-edge technology. We’re building an engaging marketplace where users trade on real-world outcomes - from major sports and elections to cultural and financial events. With a sleek mobile-first app and a passionate community",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Product Designer Jobs • Cryptocurrency Frontend Jobs • Blockchain Ai Jobs • Blockchain Research Jobs • Blockchain Full Time Jobs • Blockchain Web3 Jobs About OG.com OG.com is a fast-growing, CFTC-regulated Prediction Market platform powered by cutting-edge technology. We’re building an engaging marketplace where users trade on real-world outcomes - from major sports and elections to cultural and financial events. With a sleek mobile-first app ",
       "extra": {},
       "signals": [
         {
@@ -8777,7 +9198,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Product Manager Jobs • Blockchain Finance Jobs • Blockchain Compliance Jobs • Web3 UI/UX Jobs • Blockchain Data Jobs • Cryptocurrency Web3 Jobs About Us OG is a Crypto.com company building a new prediction market experience — where it pays to be right. We combine the accessibility of a consumer app, the engagement of a social layer, and the rigor of an institutional-grade platform so fans and consumers can trade on real-world outcomes: sports,",
+      "snippet": "Tags: Web3 Jobs • Web3 Product Manager Jobs • Web3 Finance Jobs • Web3 Compliance Jobs • Blockchain UI/UX Jobs • Blockchain Data Jobs • Blockchain Web3 Jobs About Us OG is a Crypto.com company building a new prediction market experience — where it pays to be right. We combine the accessibility of a consumer app, the engagement of a social layer, and the rigor of an institutional-grade platform so fans and consumers can trade on real-world outcomes: sports, finance, politics, ",
       "extra": {},
       "signals": [
         {
@@ -8847,7 +9268,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Data Analyst Jobs • Web3 Finance Jobs • Blockchain Python Jobs • Cryptocurrency Remote Jobs • Web3 Full Time Jobs • Cryptocurrency Web3 Jobs Operating beyond the scope of conventional services or solutions engineering, Deployment Strategists function as embedded technical advisors. You will manage the entire spectrum of customer outcomes, initiating with deep discovery and investigative work and culminating in the design, integration, deployment, ",
+      "snippet": "Tags: Web3 Jobs • Blockchain Data Analyst Jobs • Cryptocurrency Finance Jobs • Cryptocurrency Python Jobs • Cryptocurrency Remote Jobs • Blockchain Full Time Jobs • Blockchain Web3 Jobs Operating beyond the scope of conventional services or solutions engineering, Deployment Strategists function as embedded technical advisors. You will manage the entire spectrum of customer outcomes, initiating with deep discovery and investigative work and culminating in the design, integrati",
       "extra": {},
       "signals": [
         {
@@ -8922,7 +9343,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Full Stack Jobs • Blockchain React Native Jobs • Cryptocurrency Senior Jobs • Blockchain Remote Jobs • Blockchain Full Time Jobs • Web3 Web3 Jobs Building the Future of Open Finance Payward - the parent company behind Kraken, NinjaTrader, Breakout, xStocks, Payward Services and CF Benchmarks - has spent the last 15 years building one of the most modern and globally accessible financial infrastructure platforms in the industry, built to advance an ",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Full Stack Jobs • Blockchain React Native Jobs • Blockchain Senior Jobs • Cryptocurrency Remote Jobs • Web3 Full Time Jobs • Cryptocurrency Web3 Jobs Building the Future of Open Finance Payward - the parent company behind Kraken, NinjaTrader, Breakout, xStocks, Payward Services and CF Benchmarks - has spent the last 15 years building one of the most modern and globally accessible financial infrastructure platforms in the industry, built to adv",
       "extra": {},
       "signals": [
         {
@@ -8997,7 +9418,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Developer Jobs • Web3 Frontend Jobs • Cryptocurrency React Jobs • Cryptocurrency Remote Jobs • Cryptocurrency Full Time Jobs Saifuro checks payments that AI agents try to make. An agent asks to spend, we compare the request with a mandate a human approved earlier, and the answer comes back signed so the receiving side can verify it. There's escrow on Base and Solana for trades between agents, and settlement is in USDC, onchain. We never hold custo",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Developer Jobs • Cryptocurrency Frontend Jobs • Blockchain React Jobs • Web3 Remote Jobs • Web3 Full Time Jobs Saifuro checks payments that AI agents try to make. An agent asks to spend, we compare the request with a mandate a human approved earlier, and the answer comes back signed so the receiving side can verify it. There's escrow on Base and Solana for trades between agents, and settlement is in USDC, onchain. We never hold customer funds.",
       "extra": {},
       "signals": [
         {
@@ -9072,7 +9493,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Legal Jobs • Web3 Contract Jobs • Web3 Finance Jobs • Blockchain Full Time Jobs • Web3 Web3 Jobs • Web3 Stablecoin Jobs At Anchorage Digital, we are building the world’s most advanced digital asset platform for institutions to participate in crypto. Anchorage Digital is a crypto platform that enables institutions to participate in digital assets through custody, staking, trading, governance, settlement, and the industry's leading security infrastructure",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Legal Jobs • Web3 Contract Jobs • Cryptocurrency Finance Jobs • Blockchain Full Time Jobs • Web3 Web3 Jobs • Web3 Stablecoin Jobs At Anchorage Digital, we are building the world’s most advanced digital asset platform for institutions to participate in crypto. Anchorage Digital is a crypto platform that enables institutions to participate in digital assets through custody, staking, trading, governance, settlement, and the industry's leading sec",
       "extra": {},
       "signals": [
         {
@@ -9142,7 +9563,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Finance Jobs • Blockchain Accounting Jobs • Cryptocurrency Operations Jobs • Blockchain Full Time Jobs • Cryptocurrency Web3 Jobs The F&A team comprises multiple functions from Financials Control & Business Performance Management, Procurement, Digital Transformation, Tax, Treasury and Operations. Together, the team optimizes our global finance initiatives and enjoys being detailed-oriented while multitasking across various exciting project scopes Respon",
+      "snippet": "Tags: Web3 Jobs • Blockchain Finance Jobs • Blockchain Accounting Jobs • Blockchain Operations Jobs • Web3 Full Time Jobs • Blockchain Web3 Jobs The F&A team comprises multiple functions from Financials Control & Business Performance Management, Procurement, Digital Transformation, Tax, Treasury and Operations. Together, the team optimizes our global finance initiatives and enjoys being detailed-oriented while multitasking across various exciting project scopes Responsibiliti",
       "extra": {},
       "signals": [
         {
@@ -9283,7 +9704,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Quality Assurance Jobs • Web3 Operations Jobs • Web3 Ai Jobs • Web3 Remote Jobs • Blockchain Full Time Jobs • Blockchain Web3 Jobs Building the Future of Open Finance Payward - the parent company behind Kraken, NinjaTrader, Breakout, xStocks, Payward Services and CF Benchmarks - has spent the last 15 years building one of the most modern and globally accessible financial infrastructure platforms in the industry, built to advance an open, globa",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Quality Assurance Jobs • Blockchain Operations Jobs • Blockchain Ai Jobs • Cryptocurrency Remote Jobs • Web3 Full Time Jobs • Web3 Web3 Jobs Building the Future of Open Finance Payward - the parent company behind Kraken, NinjaTrader, Breakout, xStocks, Payward Services and CF Benchmarks - has spent the last 15 years building one of the most modern and globally accessible financial infrastructure platforms in the industry, built to advance an o",
       "extra": {},
       "signals": [
         {
@@ -9358,7 +9779,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Analyst Jobs • Web3 Finance Jobs • Web3 Research Jobs • Cryptocurrency Content Jobs • Cryptocurrency Web3 Jobs Pantera Capital is the first institutional investment firm focused exclusively on bitcoin, other digital currencies, and companies in the blockchain tech ecosystem. Pantera launched the first cryptocurrency fund in the United States in 2013. The firm subsequently launched the first exclusively-blockchain venture fund. In 2017, Pantera was the f",
+      "snippet": "Tags: Web3 Jobs • Blockchain Analyst Jobs • Cryptocurrency Finance Jobs • Cryptocurrency Research Jobs • Blockchain Content Jobs • Blockchain Web3 Jobs Pantera Capital is the first institutional investment firm focused exclusively on bitcoin, other digital currencies, and companies in the blockchain tech ecosystem. Pantera launched the first cryptocurrency fund in the United States in 2013. The firm subsequently launched the first exclusively-blockchain venture fund. In 2017,",
       "extra": {},
       "signals": [
         {
@@ -9433,7 +9854,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Policy Jobs • Web3 Remote Jobs • Web3 Full Time Jobs • Blockchain Web3 Jobs • Blockchain Stablecoin Jobs Tempo is a layer-1 blockchain purpose-built for stablecoins and real-world payments, born from Stripe’s experience in global payments and Paradigm’s expertise in crypto tech. Tempo’s payment-first design provides a scalable, low-cost predictable backbone that meets the needs of high-volume payment use cases. Our goal is to move money reliably, cheapl",
+      "snippet": "Tags: Web3 Jobs • Web3 Policy Jobs • Blockchain Remote Jobs • Web3 Full Time Jobs • Web3 Web3 Jobs • Web3 Stablecoin Jobs Tempo is a layer-1 blockchain purpose-built for stablecoins and real-world payments, born from Stripe’s experience in global payments and Paradigm’s expertise in crypto tech. Tempo’s payment-first design provides a scalable, low-cost predictable backbone that meets the needs of high-volume payment use cases. Our goal is to move money reliably, cheaply, and",
       "extra": {},
       "signals": [
         {
@@ -9508,7 +9929,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Finance Jobs • Web3 Human Resources Jobs • Web3 Manager Jobs • Web3 Remote Jobs • Cryptocurrency Web3 Jobs About Chainlink Chainlink is the industry-standard oracle platform bringing the capital markets onchain and powering the majority of decentralized finance (DeFi). The Chainlink stack provides the essential data, interoperability, compliance, and privacy standards needed to power advanced blockchain use cases for institutional tokenized assets",
+      "snippet": "Tags: Web3 Jobs • Web3 Finance Jobs • Blockchain Human Resources Jobs • Blockchain Manager Jobs • Cryptocurrency Remote Jobs • Blockchain Web3 Jobs About Chainlink Chainlink is the industry-standard oracle platform bringing the capital markets onchain and powering the majority of decentralized finance (DeFi). The Chainlink stack provides the essential data, interoperability, compliance, and privacy standards needed to power advanced blockchain use cases for institutional toke",
       "extra": {},
       "signals": [
         {
@@ -9654,7 +10075,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Legal Jobs • Cryptocurrency Full Time Jobs • Cryptocurrency Web3 Jobs • Blockchain Stablecoin Jobs About Us OpenFX is on a mission to move money as freely as data, unrestricted by time zones, banking hours, or legacy systems. We are building the infrastructure that will power the next generation of cross-border payment systems for institutions. The team's execution has been exceptional, and we're scaling at a remarkable pace. Our stellar early team brin",
+      "snippet": "Tags: Web3 Jobs • Blockchain Legal Jobs • Web3 Full Time Jobs • Web3 Web3 Jobs • Blockchain Stablecoin Jobs About Us OpenFX is on a mission to move money as freely as data, unrestricted by time zones, banking hours, or legacy systems. We are building the infrastructure that will power the next generation of cross-border payment systems for institutions. The team's execution has been exceptional, and we're scaling at a remarkable pace. Our stellar early team brings experience ",
       "extra": {},
       "signals": [
         {
@@ -9729,7 +10150,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Engineering Manager Jobs • Blockchain Backend Jobs • Cryptocurrency Solidity Jobs • Cryptocurrency Full Time Jobs • Cryptocurrency Web3 Jobs • Web3 Stablecoin Jobs About Crossmint Global financial rails are undergoing a once-in-a-generation transformation. Instant settlement. Programmable. Agent-first. Crossmint is the infrastructure helping companies build for that future.We are the leading all-in-one stablecoin and wallet infrastructure platform, enab",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Engineering Manager Jobs • Blockchain Backend Jobs • Cryptocurrency Solidity Jobs • Web3 Full Time Jobs • Web3 Web3 Jobs • Blockchain Stablecoin Jobs About Crossmint Global financial rails are undergoing a once-in-a-generation transformation. Instant settlement. Programmable. Agent-first. Crossmint is the infrastructure helping companies build for that future.We are the leading all-in-one stablecoin and wallet infrastructure platform, enabling",
       "extra": {},
       "signals": [
         {
@@ -9799,7 +10220,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Full Stack Jobs • Web3 Engineering Jobs • Blockchain Backend Jobs • Web3 Full Time Jobs • Cryptocurrency Web3 Jobs • Web3 Stablecoin Jobs Company overview Infinite is a stablecoin payment processor. We offer businesses turnkey APIs and SDKs to instantly move money anywhere in the world at a fraction of the cost of traditional solutions. The founding team previously built and scaled products at financial services category leaders Coinbase and S",
+      "snippet": "Tags: Web3 Jobs • Blockchain Full Stack Jobs • Web3 Engineering Jobs • Web3 Backend Jobs • Cryptocurrency Full Time Jobs • Blockchain Web3 Jobs • Cryptocurrency Stablecoin Jobs Company overview Infinite is a stablecoin payment processor. We offer businesses turnkey APIs and SDKs to instantly move money anywhere in the world at a fraction of the cost of traditional solutions. The founding team previously built and scaled products at financial services category leaders Coinbase",
       "extra": {},
       "signals": [
         {
@@ -9874,7 +10295,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Mobile Jobs • Cryptocurrency React Native Jobs • Blockchain Remote Jobs • Web3 Full Time Jobs • Cryptocurrency Web3 Jobs • Web3 Stablecoin Jobs Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across b",
+      "snippet": "Tags: Web3 Jobs • Blockchain Mobile Jobs • Cryptocurrency React Native Jobs • Cryptocurrency Remote Jobs • Web3 Full Time Jobs • Blockchain Web3 Jobs • Cryptocurrency Stablecoin Jobs Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens ac",
       "extra": {},
       "signals": [
         {
@@ -9944,7 +10365,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 SRE Jobs • Blockchain Security Jobs • Cryptocurrency Infrastructure Jobs • Cryptocurrency Full Time Jobs • Web3 Web3 Jobs Responsibilities: Act as Escalation Point of Contact: Serve as the primary Level 3 escalation point for resolving complex network infrastructure, routing, and security configuration issues across both on-premise Data Centers and AWS environments. Maintain Multi-Vendor Security & Perimeter Solutions: Responsible for the configuration,",
+      "snippet": "Tags: Web3 Jobs • Blockchain SRE Jobs • Blockchain Security Jobs • Cryptocurrency Infrastructure Jobs • Blockchain Full Time Jobs • Web3 Web3 Jobs Responsibilities: Act as Escalation Point of Contact: Serve as the primary Level 3 escalation point for resolving complex network infrastructure, routing, and security configuration issues across both on-premise Data Centers and AWS environments. Maintain Multi-Vendor Security & Perimeter Solutions: Responsible for the configuratio",
       "extra": {},
       "signals": [
         {
@@ -10014,7 +10435,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Policy Jobs • Cryptocurrency Legal Jobs • Cryptocurrency Remote Jobs • Cryptocurrency Full Time Jobs • Cryptocurrency Web3 Jobs About Morpho Morpho is a leading Decentralized Finance (DeFi) lending protocol backed by a16z crypto, Paradigm, Ribbit Capital, Apollo, Vaneck, Coinbase Ventures, Variant and 50 others to build an open credit network giving anyone, anywhere, access to the best possible terms. Morpho is experiencing exponential adoptio",
+      "snippet": "Tags: Web3 Jobs • Web3 Policy Jobs • Cryptocurrency Legal Jobs • Web3 Remote Jobs • Blockchain Full Time Jobs • Cryptocurrency Web3 Jobs About Morpho Morpho is a leading Decentralized Finance (DeFi) lending protocol backed by a16z crypto, Paradigm, Ribbit Capital, Apollo, Vaneck, Coinbase Ventures, Variant and 50 others to build an open credit network giving anyone, anywhere, access to the best possible terms. Morpho is experiencing exponential adoption, with over billion in ",
       "extra": {},
       "signals": [
         {
@@ -10089,7 +10510,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Machine Learning Jobs • Blockchain Backend Jobs • Cryptocurrency Python Jobs • Web3 Full Time Jobs • Blockchain Web3 Jobs • Web3 Stablecoin Jobs Jeeves is the stablecoin-native banking platform for global enterprises. Thousands of companies across 35 countries run their corporate cards, payments, treasury and spend on one platform, with more than $5B in annualized volume, payouts to 190 countries, and one of the fastest-growing stablecoin payment ",
+      "snippet": "Tags: Web3 Jobs • Blockchain Machine Learning Jobs • Web3 Backend Jobs • Cryptocurrency Python Jobs • Blockchain Full Time Jobs • Cryptocurrency Web3 Jobs • Web3 Stablecoin Jobs Jeeves is the stablecoin-native banking platform for global enterprises. Thousands of companies across 35 countries run their corporate cards, payments, treasury and spend on one platform, with more than $5B in annualized volume, payouts to 190 countries, and one of the fastest-growing stablecoin paym",
       "extra": {},
       "signals": [
         {
@@ -10164,7 +10585,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Web3 Jobs • Cryptocurrency Developer Jobs • Web3 Trading Jobs • Blockchain Compliance Jobs • Web3 Security Jobs • Web3 Kubernetes Jobs • Web3 Java Jobs • Web3 Venture Capital Jobs • Cryptocurrency Data Jobs • Blockchain Finance Jobs • Cryptocurrency Docker Jobs • Blockchain Ai Jobs • Web3 Full Time Jobs Who We Are: Galaxy is a global leader in digital assets and data center infrastructure, delivering solutions that accelerate progress in finance and art",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Web3 Jobs • Blockchain Developer Jobs • Web3 Trading Jobs • Cryptocurrency Compliance Jobs • Blockchain Security Jobs • Web3 Kubernetes Jobs • Cryptocurrency Java Jobs • Web3 Venture Capital Jobs • Web3 Data Jobs • Cryptocurrency Finance Jobs • Cryptocurrency Docker Jobs • Web3 Ai Jobs • Web3 Full Time Jobs Who We Are: Galaxy is a global leader in digital assets and data center infrastructure, delivering solutions that accelerate progress in f",
       "extra": {},
       "signals": [
         {
@@ -10244,7 +10665,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Web3 Jobs • Blockchain Trading Jobs • Web3 Analyst Jobs • Cryptocurrency Non Tech Jobs • Cryptocurrency Legal Jobs • Web3 Business Development Jobs • Web3 Compliance Jobs • Blockchain Senior Jobs • Blockchain Security Jobs • Cryptocurrency Operations Jobs • Web3 Data Jobs • Cryptocurrency Finance Jobs • Blockchain Ai Jobs • Cryptocurrency Stablecoin Jobs • Cryptocurrency Policy Jobs • Cryptocurrency Infrastructure Jobs • Blockchain Full Time J",
+      "snippet": "Tags: Web3 Jobs • Blockchain Web3 Jobs • Web3 Trading Jobs • Cryptocurrency Analyst Jobs • Web3 Non Tech Jobs • Cryptocurrency Legal Jobs • Cryptocurrency Business Development Jobs • Blockchain Compliance Jobs • Blockchain Senior Jobs • Web3 Security Jobs • Web3 Operations Jobs • Web3 Data Jobs • Blockchain Finance Jobs • Web3 Ai Jobs • Web3 Stablecoin Jobs • Web3 Policy Jobs • Cryptocurrency Infrastructure Jobs • Web3 Full Time Jobs At Anchorage Digital, we are building the ",
       "extra": {},
       "signals": [
         {
@@ -10314,7 +10735,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Sales Jobs • Cryptocurrency Finance Jobs • Cryptocurrency Cryptography Jobs • Web3 Web3 Jobs • Web3 Stablecoin Jobs BitGo is the leading infrastructure provider of digital asset solutions, delivering custody, wallets, staking, trading, financing, and settlement services from regulated cold storage. Since our founding in 2013, we have focused on enabling our clients to securely navigate the digital asset space. With a global presence and multiple Trust c",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Sales Jobs • Blockchain Finance Jobs • Cryptocurrency Cryptography Jobs • Cryptocurrency Web3 Jobs • Web3 Stablecoin Jobs BitGo is the leading infrastructure provider of digital asset solutions, delivering custody, wallets, staking, trading, financing, and settlement services from regulated cold storage. Since our founding in 2013, we have focused on enabling our clients to securely navigate the digital asset space. With a global presence and ",
       "extra": {},
       "signals": [
         {
@@ -10389,7 +10810,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Sales Jobs • Web3 Finance Jobs • Blockchain Trading Jobs • Cryptocurrency Full Time Jobs • Cryptocurrency Web3 Jobs We are building the VIP retail franchise for CFTC-regulated prediction markets and perpetual futures — including crypto and equity perps. As VIP Sales Manager, you own a book of high-volume individual traders: acquire them, get them live, keep them trading, and turn them into durable volume. This is a relationship-first sales rol",
+      "snippet": "Tags: Web3 Jobs • Web3 Sales Jobs • Blockchain Finance Jobs • Cryptocurrency Trading Jobs • Blockchain Full Time Jobs • Cryptocurrency Web3 Jobs We are building the VIP retail franchise for CFTC-regulated prediction markets and perpetual futures — including crypto and equity perps. As VIP Sales Manager, you own a book of high-volume individual traders: acquire them, get them live, keep them trading, and turn them into durable volume. This is a relationship-first sales role fo",
       "extra": {},
       "signals": [
         {
@@ -11777,7 +12198,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T15:49:47Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Recruiter Jobs • Blockchain Sales Jobs • Blockchain Remote Jobs • Web3 Full Time Jobs • Cryptocurrency Web3 Jobs Recruiter, Sales and GTM - (Fixed Term Contract) The Talent Acquisition team at Chainalysis is responsible for scaling the most important ingredient to our success – people. Our mission is to build and execute a talent acquisition strategy that is inclusive, rigorous, and repeatable around the world. We’re looking for a Recruiter (F",
+      "snippet": "Tags: Web3 Jobs • Web3 Recruiter Jobs • Cryptocurrency Sales Jobs • Blockchain Remote Jobs • Web3 Full Time Jobs • Web3 Web3 Jobs Recruiter, Sales and GTM - (Fixed Term Contract) The Talent Acquisition team at Chainalysis is responsible for scaling the most important ingredient to our success – people. Our mission is to build and execute a talent acquisition strategy that is inclusive, rigorous, and repeatable around the world. We’re looking for a Recruiter (Fixed Term Contra",
       "extra": {},
       "signals": [
         {
@@ -11852,7 +12273,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T15:49:47Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Developer Jobs • Cryptocurrency Solidity Jobs • Cryptocurrency Smart Contract Jobs • Web3 Remote Jobs • Blockchain Full Time Jobs Saifuro checks payments that AI agents try to make. An agent asks to spend, we compare the request with a mandate a human approved earlier, and the answer comes back signed so the receiving side can verify it. There's escrow on Base and Solana for trades between agents, and settlement is in USDC, onchain. We never h",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Developer Jobs • Blockchain Solidity Jobs • Blockchain Smart Contract Jobs • Cryptocurrency Remote Jobs • Blockchain Full Time Jobs Saifuro checks payments that AI agents try to make. An agent asks to spend, we compare the request with a mandate a human approved earlier, and the answer comes back signed so the receiving side can verify it. There's escrow on Base and Solana for trades between agents, and settlement is in USDC, onchain. We never",
       "extra": {},
       "signals": [
         {
@@ -12006,7 +12427,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T19:51:59Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Compliance Jobs • Cryptocurrency Legal Jobs • Cryptocurrency Operations Jobs • Cryptocurrency Full Time Jobs This is not a big-bank compliance job. We move fast, we make decisions, and we expect you to own your function completely. What You Will Do • Serve as Finenze's designated BSA/AML Compliance Officer • Manage merchant KYB onboarding end-to-end — document collection, review, HIFI coordination, and approval • Monitor daily compliance alerts an",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Compliance Jobs • Cryptocurrency Legal Jobs • Web3 Operations Jobs • Web3 Full Time Jobs This is not a big-bank compliance job. We move fast, we make decisions, and we expect you to own your function completely. What You Will Do • Serve as Finenze's designated BSA/AML Compliance Officer • Manage merchant KYB onboarding end-to-end — document collection, review, HIFI coordination, and approval • Monitor daily compliance alerts and transaction fl",
       "extra": {},
       "signals": [
         {
@@ -12081,7 +12502,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-21T06:33:12Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Product Manager Jobs • Cryptocurrency Senior Jobs • Blockchain Bitcoin Jobs • Web3 Web3 Jobs • Cryptocurrency Full Time Jobs Blockstream was founded in 2014 by Dr. Adam Back and a group of fellow cryptographers and engineers passionate about Bitcoin and its potential to change the future of finance. Focusing on building fundamental Bitcoin infrastructure, Blockstream quickly grew into one of the leading technology power houses of the industry. Fir",
+      "snippet": "Tags: Web3 Jobs • Web3 Product Manager Jobs • Web3 Senior Jobs • Blockchain Bitcoin Jobs • Blockchain Web3 Jobs • Cryptocurrency Full Time Jobs Blockstream was founded in 2014 by Dr. Adam Back and a group of fellow cryptographers and engineers passionate about Bitcoin and its potential to change the future of finance. Focusing on building fundamental Bitcoin infrastructure, Blockstream quickly grew into one of the leading technology power houses of the industry. First announc",
       "extra": {},
       "signals": [
         {
@@ -12151,7 +12572,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-21T12:21:55Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Developer Jobs • Cryptocurrency Full Stack Jobs • Web3 Typescript Jobs • Web3 Remote Jobs • Web3 Full Time Jobs Saifuro checks payments that AI agents try to make. An agent asks to spend, we compare the request with a mandate a human approved earlier, and the answer comes back signed so the receiving side can verify it. There's escrow on Base and Solana for trades between agents, and settlement is in USDC, onchain. We never hold customer funds. The docs",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Developer Jobs • Blockchain Full Stack Jobs • Cryptocurrency Typescript Jobs • Cryptocurrency Remote Jobs • Cryptocurrency Full Time Jobs Saifuro checks payments that AI agents try to make. An agent asks to spend, we compare the request with a mandate a human approved earlier, and the answer comes back signed so the receiving side can verify it. There's escrow on Base and Solana for trades between agents, and settlement is in USDC, onchain. We",
       "extra": {},
       "signals": [
         {
@@ -12226,7 +12647,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-21T12:21:55Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Manager Jobs • Blockchain Business Development Jobs • Cryptocurrency Remote Jobs • Blockchain Full Time Jobs Saifuro checks payments that AI agents try to make. An agent asks to spend, we compare the request with a mandate a human approved earlier, and the answer comes back signed so the receiving side can verify it. There's escrow on Base and Solana for trades between agents, and settlement is in USDC, onchain. We never hold customer funds. The docs ar",
+      "snippet": "Tags: Web3 Jobs • Blockchain Manager Jobs • Cryptocurrency Business Development Jobs • Cryptocurrency Remote Jobs • Web3 Full Time Jobs Saifuro checks payments that AI agents try to make. An agent asks to spend, we compare the request with a mandate a human approved earlier, and the answer comes back signed so the receiving side can verify it. There's escrow on Base and Solana for trades between agents, and settlement is in USDC, onchain. We never hold customer funds. The doc",
       "extra": {},
       "signals": [
         {
@@ -12301,7 +12722,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-21T12:21:55Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Developer Jobs • Blockchain Smart Contract Jobs • Blockchain Rust Jobs • Cryptocurrency Remote Jobs • Web3 Full Time Jobs Saifuro checks payments that AI agents try to make. An agent asks to spend, we compare the request with a mandate a human approved earlier, and the answer comes back signed so the receiving side can verify it. There's escrow on Base and Solana for trades between agents, and settlement is in USDC, onchain. We never hold cust",
+      "snippet": "Tags: Web3 Jobs • Blockchain Developer Jobs • Cryptocurrency Smart Contract Jobs • Web3 Rust Jobs • Blockchain Remote Jobs • Cryptocurrency Full Time Jobs Saifuro checks payments that AI agents try to make. An agent asks to spend, we compare the request with a mandate a human approved earlier, and the answer comes back signed so the receiving side can verify it. There's escrow on Base and Solana for trades between agents, and settlement is in USDC, onchain. We never hold cust",
       "extra": {},
       "signals": [
         {
@@ -12376,7 +12797,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-21T17:38:14Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Remote Jobs • Cryptocurrency Web3 Jobs • Cryptocurrency Developer Jobs • Blockchain Engineering Jobs • Blockchain Full Time Jobs • Cryptocurrency Compliance Jobs • Blockchain Operations Jobs • Blockchain Move Jobs • Blockchain Startup Jobs • Blockchain Data Jobs • Cryptocurrency Finance Jobs • Cryptocurrency Ai Jobs • Web3 Stablecoin Jobs About the Company Rain makes the next generation of payments possible across the globe. We’re a lean and m",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Remote Jobs • Web3 Web3 Jobs • Web3 Developer Jobs • Blockchain Engineering Jobs • Cryptocurrency Full Time Jobs • Blockchain Compliance Jobs • Cryptocurrency Operations Jobs • Cryptocurrency Move Jobs • Web3 Startup Jobs • Blockchain Data Jobs • Blockchain Finance Jobs • Cryptocurrency Ai Jobs • Cryptocurrency Stablecoin Jobs About the Company Rain makes the next generation of payments possible across the globe. We’re a lean and mighty team o",
       "extra": {},
       "signals": [
         {
@@ -12451,7 +12872,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-21T17:38:14Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Social Media Jobs • Web3 Content Marketing Jobs • Blockchain Remote Jobs • Web3 Full Time Jobs • Cryptocurrency Web3 Jobs Building the Future of Open Finance Payward - the parent company behind Kraken, NinjaTrader, Breakout, xStocks, Payward Services and CF Benchmarks - has spent the last 15 years building one of the most modern and globally accessible financial infrastructure platforms in the industry, built to advance an open, global financial system.",
+      "snippet": "Tags: Web3 Jobs • Web3 Social Media Jobs • Web3 Content Marketing Jobs • Blockchain Remote Jobs • Blockchain Full Time Jobs • Blockchain Web3 Jobs Building the Future of Open Finance Payward - the parent company behind Kraken, NinjaTrader, Breakout, xStocks, Payward Services and CF Benchmarks - has spent the last 15 years building one of the most modern and globally accessible financial infrastructure platforms in the industry, built to advance an open, global financial syste",
       "extra": {},
       "signals": [
         {
@@ -12526,7 +12947,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-21T17:38:14Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Manager Jobs • Web3 Product Manager Jobs • Web3 Web3 Jobs • Cryptocurrency Remote Jobs • Blockchain Full Time Jobs Saifuro checks payments that AI agents try to make. An agent asks to spend, we compare the request with a mandate a human approved earlier, and the answer comes back signed so the receiving side can verify it. There's escrow on Base and Solana for trades between agents, and settlement is in USDC, onchain. We never hold customer funds.",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Manager Jobs • Web3 Product Manager Jobs • Blockchain Web3 Jobs • Web3 Remote Jobs • Web3 Full Time Jobs Saifuro checks payments that AI agents try to make. An agent asks to spend, we compare the request with a mandate a human approved earlier, and the answer comes back signed so the receiving side can verify it. There's escrow on Base and Solana for trades between agents, and settlement is in USDC, onchain. We never hold customer funds. The d",
       "extra": {},
       "signals": [
         {
@@ -12601,7 +13022,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-22T03:37:05Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Recruiter Jobs • Web3 Lead Level Jobs • Blockchain Talent Acquisition Jobs • Blockchain Remote Jobs • Cryptocurrency Full Time Jobs • Blockchain Web3 Jobs About Chainlink Chainlink is the industry-standard oracle platform bringing the capital markets onchain and powering the majority of decentralized finance (DeFi). The Chainlink stack provides the essential data, interoperability, compliance, and privacy standards needed to power advanced blockchain us",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Recruiter Jobs • Blockchain Lead Level Jobs • Blockchain Talent Acquisition Jobs • Cryptocurrency Remote Jobs • Cryptocurrency Full Time Jobs • Cryptocurrency Web3 Jobs About Chainlink Chainlink is the industry-standard oracle platform bringing the capital markets onchain and powering the majority of decentralized finance (DeFi). The Chainlink stack provides the essential data, interoperability, compliance, and privacy standards needed to powe",
       "extra": {},
       "signals": [
         {
@@ -12676,7 +13097,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-22T08:55:12Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Full Time Jobs • Cryptocurrency KYC Jobs • Blockchain Legal Jobs • Blockchain Compliance Jobs • Cryptocurrency Senior Jobs Senior Consultant – AML/KYC/BSA Knowledge – Digital Assets Forensic, Discovery, & Financial Crime Are you ready for an impactful career at the crossroads of financial crime, innovation, and technology? Do you have a passion for helping clients address anti-money laundering (AML), know your customer (KYC), and Bank Secrecy Act ",
+      "snippet": "Tags: Web3 Jobs • Blockchain Full Time Jobs • Web3 KYC Jobs • Web3 Legal Jobs • Cryptocurrency Compliance Jobs • Cryptocurrency Senior Jobs Senior Consultant – AML/KYC/BSA Knowledge – Digital Assets Forensic, Discovery, & Financial Crime Are you ready for an impactful career at the crossroads of financial crime, innovation, and technology? Do you have a passion for helping clients address anti-money laundering (AML), know your customer (KYC), and Bank Secrecy Act (BSA) challe",
       "extra": {},
       "signals": [
         {
@@ -12746,7 +13167,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-22T14:23:23Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Developer Jobs • Blockchain Ai Jobs • Blockchain Web3 Jobs • Blockchain Remote Jobs • Cryptocurrency Full Time Jobs Saifuro checks payments that AI agents try to make. An agent asks to spend, we compare the request with a mandate a human approved earlier, and the answer comes back signed so the receiving side can verify it. There's escrow on Base and Solana for trades between agents, and settlement is in USDC, onchain. We never hold customer f",
+      "snippet": "Tags: Web3 Jobs • Web3 Developer Jobs • Cryptocurrency Ai Jobs • Cryptocurrency Web3 Jobs • Cryptocurrency Remote Jobs • Blockchain Full Time Jobs Saifuro checks payments that AI agents try to make. An agent asks to spend, we compare the request with a mandate a human approved earlier, and the answer comes back signed so the receiving side can verify it. There's escrow on Base and Solana for trades between agents, and settlement is in USDC, onchain. We never hold customer fun",
       "extra": {},
       "signals": [
         {
@@ -12821,7 +13242,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-22T14:23:23Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Developer Jobs • Blockchain Infrastructure Jobs • Web3 Backend Jobs • Blockchain Remote Jobs • Cryptocurrency Full Time Jobs Saifuro checks payments that AI agents try to make. An agent asks to spend, we compare the request with a mandate a human approved earlier, and the answer comes back signed so the receiving side can verify it. There's escrow on Base and Solana for trades between agents, and settlement is in USDC, onchain. We never hold customer fu",
+      "snippet": "Tags: Web3 Jobs • Blockchain Developer Jobs • Web3 Infrastructure Jobs • Blockchain Backend Jobs • Cryptocurrency Remote Jobs • Web3 Full Time Jobs Saifuro checks payments that AI agents try to make. An agent asks to spend, we compare the request with a mandate a human approved earlier, and the answer comes back signed so the receiving side can verify it. There's escrow on Base and Solana for trades between agents, and settlement is in USDC, onchain. We never hold customer fu",
       "extra": {},
       "signals": [
         {
@@ -12896,7 +13317,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-22T14:23:23Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Sales Jobs • Blockchain Solana Jobs • Blockchain Remote Jobs • Web3 Full Time Jobs • Cryptocurrency Web3 Jobs About Alchemy Alchemy is the Web3 infrastructure and developer platform that powers millions of users and the world’s most innovative blockchain applications. From enabling $1+ trillion in financial transactions worldwide to scaling L2s and enabling DeFi, Alchemy provides the infrastructure and tools developers need to build reliable, ",
+      "snippet": "Tags: Web3 Jobs • Blockchain Sales Jobs • Web3 Solana Jobs • Blockchain Remote Jobs • Cryptocurrency Full Time Jobs • Blockchain Web3 Jobs About Alchemy Alchemy is the Web3 infrastructure and developer platform that powers millions of users and the world’s most innovative blockchain applications. From enabling $1+ trillion in financial transactions worldwide to scaling L2s and enabling DeFi, Alchemy provides the infrastructure and tools developers need to build reliable, scal",
       "extra": {},
       "signals": [
         {
@@ -12971,7 +13392,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-22T14:23:23Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Compliance Jobs • Blockchain Legal Jobs • Web3 Finance Jobs • Blockchain Manager Jobs • Cryptocurrency Full Time Jobs • Cryptocurrency Web3 Jobs • Blockchain Stablecoin Jobs Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine spe",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Compliance Jobs • Blockchain Legal Jobs • Web3 Finance Jobs • Cryptocurrency Manager Jobs • Cryptocurrency Full Time Jobs • Cryptocurrency Web3 Jobs • Blockchain Stablecoin Jobs Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine",
       "extra": {},
       "signals": [
         {
@@ -13046,7 +13467,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-22T14:23:23Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Manager Jobs • Blockchain Social Media Jobs • Cryptocurrency Non Tech Jobs • Web3 Remote Jobs • Web3 Full Time Jobs Saifuro checks payments that AI agents try to make. An agent asks to spend, we compare the request with a mandate a human approved earlier, and the answer comes back signed so the receiving side can verify it. There's escrow on Base and Solana for trades between agents, and settlement is in USDC, onchain. We never hold customer funds. The ",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Manager Jobs • Web3 Social Media Jobs • Cryptocurrency Non Tech Jobs • Cryptocurrency Remote Jobs • Cryptocurrency Full Time Jobs Saifuro checks payments that AI agents try to make. An agent asks to spend, we compare the request with a mandate a human approved earlier, and the answer comes back signed so the receiving side can verify it. There's escrow on Base and Solana for trades between agents, and settlement is in USDC, onchain. We never h",
       "extra": {},
       "signals": [
         {
@@ -13208,7 +13629,82 @@
       "posted_at": null,
       "first_seen_at": "2026-10-22T18:47:02Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Remote Jobs • Blockchain Full Time Jobs Turn Privacy-Preserving Verification into Real-World Adoption Verilay is building privacy-preserving identity and credential-verification infrastructure. Our goal is to make trusted credentials reusable across services, so businesses can verify what matters without repeatedly collecting sensitive personal data. We're looking for a hands-on, crypto-native Growth & Partnerships Lead to own our early expans",
+      "snippet": "Tags: Web3 Jobs • Web3 Remote Jobs • Cryptocurrency Full Time Jobs Turn Privacy-Preserving Verification into Real-World Adoption Verilay is building privacy-preserving identity and credential-verification infrastructure. Our goal is to make trusted credentials reusable across services, so businesses can verify what matters without repeatedly collecting sensitive personal data. We're looking for a hands-on, crypto-native Growth & Partnerships Lead to own our early expansion: i",
+      "extra": {},
+      "signals": [
+        {
+          "id": "WK_NO_NAMED_HUMAN",
+          "severity": "weak",
+          "evidence": "No named person, company email or address"
+        },
+        {
+          "id": "PS_ESTABLISHED_BOARD",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "cryptojobslist"
+        }
+      ],
+      "tier": "unverified",
+      "review": {
+        "status": "pending",
+        "by": null,
+        "at": null,
+        "note": null
+      },
+      "score": {
+        "total": 7,
+        "components": {
+          "currency": 4,
+          "protection": 1,
+          "international": 2,
+          "pay_quality": 0,
+          "freshness": 0,
+          "trending": 0,
+          "ease": 0,
+          "tier": 0
+        }
+      },
+      "sources_seen": [
+        "cryptojobslist"
+      ],
+      "duplicate_of": null,
+      "status": "active",
+      "evidence": {
+        "domain": "cryptojobslist.com",
+        "registered_at": "2017-09-27T19:50:55Z",
+        "age_days": 3309,
+        "registrar": "Porkbun LLC",
+        "resolves": true,
+        "http_status": 206,
+        "final_url": "https://cryptojobslist.com/jobs/senior-technical-product-manager-keet-dubai-dubai-united-arab-emirates-at-tether-operations-limited",
+        "checked_at": "2026-10-20T11:26:45Z",
+        "self_hosted": false
+      }
+    },
+    {
+      "id": "bd1578cc64a29f60",
+      "source": "cryptojobslist",
+      "category": "job",
+      "title": "Graduate DeFi Algorithmic Trader",
+      "company": "Wintermute",
+      "audience": "skilled",
+      "competition": null,
+      "audience_locked": false,
+      "url": "https://cryptojobslist.com/jobs/graduate-defi-algorithmic-trader-singapore-at-wintermute",
+      "apply_url": null,
+      "location_raw": "Singapore",
+      "social": false,
+      "nigeria_ok": null,
+      "remote": true,
+      "payment_rails": [
+        "CRYPTO"
+      ],
+      "payment_protection": "platform",
+      "salary": null,
+      "posted_at": null,
+      "first_seen_at": "2026-10-23T05:47:43Z",
+      "deadline": null,
+      "snippet": "Tags: Web3 Jobs • Blockchain Trading Jobs • Web3 Junior Level Jobs • Cryptocurrency DeFi Jobs • Web3 Full Time Jobs • Cryptocurrency Web3 Jobs About Wintermute Wintermute is a technology unicorn and one of the largest algorithmic trading companies, specialising in digital assets. We provide liquidity across most cryptocurrency exchanges and trading platforms, a broad range of OTC trading solutions as well as supporting high profile blockchain projects and traditional financia",
       "extra": {},
       "signals": [
         {
@@ -17615,85 +18111,6 @@
       }
     },
     {
-      "id": "542bb9c124b62afa",
-      "source": "weworkremotely",
-      "category": "job",
-      "title": "Full-Cycle Sales & Success Manager",
-      "company": "Reframe Space Inc.",
-      "audience": "skilled",
-      "competition": null,
-      "audience_locked": false,
-      "url": "https://weworkremotely.com/remote-jobs/reframe-space-inc-full-cycle-sales-success-manager",
-      "apply_url": null,
-      "location_raw": "Anywhere in the World",
-      "social": false,
-      "nigeria_ok": true,
-      "remote": true,
-      "payment_rails": [
-        "unknown"
-      ],
-      "payment_protection": "platform",
-      "salary": null,
-      "posted_at": "2026-10-19T23:56:15Z",
-      "first_seen_at": "2026-10-20T11:08:33Z",
-      "deadline": "2026-11-18T23:56:15Z",
-      "snippet": "Headquarters: California URL: http://www.reframespace.com Location: Flexible (must be able to work from a local coworking space) Travel: Occasional travel to the U.S. required About Us: We are a fast-growing startup in the fastest-growing segment of the office furniture space, innovating solutions to resolve the culture clash between open office environments and video conferencing areas. Profitable within six months, we are rapidly expanding our team and looking for an experi",
-      "extra": {
-        "category": "Sales and Marketing",
-        "type": "Full-Time",
-        "country": ""
-      },
-      "signals": [
-        {
-          "id": "WK_NO_NAMED_HUMAN",
-          "severity": "weak",
-          "evidence": "No named person, company email or address"
-        },
-        {
-          "id": "PS_ESTABLISHED_BOARD",
-          "severity": "positive",
-          "support": 1,
-          "evidence": "weworkremotely"
-        }
-      ],
-      "tier": "unverified",
-      "review": {
-        "status": "pending",
-        "by": null,
-        "at": null,
-        "note": null
-      },
-      "score": {
-        "total": 4,
-        "components": {
-          "currency": 0,
-          "protection": 1,
-          "international": 3,
-          "pay_quality": 0,
-          "freshness": 0,
-          "trending": 0,
-          "ease": 0,
-          "tier": 0
-        }
-      },
-      "sources_seen": [
-        "weworkremotely"
-      ],
-      "duplicate_of": null,
-      "status": "active",
-      "evidence": {
-        "domain": "weworkremotely.com",
-        "registered_at": "2013-09-25T02:24:59Z",
-        "age_days": 4773,
-        "registrar": "1API GmbH",
-        "resolves": true,
-        "http_status": 200,
-        "final_url": "https://weworkremotely.com/remote-jobs/datadog-manager-ii-developer-advocacy",
-        "checked_at": "2026-10-20T11:26:33Z",
-        "self_hosted": false
-      }
-    },
-    {
       "id": "7263f73fcb931144",
       "source": "remoteok",
       "category": "job",
@@ -19550,6 +19967,85 @@
         "http_status": 200,
         "final_url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-sothebys-1137545",
         "checked_at": "2026-10-20T11:26:36Z",
+        "self_hosted": false
+      }
+    },
+    {
+      "id": "542bb9c124b62afa",
+      "source": "weworkremotely",
+      "category": "job",
+      "title": "Full-Cycle Sales & Success Manager",
+      "company": "Reframe Space Inc.",
+      "audience": "skilled",
+      "competition": null,
+      "audience_locked": false,
+      "url": "https://weworkremotely.com/remote-jobs/reframe-space-inc-full-cycle-sales-success-manager",
+      "apply_url": null,
+      "location_raw": "Anywhere in the World",
+      "social": false,
+      "nigeria_ok": true,
+      "remote": true,
+      "payment_rails": [
+        "unknown"
+      ],
+      "payment_protection": "platform",
+      "salary": null,
+      "posted_at": "2026-10-19T23:56:15Z",
+      "first_seen_at": "2026-10-20T11:08:33Z",
+      "deadline": "2026-11-18T23:56:15Z",
+      "snippet": "Headquarters: California URL: http://www.reframespace.com Location: Flexible (must be able to work from a local coworking space) Travel: Occasional travel to the U.S. required About Us: We are a fast-growing startup in the fastest-growing segment of the office furniture space, innovating solutions to resolve the culture clash between open office environments and video conferencing areas. Profitable within six months, we are rapidly expanding our team and looking for an experi",
+      "extra": {
+        "category": "Sales and Marketing",
+        "type": "Full-Time",
+        "country": ""
+      },
+      "signals": [
+        {
+          "id": "WK_NO_NAMED_HUMAN",
+          "severity": "weak",
+          "evidence": "No named person, company email or address"
+        },
+        {
+          "id": "PS_ESTABLISHED_BOARD",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "weworkremotely"
+        }
+      ],
+      "tier": "unverified",
+      "review": {
+        "status": "pending",
+        "by": null,
+        "at": null,
+        "note": null
+      },
+      "score": {
+        "total": 4,
+        "components": {
+          "currency": 0,
+          "protection": 1,
+          "international": 3,
+          "pay_quality": 0,
+          "freshness": 0,
+          "trending": 0,
+          "ease": 0,
+          "tier": 0
+        }
+      },
+      "sources_seen": [
+        "weworkremotely"
+      ],
+      "duplicate_of": null,
+      "status": "active",
+      "evidence": {
+        "domain": "weworkremotely.com",
+        "registered_at": "2013-09-25T02:24:59Z",
+        "age_days": 4773,
+        "registrar": "1API GmbH",
+        "resolves": true,
+        "http_status": 200,
+        "final_url": "https://weworkremotely.com/remote-jobs/datadog-manager-ii-developer-advocacy",
+        "checked_at": "2026-10-20T11:26:33Z",
         "self_hosted": false
       }
     },
@@ -21620,7 +22116,7 @@
       "posted_at": "2026-10-18T19:00:02Z",
       "first_seen_at": "2026-10-20T11:08:26Z",
       "deadline": null,
-      "snippet": "Remote - Established in 1744, Sothebyâs promotes access and ownership of exceptional art and luxury objects through auctions, private sales and retail. Our deep expertise across 70 selling categories is supported by a leading technology platform and a global network of special... Please mention the word **EVALUATIVE** and tag RNjQuMjM2LjIwMC4xMTM= when applying to show you read the job post completely (#RNjQuMjM2LjIwMC4xMTM=). This is a beta feature to avoid spam applicants",
+      "snippet": "Remote - Established in 1744, Sothebyâs promotes access and ownership of exceptional art and luxury objects through auctions, private sales and retail. Our deep expertise across 70 selling categories is supported by a leading technology platform and a global network of special... Please mention the word **EVALUATIVE** and tag RMjAuNTEuMTk5LjE5NA== when applying to show you read the job post completely (#RMjAuNTEuMTk5LjE5NA==). This is a beta feature to avoid spam applicants",
       "extra": {
         "id": "1137545",
         "apply_url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-sothebys-1137545"
@@ -21709,7 +22205,7 @@
       "posted_at": "2026-10-18T18:00:01Z",
       "first_seen_at": "2026-10-20T11:08:26Z",
       "deadline": null,
-      "snippet": "Remote - Rain is the world's first AI Financial Health Platform, serving 3.5 million employees at leading organizations like McDonald's, Marriott, and T-Mobile. Rain works in the background to optimize every employee's financial life to prevent shortfalls and build long-term sta... Please mention the word **COVENANT** and tag RNjQuMjM2LjIwMC4xMTM= when applying to show you read the job post completely (#RNjQuMjM2LjIwMC4xMTM=). This is a beta feature to avoid spam applicants. ",
+      "snippet": "Remote - Rain is the world's first AI Financial Health Platform, serving 3.5 million employees at leading organizations like McDonald's, Marriott, and T-Mobile. Rain works in the background to optimize every employee's financial life to prevent shortfalls and build long-term sta... Please mention the word **COVENANT** and tag RMjAuNTEuMTk5LjE5NA== when applying to show you read the job post completely (#RMjAuNTEuMTk5LjE5NA==). This is a beta feature to avoid spam applicants. ",
       "extra": {
         "id": "1137544",
         "apply_url": "https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-rain-1137544"
@@ -24739,7 +25235,7 @@
       "posted_at": "2026-10-05T13:00:02Z",
       "first_seen_at": "2026-10-20T11:08:27Z",
       "deadline": null,
-      "snippet": "Remote - Location: Mostly remote (within Germany), with monthly in-person collaboration at our Berlin officeHours: Part-time, 32 hours per weekContract: Fixed-termSalary: EUR 53,000 â 59,000 (at 32 hours per week)We are building a new capability that turns fragmented,... Please mention the word **THRIFTY** and tag RNjQuMjM2LjIwMC4xMTM= when applying to show you read the job post completely (#RNjQuMjM2LjIwMC4xMTM=). This is a beta feature to avoid spam applicants. Companies ",
+      "snippet": "Remote - Location: Mostly remote (within Germany), with monthly in-person collaboration at our Berlin officeHours: Part-time, 32 hours per weekContract: Fixed-termSalary: EUR 53,000 â 59,000 (at 32 hours per week)We are building a new capability that turns fragmented,... Please mention the word **THRIFTY** and tag RMjAuNTEuMTk5LjE5NA== when applying to show you read the job post completely (#RMjAuNTEuMTk5LjE5NA==). This is a beta feature to avoid spam applicants. Companies ",
       "extra": {
         "id": "1137465",
         "apply_url": "https://remoteOK.com/remote-jobs/remote-platform-and-integration-engineer-security-telemetry-redmimicry-1137465"
@@ -25184,7 +25680,7 @@
       "posted_at": "2026-09-23T14:00:02Z",
       "first_seen_at": "2026-10-20T11:08:27Z",
       "deadline": null,
-      "snippet": "Remote - Prenosis Inc. is an artificial intelligence company pioneering precision medicine in acute care. Our Immunixâ¢ precision medicine platform drives the development of precision products and enables real-time delivery of optimal therapy. We've created and validated the fi... Please mention the word **STELLARLY** and tag RNjQuMjM2LjIwMC4xMTM= when applying to show you read the job post completely (#RNjQuMjM2LjIwMC4xMTM=). This is a beta feature to avoid spam applicants.",
+      "snippet": "Remote - Prenosis Inc. is an artificial intelligence company pioneering precision medicine in acute care. Our Immunixâ¢ precision medicine platform drives the development of precision products and enables real-time delivery of optimal therapy. We've created and validated the fi... Please mention the word **STELLARLY** and tag RMjAuNTEuMTk5LjE5NA== when applying to show you read the job post completely (#RMjAuNTEuMTk5LjE5NA==). This is a beta feature to avoid spam applicants.",
       "extra": {
         "id": "1137427",
         "apply_url": "https://remoteOK.com/remote-jobs/remote-software-engineer-prenosis-1137427"
@@ -25629,7 +26125,7 @@
       "posted_at": "2026-09-16T19:00:02Z",
       "first_seen_at": "2026-10-20T11:08:27Z",
       "deadline": null,
-      "snippet": "Remote - Arango delivers a unified, natively multimodel contextual data platform that powers AI agents, assistants, and applications with the unified, current, and trusted business context needed to reason, decide, and act at scale.The Arango Contextual Data Platform connects... Please mention the word **FESTIVE** and tag RNjQuMjM2LjIwMC4xMTM= when applying to show you read the job post completely (#RNjQuMjM2LjIwMC4xMTM=). This is a beta feature to avoid spam applicants. Comp",
+      "snippet": "Remote - Arango delivers a unified, natively multimodel contextual data platform that powers AI agents, assistants, and applications with the unified, current, and trusted business context needed to reason, decide, and act at scale.The Arango Contextual Data Platform connects... Please mention the word **FESTIVE** and tag RMjAuNTEuMTk5LjE5NA== when applying to show you read the job post completely (#RMjAuNTEuMTk5LjE5NA==). This is a beta feature to avoid spam applicants. Comp",
       "extra": {
         "id": "1137400",
         "apply_url": "https://remoteOK.com/remote-jobs/remote-golang-kubernetes-engineer-arango-1137400"
@@ -25807,7 +26303,7 @@
       "posted_at": "2026-09-12T14:00:03Z",
       "first_seen_at": "2026-10-20T11:08:27Z",
       "deadline": null,
-      "snippet": "Remote - Mirantis, an IREN company, is the Kubernetes-native AI infrastructure company, enabling organizations to build and operate scalable, secure, and sovereign infrastructure for modern AI, machine learning, and data-intensive applications. By combining open source innovatio... Please mention the word **SEAMLESS** and tag RNjQuMjM2LjIwMC4xMTM= when applying to show you read the job post completely (#RNjQuMjM2LjIwMC4xMTM=). This is a beta feature to avoid spam applicants. ",
+      "snippet": "Remote - Mirantis, an IREN company, is the Kubernetes-native AI infrastructure company, enabling organizations to build and operate scalable, secure, and sovereign infrastructure for modern AI, machine learning, and data-intensive applications. By combining open source innovatio... Please mention the word **SEAMLESS** and tag RMjAuNTEuMTk5LjE5NA== when applying to show you read the job post completely (#RMjAuNTEuMTk5LjE5NA==). This is a beta feature to avoid spam applicants. ",
       "extra": {
         "id": "1137387",
         "apply_url": "https://remoteOK.com/remote-jobs/remote-software-engineer-mirantis-1137387"
@@ -26163,7 +26659,7 @@
       "posted_at": "2026-08-30T21:00:01Z",
       "first_seen_at": "2026-10-20T11:08:27Z",
       "deadline": null,
-      "snippet": "Remote - Before you read further: applying to this role requires a Loom video walkthrough under 5 minutes of the best thing you have built, plus a repo or live link. Tell us the hardest problem you hit and how you solved it. Focus on architecture decisions and tradeoffs, not a f... Please mention the word **CHARMINGLY** and tag RNjQuMjM2LjIwMC4xMTM= when applying to show you read the job post completely (#RNjQuMjM2LjIwMC4xMTM=). This is a beta feature to avoid spam applicants",
+      "snippet": "Remote - Before you read further: applying to this role requires a Loom video walkthrough under 5 minutes of the best thing you have built, plus a repo or live link. Tell us the hardest problem you hit and how you solved it. Focus on architecture decisions and tradeoffs, not a f... Please mention the word **CHARMINGLY** and tag RMjAuNTEuMTk5LjE5NA== when applying to show you read the job post completely (#RMjAuNTEuMTk5LjE5NA==). This is a beta feature to avoid spam applicants",
       "extra": {
         "id": "1137224",
         "apply_url": "https://remoteOK.com/remote-jobs/remote-ai-engineer-data-apis-benzinga-1137224"
@@ -26252,7 +26748,7 @@
       "posted_at": "2026-08-27T09:00:02Z",
       "first_seen_at": "2026-10-20T11:08:27Z",
       "deadline": null,
-      "snippet": "Remote - About AIWIAIWI is an independent non-profit that exists to ensure that insiders at frontier AI companies can speak up safely and effectively when they see something that should be addressed. We do this by integrating the ecosystem of lawyers, AI researchers, AI advoc... Please mention the word **EARNESTNESS** and tag RNjQuMjM2LjIwMC4xMTM= when applying to show you read the job post completely (#RNjQuMjM2LjIwMC4xMTM=). This is a beta feature to avoid spam applicants. ",
+      "snippet": "Remote - About AIWIAIWI is an independent non-profit that exists to ensure that insiders at frontier AI companies can speak up safely and effectively when they see something that should be addressed. We do this by integrating the ecosystem of lawyers, AI researchers, AI advoc... Please mention the word **EARNESTNESS** and tag RMjAuNTEuMTk5LjE5NA== when applying to show you read the job post completely (#RMjAuNTEuMTk5LjE5NA==). This is a beta feature to avoid spam applicants. ",
       "extra": {
         "id": "1137162",
         "apply_url": "https://remoteOK.com/remote-jobs/remote-principal-engineer-the-ai-whistleblower-initiative-1137162"
@@ -26430,7 +26926,7 @@
       "posted_at": "2026-08-25T07:00:03Z",
       "first_seen_at": "2026-10-20T11:08:27Z",
       "deadline": null,
-      "snippet": "Remote - Most sales tools help you send emails. Weâre building something different.At Salesforge, weâre creating autonomous AI agents that can:Find the right prospectsGenerate highly personalized outreachRun conversationsAnd book meetingsAll without human invo... Please mention the word **EMPATHY** and tag RNjQuMjM2LjIwMC4xMTM= when applying to show you read the job post completely (#RNjQuMjM2LjIwMC4xMTM=). This is a beta feature to avoid spam applicants. Companies can se",
+      "snippet": "Remote - Most sales tools help you send emails. Weâre building something different.At Salesforge, weâre creating autonomous AI agents that can:Find the right prospectsGenerate highly personalized outreachRun conversationsAnd book meetingsAll without human invo... Please mention the word **EMPATHY** and tag RMjAuNTEuMTk5LjE5NA== when applying to show you read the job post completely (#RMjAuNTEuMTk5LjE5NA==). This is a beta feature to avoid spam applicants. Companies can se",
       "extra": {
         "id": "1137114",
         "apply_url": "https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-build-ai-agents-salesforge-1137114"
@@ -30376,7 +30872,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Data Jobs • Blockchain Senior Jobs • Web3 Full Time Jobs • Web3 Remote Jobs • Web3 Bitcoin Jobs • Blockchain Web3 Jobs At Shakepay, we’re on a mission to usher in the Bitcoin golden age. We’re reimagining financial services to give every Canadian their fair shake.Our culture is built around doing work that matters, winning as a team, and celebrating success. If you're the kind of person who values growth, shipping fast, and sharing your ideas ",
+      "snippet": "Tags: Web3 Jobs • Web3 Data Jobs • Blockchain Senior Jobs • Web3 Full Time Jobs • Blockchain Remote Jobs • Blockchain Bitcoin Jobs • Cryptocurrency Web3 Jobs At Shakepay, we’re on a mission to usher in the Bitcoin golden age. We’re reimagining financial services to give every Canadian their fair shake.Our culture is built around doing work that matters, winning as a team, and celebrating success. If you're the kind of person who values growth, shipping fast, and sharing your ",
       "extra": {},
       "signals": [
         {
@@ -30446,7 +30942,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Solidity Jobs • Blockchain Frontend Jobs • Blockchain Java Jobs • Web3 Smart Contract Jobs • Blockchain Security Jobs • Blockchain Remote Jobs • Web3 Web3 Jobs About the Company One of the fastest-growing and most trusted companies in blockchain security, CertiK is a true market leader. To date, CertiK has worked with over 4,798 clients, secured over $597 billion worth of digital assets, and has monitored over 17,000 projects. Our clients include ",
+      "snippet": "Tags: Web3 Jobs • Web3 Solidity Jobs • Blockchain Frontend Jobs • Blockchain Java Jobs • Cryptocurrency Smart Contract Jobs • Cryptocurrency Security Jobs • Cryptocurrency Remote Jobs • Blockchain Web3 Jobs About the Company One of the fastest-growing and most trusted companies in blockchain security, CertiK is a true market leader. To date, CertiK has worked with over 4,798 clients, secured over $597 billion worth of digital assets, and has monitored over 17,000 projects. Ou",
       "extra": {},
       "signals": [
         {
@@ -30521,7 +31017,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Security Jobs • Web3 Research Jobs • Cryptocurrency Community Jobs • Web3 Marketing Jobs • Web3 Web3 Jobs • Cryptocurrency Remote Jobs About the Company Born from groundbreaking research at Columbia University and Yale University, CertiK is a leading Web3 security company focused on securing blockchain protocols, smart contracts, and decentralized applications through cutting-edge security research, formal verification, and AI-powered technolo",
+      "snippet": "Tags: Web3 Jobs • Blockchain Security Jobs • Blockchain Research Jobs • Web3 Community Jobs • Web3 Marketing Jobs • Web3 Web3 Jobs • Blockchain Remote Jobs About the Company Born from groundbreaking research at Columbia University and Yale University, CertiK is a leading Web3 security company focused on securing blockchain protocols, smart contracts, and decentralized applications through cutting-edge security research, formal verification, and AI-powered technology. Founded ",
       "extra": {},
       "signals": [
         {
@@ -30596,7 +31092,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Human Resources Jobs • Blockchain Senior Jobs • Cryptocurrency Remote Jobs • Web3 Full Time Jobs • Web3 Web3 Jobs At Shakepay, we’re on a mission to usher in the Bitcoin golden age. We’re reimagining financial services to give every Canadian their fair shake.Our culture is built around doing work that matters, winning as a team, and celebrating success. If you're the kind of person who values growth, shipping fast, and sharing your ideas openly with a g",
+      "snippet": "Tags: Web3 Jobs • Web3 Human Resources Jobs • Blockchain Senior Jobs • Blockchain Remote Jobs • Blockchain Full Time Jobs • Cryptocurrency Web3 Jobs At Shakepay, we’re on a mission to usher in the Bitcoin golden age. We’re reimagining financial services to give every Canadian their fair shake.Our culture is built around doing work that matters, winning as a team, and celebrating success. If you're the kind of person who values growth, shipping fast, and sharing your ideas ope",
       "extra": {},
       "signals": [
         {
@@ -30666,7 +31162,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Security Jobs • Web3 Smart Contract Jobs • Blockchain Backend Jobs • Web3 Rust Jobs • Blockchain Web3 Jobs About the Company Founded in 2018 by professors of Yale University and Columbia University, CertiK is a pioneer in blockchain security, utilizing best-in-class AI technology to secure and monitor blockchain protocols and smart contracts. CertiK’s mission is to secure the cyber world. Starting with blockchain, CertiK applies cutting-edge i",
+      "snippet": "Tags: Web3 Jobs • Blockchain Security Jobs • Web3 Smart Contract Jobs • Blockchain Backend Jobs • Cryptocurrency Rust Jobs • Web3 Web3 Jobs About the Company Founded in 2018 by professors of Yale University and Columbia University, CertiK is a pioneer in blockchain security, utilizing best-in-class AI technology to secure and monitor blockchain protocols and smart contracts. CertiK’s mission is to secure the cyber world. Starting with blockchain, CertiK applies cutting-edge i",
       "extra": {},
       "signals": [
         {
@@ -33593,7 +34089,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-21T17:38:14Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Finance Jobs • Cryptocurrency Entry Level Jobs • Web3 Remote Jobs • Web3 Full Time Jobs • Web3 Web3 Jobs About CertiK Born from groundbreaking research at Columbia and Yale, CertiK has grown to become the largest Web3 security platform, combining proprietary models with comprehensive security solutions and end-to-end toolkits to support the full lifecycle of Web3 development. Founded in 2017 and headquartered in New York City, CertiK provides a wide ran",
+      "snippet": "Tags: Web3 Jobs • Blockchain Finance Jobs • Web3 Entry Level Jobs • Web3 Remote Jobs • Cryptocurrency Full Time Jobs • Blockchain Web3 Jobs About CertiK Born from groundbreaking research at Columbia and Yale, CertiK has grown to become the largest Web3 security platform, combining proprietary models with comprehensive security solutions and end-to-end toolkits to support the full lifecycle of Web3 development. Founded in 2017 and headquartered in New York City, CertiK provide",
       "extra": {},
       "signals": [
         {
@@ -35313,6 +35809,646 @@
       }
     },
     {
+      "id": "3080e9b439a27386",
+      "source": "himalayas",
+      "category": "job",
+      "title": "Fullstack engineer Java + Angular  (100% teletrabajo)",
+      "company": "knowmad mood",
+      "audience": "skilled",
+      "competition": null,
+      "audience_locked": false,
+      "url": "https://himalayas.app/companies/knowmad-mood/jobs/fullstack-engineer-java-angular-100-teletrabajo?utm_source=api",
+      "apply_url": null,
+      "location_raw": "Spain",
+      "social": false,
+      "nigeria_ok": null,
+      "remote": true,
+      "payment_rails": [
+        "unknown"
+      ],
+      "payment_protection": "platform",
+      "salary": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": "annual"
+      },
+      "posted_at": null,
+      "first_seen_at": "2026-10-23T05:47:41Z",
+      "deadline": null,
+      "snippet": "We are knowmad mood ! Somos una compañía líder en transformación digital, en constante evolución y a la vanguardia de la tecnología. Nacimos para provocar un cambio real a través de la innovación y el desarrollo sostenible, con la misión de aportar valor a los clientes e impulsar nuestro talento. Formado por más de 3.000 personas creativas, digitales e innovadoras conectadas a un propósito y capaces de generar conexiones con personas de todo el mundo. Un equipo responsable, f",
+      "extra": {
+        "guid": "https://himalayas.app/companies/knowmad-mood/jobs/fullstack-engineer-java-angular-100-teletrabajo",
+        "timezones": [
+          0,
+          1
+        ]
+      },
+      "signals": [
+        {
+          "id": "WK_NO_NAMED_HUMAN",
+          "severity": "weak",
+          "evidence": "No named person, company email or address"
+        },
+        {
+          "id": "PS_ESTABLISHED_BOARD",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "himalayas"
+        },
+        {
+          "id": "PS_DISCLOSED_PAY",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "salary"
+        }
+      ],
+      "tier": "screened",
+      "review": {
+        "status": "pending",
+        "by": null,
+        "at": null,
+        "note": null
+      },
+      "score": {
+        "total": 4,
+        "components": {
+          "currency": 0,
+          "protection": 1,
+          "international": 2,
+          "pay_quality": 0,
+          "freshness": 0,
+          "trending": 0,
+          "ease": 0,
+          "tier": 1
+        }
+      },
+      "sources_seen": [
+        "himalayas"
+      ],
+      "duplicate_of": null,
+      "status": "active",
+      "evidence": {
+        "domain": "himalayas.app",
+        "registered_at": "2020-04-27T11:32:29.351Z",
+        "age_days": 2366,
+        "registrar": "Namecheap Inc.",
+        "resolves": true,
+        "http_status": 403,
+        "final_url": "https://himalayas.app/companies/agrocommercial/jobs/zoho-developer-crm-automation-specialist?utm_source=api",
+        "checked_at": "2026-10-20T11:26:42Z",
+        "self_hosted": false
+      }
+    },
+    {
+      "id": "f8bbe2a938584e8f",
+      "source": "himalayas",
+      "category": "job",
+      "title": "CONSULTORÍA SAP RAR",
+      "company": "NetPartners International",
+      "audience": "unknown",
+      "competition": null,
+      "audience_locked": false,
+      "url": "https://himalayas.app/companies/netpartners-international/jobs/consultoria-sap-rar?utm_source=api",
+      "apply_url": null,
+      "location_raw": "Peru",
+      "social": false,
+      "nigeria_ok": null,
+      "remote": true,
+      "payment_rails": [
+        "unknown"
+      ],
+      "payment_protection": "platform",
+      "salary": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": "annual"
+      },
+      "posted_at": null,
+      "first_seen_at": "2026-10-23T05:47:41Z",
+      "deadline": null,
+      "snippet": "CONSULTORÍA SAP RAR Descripción de la empresa Centenario Descripción de la vacante Alcance: Cobertura de escenarios: Contrato de Financiamientos en @CONS Configuración de POB templates, perfiles de reconocimiento, reglas NIIF 15, asignación de precio (SSP), contabilidad de activo/pasivo por contrato y costos incrementales. Automatización de alocación, accrual/deferral, revenue postings y ajustes retroactivos Tableros Fiori para backlog de ingresos, estado de POBs, reconciliac",
+      "extra": {
+        "guid": "https://himalayas.app/companies/netpartners-international/jobs/consultoria-sap-rar",
+        "timezones": [
+          -5
+        ]
+      },
+      "signals": [
+        {
+          "id": "PS_ESTABLISHED_BOARD",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "himalayas"
+        },
+        {
+          "id": "PS_DISCLOSED_PAY",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "salary"
+        }
+      ],
+      "tier": "screened",
+      "review": {
+        "status": "pending",
+        "by": null,
+        "at": null,
+        "note": null
+      },
+      "score": {
+        "total": 4,
+        "components": {
+          "currency": 0,
+          "protection": 1,
+          "international": 2,
+          "pay_quality": 0,
+          "freshness": 0,
+          "trending": 0,
+          "ease": 0,
+          "tier": 1
+        }
+      },
+      "sources_seen": [
+        "himalayas"
+      ],
+      "duplicate_of": null,
+      "status": "active",
+      "evidence": {
+        "domain": "himalayas.app",
+        "registered_at": "2020-04-27T11:32:29.351Z",
+        "age_days": 2366,
+        "registrar": "Namecheap Inc.",
+        "resolves": true,
+        "http_status": 403,
+        "final_url": "https://himalayas.app/companies/agrocommercial/jobs/zoho-developer-crm-automation-specialist?utm_source=api",
+        "checked_at": "2026-10-20T11:26:42Z",
+        "self_hosted": false
+      }
+    },
+    {
+      "id": "0e42a05def5d9116",
+      "source": "himalayas",
+      "category": "job",
+      "title": "DevOps Forward Deployed Engineer",
+      "company": "Rev Star",
+      "audience": "skilled",
+      "competition": null,
+      "audience_locked": false,
+      "url": "https://himalayas.app/companies/rev-star/jobs/devops-forward-deployed-engineer-7508852730?utm_source=api",
+      "apply_url": null,
+      "location_raw": "Venezuela",
+      "social": false,
+      "nigeria_ok": null,
+      "remote": true,
+      "payment_rails": [
+        "unknown"
+      ],
+      "payment_protection": "platform",
+      "salary": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": "annual"
+      },
+      "posted_at": null,
+      "first_seen_at": "2026-10-23T05:47:41Z",
+      "deadline": null,
+      "snippet": "Build What Matters at RevStar Position: DevOps Forward Deployed Engineer (FDE) Reports To: DevOps Lead/Migrations Lead Location: Remote Employment Type: Contract Job Summary At RevStar, we are a dynamic team of engineers, UX designers, and product managers committed to putting business first in the pursuit of excellence. As an Advanced Technology Partner, we deliver cloud-native web and mobile applications, building modern data and AI solutions that drive tangible value. We f",
+      "extra": {
+        "guid": "https://himalayas.app/companies/rev-star/jobs/devops-forward-deployed-engineer-7508852730",
+        "timezones": [
+          -4
+        ]
+      },
+      "signals": [
+        {
+          "id": "WK_NO_NAMED_HUMAN",
+          "severity": "weak",
+          "evidence": "No named person, company email or address"
+        },
+        {
+          "id": "PS_ESTABLISHED_BOARD",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "himalayas"
+        },
+        {
+          "id": "PS_DISCLOSED_PAY",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "salary"
+        }
+      ],
+      "tier": "screened",
+      "review": {
+        "status": "pending",
+        "by": null,
+        "at": null,
+        "note": null
+      },
+      "score": {
+        "total": 4,
+        "components": {
+          "currency": 0,
+          "protection": 1,
+          "international": 2,
+          "pay_quality": 0,
+          "freshness": 0,
+          "trending": 0,
+          "ease": 0,
+          "tier": 1
+        }
+      },
+      "sources_seen": [
+        "himalayas"
+      ],
+      "duplicate_of": null,
+      "status": "active",
+      "evidence": {
+        "domain": "himalayas.app",
+        "registered_at": "2020-04-27T11:32:29.351Z",
+        "age_days": 2366,
+        "registrar": "Namecheap Inc.",
+        "resolves": true,
+        "http_status": 403,
+        "final_url": "https://himalayas.app/companies/agrocommercial/jobs/zoho-developer-crm-automation-specialist?utm_source=api",
+        "checked_at": "2026-10-20T11:26:42Z",
+        "self_hosted": false
+      }
+    },
+    {
+      "id": "c2d08368e89693aa",
+      "source": "himalayas",
+      "category": "job",
+      "title": "EverWell - Platform Engineering Manager (Remote, NZ)",
+      "company": "EverCommerce",
+      "audience": "skilled",
+      "competition": null,
+      "audience_locked": false,
+      "url": "https://himalayas.app/companies/evercommerce/jobs/everwell-platform-engineering-manager-remote-nz?utm_source=api",
+      "apply_url": null,
+      "location_raw": "New Zealand",
+      "social": false,
+      "nigeria_ok": null,
+      "remote": true,
+      "payment_rails": [
+        "unknown"
+      ],
+      "payment_protection": "platform",
+      "salary": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": "annual"
+      },
+      "posted_at": null,
+      "first_seen_at": "2026-10-23T05:47:41Z",
+      "deadline": null,
+      "snippet": "At EverCommerce [Nasdaq: EVCM], we are on a mission to digitally transform the service economy with tailored, end-to-end SaaS solutions that simplify and empower the lives of our 725,000+ customers. As a leading service commerce platform, our modern digital and mobile applications create predictable, informed, and convenient experiences between customers and their service professionals in the areas of Home & Field Services, Health Services, and Wellness industries. We are bui",
+      "extra": {
+        "guid": "https://himalayas.app/companies/evercommerce/jobs/everwell-platform-engineering-manager-remote-nz",
+        "timezones": [
+          12,
+          12.75
+        ]
+      },
+      "signals": [
+        {
+          "id": "WK_NO_NAMED_HUMAN",
+          "severity": "weak",
+          "evidence": "No named person, company email or address"
+        },
+        {
+          "id": "PS_ESTABLISHED_BOARD",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "himalayas"
+        },
+        {
+          "id": "PS_DISCLOSED_PAY",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "salary"
+        }
+      ],
+      "tier": "screened",
+      "review": {
+        "status": "pending",
+        "by": null,
+        "at": null,
+        "note": null
+      },
+      "score": {
+        "total": 4,
+        "components": {
+          "currency": 0,
+          "protection": 1,
+          "international": 2,
+          "pay_quality": 0,
+          "freshness": 0,
+          "trending": 0,
+          "ease": 0,
+          "tier": 1
+        }
+      },
+      "sources_seen": [
+        "himalayas"
+      ],
+      "duplicate_of": null,
+      "status": "active",
+      "evidence": {
+        "domain": "himalayas.app",
+        "registered_at": "2020-04-27T11:32:29.351Z",
+        "age_days": 2366,
+        "registrar": "Namecheap Inc.",
+        "resolves": true,
+        "http_status": 403,
+        "final_url": "https://himalayas.app/companies/agrocommercial/jobs/zoho-developer-crm-automation-specialist?utm_source=api",
+        "checked_at": "2026-10-20T11:26:42Z",
+        "self_hosted": false
+      }
+    },
+    {
+      "id": "532098bc78c8a14b",
+      "source": "himalayas",
+      "category": "job",
+      "title": "Software Development Engineer in Test II",
+      "company": "Akamai Technologies",
+      "audience": "skilled",
+      "competition": null,
+      "audience_locked": false,
+      "url": "https://himalayas.app/companies/akamai-technologies/jobs/software-development-engineer-in-test-ii-2563455670?utm_source=api",
+      "apply_url": null,
+      "location_raw": "Czechia",
+      "social": false,
+      "nigeria_ok": null,
+      "remote": true,
+      "payment_rails": [
+        "unknown"
+      ],
+      "payment_protection": "platform",
+      "salary": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": "annual"
+      },
+      "posted_at": null,
+      "first_seen_at": "2026-10-23T05:47:41Z",
+      "deadline": null,
+      "snippet": "Do you want to lead automated quality engineering for next-generation cloud infrastructure? Are you passionate about Automation Developing? Join our Compute Team! Akamai's Compute Team aims to simplify, scale, and make cloud computing accessible and affordable globally, driving innovation. Hosting extensive virtual machines and data, the Software Development Engineer in Test (SDET) II supports automated testing, framework upkeep, and quality assurance. Responsibilities includ",
+      "extra": {
+        "guid": "https://himalayas.app/companies/akamai-technologies/jobs/software-development-engineer-in-test-ii-2563455670",
+        "timezones": [
+          1
+        ]
+      },
+      "signals": [
+        {
+          "id": "WK_NO_NAMED_HUMAN",
+          "severity": "weak",
+          "evidence": "No named person, company email or address"
+        },
+        {
+          "id": "PS_ESTABLISHED_BOARD",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "himalayas"
+        },
+        {
+          "id": "PS_DISCLOSED_PAY",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "salary"
+        }
+      ],
+      "tier": "screened",
+      "review": {
+        "status": "pending",
+        "by": null,
+        "at": null,
+        "note": null
+      },
+      "score": {
+        "total": 4,
+        "components": {
+          "currency": 0,
+          "protection": 1,
+          "international": 2,
+          "pay_quality": 0,
+          "freshness": 0,
+          "trending": 0,
+          "ease": 0,
+          "tier": 1
+        }
+      },
+      "sources_seen": [
+        "himalayas"
+      ],
+      "duplicate_of": null,
+      "status": "active",
+      "evidence": {
+        "domain": "himalayas.app",
+        "registered_at": "2020-04-27T11:32:29.351Z",
+        "age_days": 2366,
+        "registrar": "Namecheap Inc.",
+        "resolves": true,
+        "http_status": 403,
+        "final_url": "https://himalayas.app/companies/agrocommercial/jobs/zoho-developer-crm-automation-specialist?utm_source=api",
+        "checked_at": "2026-10-20T11:26:42Z",
+        "self_hosted": false
+      }
+    },
+    {
+      "id": "09eb0a63364d30a1",
+      "source": "himalayas",
+      "category": "job",
+      "title": "Senior Financial Controller",
+      "company": "Youwe",
+      "audience": "skilled",
+      "competition": null,
+      "audience_locked": false,
+      "url": "https://himalayas.app/companies/youwe/jobs/senior-financial-controller?utm_source=api",
+      "apply_url": null,
+      "location_raw": "Ukraine",
+      "social": false,
+      "nigeria_ok": null,
+      "remote": true,
+      "payment_rails": [
+        "unknown"
+      ],
+      "payment_protection": "platform",
+      "salary": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": "annual"
+      },
+      "posted_at": null,
+      "first_seen_at": "2026-10-23T05:47:41Z",
+      "deadline": null,
+      "snippet": "At Youwe , finance is where accuracy meets impact. As a Financial Controller for Youwe Ukraine, you take full ownership of our Ukrainian finance function, from accounting, payroll and tax to reporting, internal controls and audits. Working closely with our international Finance team in Rotterdam and Leeds, you make sure our numbers are right, our processes are compliant, and our finance setup keeps getting smarter. Key Responsibilities Take end-to-end ownership of accounting ",
+      "extra": {
+        "guid": "https://himalayas.app/companies/youwe/jobs/senior-financial-controller",
+        "timezones": [
+          2,
+          3
+        ]
+      },
+      "signals": [
+        {
+          "id": "WK_URGENCY",
+          "severity": "weak",
+          "evidence": "Apply now"
+        },
+        {
+          "id": "WK_NO_NAMED_HUMAN",
+          "severity": "weak",
+          "evidence": "No named person, company email or address"
+        },
+        {
+          "id": "PS_ESTABLISHED_BOARD",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "himalayas"
+        },
+        {
+          "id": "PS_DISCLOSED_PAY",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "salary"
+        }
+      ],
+      "tier": "screened",
+      "review": {
+        "status": "pending",
+        "by": null,
+        "at": null,
+        "note": null
+      },
+      "score": {
+        "total": 4,
+        "components": {
+          "currency": 0,
+          "protection": 1,
+          "international": 2,
+          "pay_quality": 0,
+          "freshness": 0,
+          "trending": 0,
+          "ease": 0,
+          "tier": 1
+        }
+      },
+      "sources_seen": [
+        "himalayas"
+      ],
+      "duplicate_of": null,
+      "status": "active",
+      "evidence": {
+        "domain": "himalayas.app",
+        "registered_at": "2020-04-27T11:32:29.351Z",
+        "age_days": 2366,
+        "registrar": "Namecheap Inc.",
+        "resolves": true,
+        "http_status": 403,
+        "final_url": "https://himalayas.app/companies/agrocommercial/jobs/zoho-developer-crm-automation-specialist?utm_source=api",
+        "checked_at": "2026-10-20T11:26:42Z",
+        "self_hosted": false
+      }
+    },
+    {
+      "id": "02b91901f5c639e9",
+      "source": "himalayas",
+      "category": "job",
+      "title": "Danish-Speaking E-commerce Advisor-Move to Sunny Portugal",
+      "company": "AetherCore",
+      "audience": "unknown",
+      "competition": null,
+      "audience_locked": false,
+      "url": "https://himalayas.app/companies/aethercore/jobs/danish-speaking-e-commerce-advisor-move-to-sunny-portugal?utm_source=api",
+      "apply_url": null,
+      "location_raw": "Poland",
+      "social": false,
+      "nigeria_ok": null,
+      "remote": true,
+      "payment_rails": [
+        "unknown"
+      ],
+      "payment_protection": "platform",
+      "salary": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": "annual"
+      },
+      "posted_at": null,
+      "first_seen_at": "2026-10-23T05:47:41Z",
+      "deadline": null,
+      "snippet": "Cross Border Talents is looking for Danish speakers to join our multinational client running an exciting project for a globally renowned tech brand in Portugal! If you're still abroad, relocation assistance is provided, including housing! Location: Remote from Continental Portugal Contract: Full-time, 12-month renewable Start dates: several dates available through June and July About the Brand: Work for a world-renowned technology company that has set industry standards for u",
+      "extra": {
+        "guid": "https://himalayas.app/companies/aethercore/jobs/danish-speaking-e-commerce-advisor-move-to-sunny-portugal",
+        "timezones": [
+          1
+        ]
+      },
+      "signals": [
+        {
+          "id": "WK_NO_NAMED_HUMAN",
+          "severity": "weak",
+          "evidence": "No named person, company email or address"
+        },
+        {
+          "id": "PS_ESTABLISHED_BOARD",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "himalayas"
+        },
+        {
+          "id": "PS_DISCLOSED_PAY",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "salary"
+        }
+      ],
+      "tier": "screened",
+      "review": {
+        "status": "pending",
+        "by": null,
+        "at": null,
+        "note": null
+      },
+      "score": {
+        "total": 4,
+        "components": {
+          "currency": 0,
+          "protection": 1,
+          "international": 2,
+          "pay_quality": 0,
+          "freshness": 0,
+          "trending": 0,
+          "ease": 0,
+          "tier": 1
+        }
+      },
+      "sources_seen": [
+        "himalayas"
+      ],
+      "duplicate_of": null,
+      "status": "active",
+      "evidence": {
+        "domain": "himalayas.app",
+        "registered_at": "2020-04-27T11:32:29.351Z",
+        "age_days": 2366,
+        "registrar": "Namecheap Inc.",
+        "resolves": true,
+        "http_status": 403,
+        "final_url": "https://himalayas.app/companies/agrocommercial/jobs/zoho-developer-crm-automation-specialist?utm_source=api",
+        "checked_at": "2026-10-20T11:26:42Z",
+        "self_hosted": false
+      }
+    },
+    {
       "id": "a10d5a5e396935e2",
       "source": "weworkremotely",
       "category": "job",
@@ -35558,7 +36694,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Internship Jobs • Cryptocurrency Security Jobs • Cryptocurrency Engineering Jobs • Blockchain Solidity Jobs • Cryptocurrency React Jobs • Web3 Web3 Jobs About Sky Mavis Sky Mavis is building the future of gaming. We’re the creators of Axie Infinity, the most successful Web3 game ever, and Ronin, a purpose-built blockchain that ranked as the 4th most-used chain in 2024, behind Ethereum, Bitcoin, and Solana. We’ve processed over $4.3 billion in on-c",
+      "snippet": "Tags: Web3 Jobs • Web3 Internship Jobs • Cryptocurrency Security Jobs • Web3 Engineering Jobs • Web3 Solidity Jobs • Blockchain React Jobs • Web3 Web3 Jobs About Sky Mavis Sky Mavis is building the future of gaming. We’re the creators of Axie Infinity, the most successful Web3 game ever, and Ronin, a purpose-built blockchain that ranked as the 4th most-used chain in 2024, behind Ethereum, Bitcoin, and Solana. We’ve processed over $4.3 billion in on-chain volume and are backed",
       "extra": {},
       "signals": [
         {
@@ -35712,7 +36848,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Full Stack Jobs • Blockchain Senior Jobs • Web3 Ai Jobs • Web3 Security Jobs • Web3 Legal Jobs • Blockchain Web3 Jobs As a Full Stack Engineer Senior Consultant in Deloitte Cyber’s Digital Trust & Privacy practice, you will operate at the intersection of client-facing advisory, product engineering, and hands-on technical delivery. You will help clients address complex challenges across digital trust, online protection, privacy, artificial intellig",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Full Stack Jobs • Blockchain Senior Jobs • Web3 Ai Jobs • Web3 Security Jobs • Blockchain Legal Jobs • Web3 Web3 Jobs As a Full Stack Engineer Senior Consultant in Deloitte Cyber’s Digital Trust & Privacy practice, you will operate at the intersection of client-facing advisory, product engineering, and hands-on technical delivery. You will help clients address complex challenges across digital trust, online protection, privacy, artificial inte",
       "extra": {},
       "signals": [
         {
@@ -35782,7 +36918,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Engineering Jobs • Blockchain Backend Jobs • Web3 Typescript Jobs • Cryptocurrency DeFi Jobs • Blockchain Web3 Jobs Aptos is a people-first blockchain on a mission to help billions of people achieve universal and fair access to decentralized assets in a safe and scalable way. Founded by some of the original creators and maintainers that researched, designed, and built the Diem blockchain to serve this purpose, we have dedicated several years towar",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Engineering Jobs • Blockchain Backend Jobs • Web3 Typescript Jobs • Blockchain DeFi Jobs • Cryptocurrency Web3 Jobs Aptos is a people-first blockchain on a mission to help billions of people achieve universal and fair access to decentralized assets in a safe and scalable way. Founded by some of the original creators and maintainers that researched, designed, and built the Diem blockchain to serve this purpose, we have dedicated several years t",
       "extra": {},
       "signals": [
         {
@@ -35857,7 +36993,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Compliance Jobs • Blockchain Legal Jobs • Web3 Operations Jobs • Web3 Aml Jobs • Blockchain Customer Support Jobs • Blockchain Web3 Jobs Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched ",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Compliance Jobs • Web3 Legal Jobs • Blockchain Operations Jobs • Blockchain Aml Jobs • Web3 Customer Support Jobs • Web3 Web3 Jobs Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfo",
       "extra": {},
       "signals": [
         {
@@ -35932,7 +37068,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Marketing Jobs • Blockchain Finance Jobs • Blockchain Content Jobs • Blockchain Full Time Jobs • Blockchain Web3 Jobs Private Wealth Management Goldman Sachs Private Wealth Management (PWM) specializes in creating comprehensive wealth management plans for ultra-high-net-worth individuals and families, as well as select institutions, including foundations and endowments. PWM Teams work one-on-one with clients to advise and deliver customized strategies d",
+      "snippet": "Tags: Web3 Jobs • Web3 Marketing Jobs • Web3 Finance Jobs • Blockchain Content Jobs • Blockchain Full Time Jobs • Blockchain Web3 Jobs Private Wealth Management Goldman Sachs Private Wealth Management (PWM) specializes in creating comprehensive wealth management plans for ultra-high-net-worth individuals and families, as well as select institutions, including foundations and endowments. PWM Teams work one-on-one with clients to advise and deliver customized strategies drawn f",
       "extra": {},
       "signals": [
         {
@@ -36078,7 +37214,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Senior Jobs • Blockchain C++ Jobs • Cryptocurrency Rust Jobs • Blockchain Remote Jobs • Cryptocurrency Full Time Jobs • Blockchain Web3 Jobs Interested in working on cutting-edge blockchain technology and creating equitable access to the global financial system? Since 2014, the mission-driven team at the Stellar Development Foundation (SDF) has helped fuel the tremendous growth of the Stellar blockchain network, an open-source platform that operates at ",
+      "snippet": "Tags: Web3 Jobs • Web3 Senior Jobs • Web3 C++ Jobs • Cryptocurrency Rust Jobs • Cryptocurrency Remote Jobs • Blockchain Full Time Jobs • Blockchain Web3 Jobs Interested in working on cutting-edge blockchain technology and creating equitable access to the global financial system? Since 2014, the mission-driven team at the Stellar Development Foundation (SDF) has helped fuel the tremendous growth of the Stellar blockchain network, an open-source platform that operates at high-s",
       "extra": {},
       "signals": [
         {
@@ -36153,7 +37289,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-20T11:08:39Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Business Development Jobs • Cryptocurrency Marketing Jobs • Web3 Sales Jobs • Cryptocurrency Finance Jobs • Cryptocurrency Full Time Jobs • Web3 Web3 Jobs eToro is the trading and investing platform that empowers users to invest, share, and learn. We were founded in 2007 with the vision of a world where everyone can trade and invest simply and transparently. We have created an investment platform that is built around collaboration and investor education",
+      "snippet": "Tags: Web3 Jobs • Blockchain Business Development Jobs • Cryptocurrency Marketing Jobs • Cryptocurrency Sales Jobs • Cryptocurrency Finance Jobs • Web3 Full Time Jobs • Web3 Web3 Jobs eToro is the trading and investing platform that empowers users to invest, share, and learn. We were founded in 2007 with the vision of a world where everyone can trade and invest simply and transparently. We have created an investment platform that is built around collaboration and investor edu",
       "extra": {},
       "signals": [
         {
@@ -36969,7 +38105,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-21T06:33:12Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Web3 Jobs • Web3 Legal Jobs • Cryptocurrency Compliance Jobs • Web3 Aml Jobs • Blockchain Project Manager Jobs • Cryptocurrency Manager Jobs • Web3 Full Time Jobs We are looking for an AML Financial Crime Project Manager to join our team in Limassol, Cyprus. The candidate will be responsible for overseeing and managing anti-money laundering projects, ensuring compliance with relevant laws and regulations. Apply here 👉 AML Financial Crime Project Manager",
+      "snippet": "Tags: Web3 Jobs • Web3 Web3 Jobs • Blockchain Legal Jobs • Blockchain Compliance Jobs • Cryptocurrency Aml Jobs • Cryptocurrency Project Manager Jobs • Cryptocurrency Manager Jobs • Cryptocurrency Full Time Jobs We are looking for an AML Financial Crime Project Manager to join our team in Limassol, Cyprus. The candidate will be responsible for overseeing and managing anti-money laundering projects, ensuring compliance with relevant laws and regulations. Apply here 👉 AML Finan",
       "extra": {},
       "signals": [
         {
@@ -37044,7 +38180,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-21T06:33:12Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Analyst Jobs • Web3 Ai Jobs • Cryptocurrency UI/UX Jobs • Web3 Full Time Jobs • Cryptocurrency Web3 Jobs Participate in current-state assessments, pre-feasibility studies, solution consulting, and proposal development during the pre-sales/project initiation phase. Work directly with customers to understand organizational structures, business processes, and operational models in order to identify business needs and technology challenges. Provide co",
+      "snippet": "Tags: Web3 Jobs • Web3 Analyst Jobs • Blockchain Ai Jobs • Blockchain UI/UX Jobs • Cryptocurrency Full Time Jobs • Web3 Web3 Jobs Participate in current-state assessments, pre-feasibility studies, solution consulting, and proposal development during the pre-sales/project initiation phase. Work directly with customers to understand organizational structures, business processes, and operational models in order to identify business needs and technology challenges. Provide consul",
       "extra": {},
       "signals": [
         {
@@ -37119,7 +38255,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-22T03:37:05Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Web3 Security Jobs • Cryptocurrency Golang Jobs • Web3 Rust Jobs • Web3 Cryptography Jobs • Cryptocurrency Remote Jobs About Chainlink Chainlink is the industry-standard oracle platform bringing the capital markets onchain and powering the majority of decentralized finance (DeFi). The Chainlink stack provides the essential data, interoperability, compliance, and privacy standards needed to power advanced blockchain use cases for institutional tokenized asset",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Security Jobs • Cryptocurrency Golang Jobs • Web3 Rust Jobs • Cryptocurrency Cryptography Jobs • Cryptocurrency Remote Jobs About Chainlink Chainlink is the industry-standard oracle platform bringing the capital markets onchain and powering the majority of decentralized finance (DeFi). The Chainlink stack provides the essential data, interoperability, compliance, and privacy standards needed to power advanced blockchain use cases for instituti",
       "extra": {},
       "signals": [
         {
@@ -37194,7 +38330,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-22T14:23:23Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Developer Jobs • Web3 Backend Jobs • Web3 Bitcoin Jobs • Cryptocurrency Engineering Jobs • Web3 Full Time Jobs • Blockchain Web3 Jobs Blockstream was founded in 2014 by Dr. Adam Back and a group of fellow cryptographers and engineers passionate about Bitcoin and its potential to change the future of finance. We have become a market leader in Bitcoin security and Layer-2 technologies. Our products are designed to make financial systems more eff",
+      "snippet": "Tags: Web3 Jobs • Web3 Developer Jobs • Cryptocurrency Backend Jobs • Web3 Bitcoin Jobs • Cryptocurrency Engineering Jobs • Cryptocurrency Full Time Jobs • Cryptocurrency Web3 Jobs Blockstream was founded in 2014 by Dr. Adam Back and a group of fellow cryptographers and engineers passionate about Bitcoin and its potential to change the future of finance. We have become a market leader in Bitcoin security and Layer-2 technologies. Our products are designed to make financial sy",
       "extra": {},
       "signals": [
         {
@@ -37264,7 +38400,7 @@
       "posted_at": null,
       "first_seen_at": "2026-10-22T14:23:23Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Blockchain Sales Jobs • Cryptocurrency Engineering Jobs • Web3 Finance Jobs • Blockchain Bitcoin Jobs • Blockchain Web3 Jobs • Web3 Remote Jobs Blockstream was founded in 2014 by Dr. Adam Back and a group of fellow cryptographers and engineers passionate about Bitcoin and its potential to change the future of finance. We have become a market leader in Bitcoin security and Layer-2 technologies. Our products are designed to make financial systems more efficien",
+      "snippet": "Tags: Web3 Jobs • Blockchain Sales Jobs • Blockchain Engineering Jobs • Web3 Finance Jobs • Cryptocurrency Bitcoin Jobs • Web3 Web3 Jobs • Web3 Remote Jobs Blockstream was founded in 2014 by Dr. Adam Back and a group of fellow cryptographers and engineers passionate about Bitcoin and its potential to change the future of finance. We have become a market leader in Bitcoin security and Layer-2 technologies. Our products are designed to make financial systems more efficient, sec",
       "extra": {},
       "signals": [
         {
@@ -37339,7 +38475,82 @@
       "posted_at": null,
       "first_seen_at": "2026-10-22T18:47:02Z",
       "deadline": null,
-      "snippet": "Tags: Web3 Jobs • Cryptocurrency Project Manager Jobs • Cryptocurrency Full Time Jobs • Web3 Ai Jobs • Blockchain Web3 Jobs Manage the full project lifecycle of IT projects within the Government (GOV) sector, ensuring delivery within the agreed scope, timeline, quality standards, and budget. Work directly with clients, government agencies, and key stakeholders to gather and clarify business requirements and define project scope. Develop project implementation plans, allocate ",
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Project Manager Jobs • Blockchain Full Time Jobs • Cryptocurrency Ai Jobs • Web3 Web3 Jobs Manage the full project lifecycle of IT projects within the Government (GOV) sector, ensuring delivery within the agreed scope, timeline, quality standards, and budget. Work directly with clients, government agencies, and key stakeholders to gather and clarify business requirements and define project scope. Develop project implementation plans, allocate ",
+      "extra": {},
+      "signals": [
+        {
+          "id": "WK_NO_NAMED_HUMAN",
+          "severity": "weak",
+          "evidence": "No named person, company email or address"
+        },
+        {
+          "id": "PS_ESTABLISHED_BOARD",
+          "severity": "positive",
+          "support": 1,
+          "evidence": "cryptojobslist"
+        }
+      ],
+      "tier": "unverified",
+      "review": {
+        "status": "pending",
+        "by": null,
+        "at": null,
+        "note": null
+      },
+      "score": {
+        "total": 3,
+        "components": {
+          "currency": 0,
+          "protection": 1,
+          "international": 2,
+          "pay_quality": 0,
+          "freshness": 0,
+          "trending": 0,
+          "ease": 0,
+          "tier": 0
+        }
+      },
+      "sources_seen": [
+        "cryptojobslist"
+      ],
+      "duplicate_of": null,
+      "status": "active",
+      "evidence": {
+        "domain": "cryptojobslist.com",
+        "registered_at": "2017-09-27T19:50:55Z",
+        "age_days": 3309,
+        "registrar": "Porkbun LLC",
+        "resolves": true,
+        "http_status": 206,
+        "final_url": "https://cryptojobslist.com/jobs/senior-technical-product-manager-keet-dubai-dubai-united-arab-emirates-at-tether-operations-limited",
+        "checked_at": "2026-10-20T11:26:45Z",
+        "self_hosted": false
+      }
+    },
+    {
+      "id": "ed1d3dff49ceba00",
+      "source": "cryptojobslist",
+      "category": "job",
+      "title": "C&B Lead",
+      "company": "Synodus",
+      "audience": "skilled",
+      "competition": null,
+      "audience_locked": false,
+      "url": "https://cryptojobslist.com/jobs/c-b-lead-hanoi-at-synodus",
+      "apply_url": null,
+      "location_raw": "Hanoi",
+      "social": false,
+      "nigeria_ok": null,
+      "remote": true,
+      "payment_rails": [
+        "unknown"
+      ],
+      "payment_protection": "platform",
+      "salary": null,
+      "posted_at": null,
+      "first_seen_at": "2026-10-23T05:47:43Z",
+      "deadline": null,
+      "snippet": "Tags: Web3 Jobs • Cryptocurrency Manager Jobs • Web3 Accounting Jobs • Blockchain Data Jobs • Cryptocurrency Operations Jobs • Blockchain Full Time Jobs • Cryptocurrency Web3 Jobs Lead and improve C&B operations and compliance, including payroll, Personal Income Tax (PIT), social insurance, labor contracts, employee benefits, and related policies and procedures. Review and standardize C&B processes, controls, and documentation to ensure accuracy, efficiency, and compliance. B",
       "extra": {},
       "signals": [
         {
