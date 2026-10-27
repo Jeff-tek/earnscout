@@ -3,132 +3,132 @@
   "domains": {
     "weworkremotely.com": {
       "domain": "weworkremotely.com",
-      "checked_at": "2026-10-20T11:26:33Z",
+      "checked_at": "2026-10-27T14:21:54Z",
       "complete": true,
       "registered_at": "2013-09-25T02:24:59Z",
-      "age_days": 4773,
+      "age_days": 4780,
       "registrar": "1API GmbH",
       "resolves": true,
       "http_status": 200,
-      "final_url": "https://weworkremotely.com/remote-jobs/datadog-manager-ii-developer-advocacy",
+      "final_url": "https://weworkremotely.com/remote-jobs/planetscale-video-editor",
       "redirects": [],
       "checks": [
         {
           "id": "dns",
           "result": "pass",
           "detail": null,
-          "checked_at": "2026-10-20T11:26:33Z"
+          "checked_at": "2026-10-27T14:21:54Z"
         },
         {
           "id": "http",
           "result": "200",
-          "detail": "https://weworkremotely.com/remote-jobs/datadog-manager-ii-developer-advocacy",
-          "checked_at": "2026-10-20T11:26:33Z"
+          "detail": "https://weworkremotely.com/remote-jobs/planetscale-video-editor",
+          "checked_at": "2026-10-27T14:21:54Z"
         },
         {
           "id": "rdap",
           "result": "ok",
           "detail": "2013-09-25T02:24:59Z",
-          "checked_at": "2026-10-20T11:26:33Z"
+          "checked_at": "2026-10-27T14:21:54Z"
         }
       ]
     },
     "remoteok.com": {
       "domain": "remoteok.com",
-      "checked_at": "2026-10-20T11:26:36Z",
+      "checked_at": "2026-10-27T14:21:55Z",
       "complete": true,
       "registered_at": "2014-10-16T05:22:57Z",
-      "age_days": 4387,
+      "age_days": 4394,
       "registrar": "NameCheap, Inc.",
       "resolves": true,
       "http_status": 200,
-      "final_url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-sothebys-1137545",
+      "final_url": "https://remoteOK.com/remote-jobs/remote-account-executive-huzzle-1137573",
       "redirects": [],
       "checks": [
         {
           "id": "dns",
           "result": "pass",
           "detail": null,
-          "checked_at": "2026-10-20T11:26:36Z"
+          "checked_at": "2026-10-27T14:21:55Z"
         },
         {
           "id": "http",
           "result": "200",
-          "detail": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-sothebys-1137545",
-          "checked_at": "2026-10-20T11:26:36Z"
+          "detail": "https://remoteOK.com/remote-jobs/remote-account-executive-huzzle-1137573",
+          "checked_at": "2026-10-27T14:21:55Z"
         },
         {
           "id": "rdap",
           "result": "ok",
           "detail": "2014-10-16T05:22:57Z",
-          "checked_at": "2026-10-20T11:26:36Z"
+          "checked_at": "2026-10-27T14:21:55Z"
         }
       ]
     },
     "himalayas.app": {
       "domain": "himalayas.app",
-      "checked_at": "2026-10-20T11:26:42Z",
+      "checked_at": "2026-10-27T14:21:56Z",
       "complete": true,
       "registered_at": "2020-04-27T11:32:29.351Z",
-      "age_days": 2366,
+      "age_days": 2374,
       "registrar": "Namecheap Inc.",
       "resolves": true,
       "http_status": 403,
-      "final_url": "https://himalayas.app/companies/agrocommercial/jobs/zoho-developer-crm-automation-specialist?utm_source=api",
+      "final_url": "https://himalayas.app/companies/ge-aerospace/jobs/senior-hr-compliance-manager-emenat?utm_source=api",
       "redirects": [],
       "checks": [
         {
           "id": "dns",
           "result": "pass",
           "detail": null,
-          "checked_at": "2026-10-20T11:26:42Z"
+          "checked_at": "2026-10-27T14:21:56Z"
         },
         {
           "id": "http",
           "result": "403",
           "detail": "HTTP 403",
-          "checked_at": "2026-10-20T11:26:42Z"
+          "checked_at": "2026-10-27T14:21:56Z"
         },
         {
           "id": "rdap",
           "result": "ok",
           "detail": "2020-04-27T11:32:29.351Z",
-          "checked_at": "2026-10-20T11:26:42Z"
+          "checked_at": "2026-10-27T14:21:56Z"
         }
       ]
     },
     "cryptojobslist.com": {
       "domain": "cryptojobslist.com",
-      "checked_at": "2026-10-20T11:26:45Z",
+      "checked_at": "2026-10-27T14:21:57Z",
       "complete": true,
       "registered_at": "2017-09-27T19:50:55Z",
-      "age_days": 3309,
+      "age_days": 3316,
       "registrar": "Porkbun LLC",
       "resolves": true,
       "http_status": 206,
-      "final_url": "https://cryptojobslist.com/jobs/senior-technical-product-manager-keet-dubai-dubai-united-arab-emirates-at-tether-operations-limited",
+      "final_url": "https://cryptojobslist.com/jobs/trading-initiatives-business-manager-hong-kong-hong-kong-sar-at-crypto-com",
       "redirects": [],
       "checks": [
         {
           "id": "dns",
           "result": "pass",
           "detail": null,
-          "checked_at": "2026-10-20T11:26:45Z"
+          "checked_at": "2026-10-27T14:21:57Z"
         },
         {
           "id": "http",
           "result": "206",
-          "detail": "https://cryptojobslist.com/jobs/senior-technical-product-manager-keet-dubai-dubai-united-arab-emirates-at-tether-operations-limited",
-          "checked_at": "2026-10-20T11:26:45Z"
+          "detail": "https://cryptojobslist.com/jobs/trading-initiatives-business-manager-hong-kong-hong-kong-sar-at-crypto-com",
+          "checked_at": "2026-10-27T14:21:57Z"
         },
         {
           "id": "rdap",
           "result": "ok",
           "detail": "2017-09-27T19:50:55Z",
-          "checked_at": "2026-10-20T11:26:45Z"
+          "checked_at": "2026-10-27T14:21:57Z"
         }
       ]
     }
   },
-  "updated_at": "2026-10-20T11:36:56Z"
+  "updated_at": "2026-10-27T14:21:58Z"
 }
