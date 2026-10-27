@@ -1,51 +1,51 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26T23:19:29Z",
+  "updated_at": "2026-10-27T02:10:48Z",
   "sources": {
     "superteam": {
       "ok": true,
       "fetched": 0,
       "kept": 0,
       "dropped_location": 0,
-      "last_fetch": "2026-10-26T23:19:16Z"
+      "last_fetch": "2026-10-27T02:10:35Z"
     },
     "himalayas": {
       "ok": true,
       "fetched": 20,
-      "kept": 16,
-      "dropped_location": 4,
-      "last_fetch": "2026-10-26T19:32:30Z"
+      "kept": 10,
+      "dropped_location": 10,
+      "last_fetch": "2026-10-27T02:10:35Z"
     },
     "remoteok": {
       "ok": true,
       "fetched": 99,
       "kept": 93,
       "dropped_location": 6,
-      "last_fetch": "2026-10-26T23:19:16Z"
+      "last_fetch": "2026-10-27T02:10:35Z"
     },
     "weworkremotely": {
       "ok": true,
       "fetched": 96,
       "kept": 92,
       "dropped_location": 4,
-      "last_fetch": "2026-10-26T23:19:16Z"
+      "last_fetch": "2026-10-27T02:10:35Z"
     },
     "cryptojobslist": {
       "ok": true,
       "fetched": 100,
       "kept": 84,
       "dropped_location": 16,
-      "last_fetch": "2026-10-26T23:19:16Z"
+      "last_fetch": "2026-10-27T02:10:35Z"
     },
     "bluesky": {
       "ok": true,
       "fetched": 4,
       "kept": 4,
       "dropped_location": 0,
-      "last_fetch": "2026-10-26T23:19:16Z"
+      "last_fetch": "2026-10-27T02:10:35Z"
     }
   },
   "telegram_offset": 295591790,
-  "push_day": "2026-10-26",
-  "push_count": 2
+  "push_day": "2026-10-27",
+  "push_count": 0
 }
