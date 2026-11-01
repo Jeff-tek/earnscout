@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31T21:06:51Z",
+  "updated_at": "2026-11-01T00:11:46Z",
   "sources": {
     "superteam": {
       "ok": true,
       "fetched": 0,
       "kept": 0,
       "dropped_location": 0,
-      "last_fetch": "2026-10-31T21:06:09Z"
+      "last_fetch": "2026-11-01T00:11:36Z"
     },
     "himalayas": {
       "ok": true,
@@ -21,14 +21,14 @@
       "fetched": 99,
       "kept": 91,
       "dropped_location": 8,
-      "last_fetch": "2026-10-31T21:06:09Z"
+      "last_fetch": "2026-11-01T00:11:36Z"
     },
     "weworkremotely": {
       "ok": true,
       "fetched": 99,
       "kept": 91,
       "dropped_location": 8,
-      "last_fetch": "2026-10-31T21:06:09Z",
+      "last_fetch": "2026-11-01T00:11:36Z",
       "error": "HTTPError: HTTP Error 503: Service Unavailable"
     },
     "cryptojobslist": {
@@ -36,17 +36,17 @@
       "fetched": 100,
       "kept": 81,
       "dropped_location": 19,
-      "last_fetch": "2026-10-31T21:06:09Z"
+      "last_fetch": "2026-11-01T00:11:36Z"
     },
     "bluesky": {
       "ok": true,
-      "fetched": 3,
-      "kept": 3,
+      "fetched": 5,
+      "kept": 5,
       "dropped_location": 0,
-      "last_fetch": "2026-10-31T21:06:09Z"
+      "last_fetch": "2026-11-01T00:11:36Z"
     }
   },
   "telegram_offset": 295591790,
-  "push_day": "2026-10-31",
-  "push_count": 2
+  "push_day": "2026-11-01",
+  "push_count": 0
 }
