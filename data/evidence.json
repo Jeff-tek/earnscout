@@ -3,132 +3,132 @@
   "domains": {
     "weworkremotely.com": {
       "domain": "weworkremotely.com",
-      "checked_at": "2026-10-27T14:21:54Z",
+      "checked_at": "2026-11-03T17:09:26Z",
       "complete": true,
       "registered_at": "2013-09-25T02:24:59Z",
-      "age_days": 4780,
+      "age_days": 4787,
       "registrar": "1API GmbH",
       "resolves": true,
       "http_status": 200,
-      "final_url": "https://weworkremotely.com/remote-jobs/planetscale-video-editor",
+      "final_url": "https://weworkremotely.com/remote-jobs/m-kopa-senior-crm-manager",
       "redirects": [],
       "checks": [
         {
           "id": "dns",
           "result": "pass",
           "detail": null,
-          "checked_at": "2026-10-27T14:21:54Z"
+          "checked_at": "2026-11-03T17:09:26Z"
         },
         {
           "id": "http",
           "result": "200",
-          "detail": "https://weworkremotely.com/remote-jobs/planetscale-video-editor",
-          "checked_at": "2026-10-27T14:21:54Z"
+          "detail": "https://weworkremotely.com/remote-jobs/m-kopa-senior-crm-manager",
+          "checked_at": "2026-11-03T17:09:26Z"
         },
         {
           "id": "rdap",
           "result": "ok",
           "detail": "2013-09-25T02:24:59Z",
-          "checked_at": "2026-10-27T14:21:54Z"
+          "checked_at": "2026-11-03T17:09:26Z"
         }
       ]
     },
     "remoteok.com": {
       "domain": "remoteok.com",
-      "checked_at": "2026-10-27T14:21:55Z",
+      "checked_at": "2026-11-03T17:09:27Z",
       "complete": true,
       "registered_at": "2014-10-16T05:22:57Z",
-      "age_days": 4394,
+      "age_days": 4401,
       "registrar": "NameCheap, Inc.",
       "resolves": true,
       "http_status": 200,
-      "final_url": "https://remoteOK.com/remote-jobs/remote-account-executive-huzzle-1137573",
+      "final_url": "https://remoteOK.com/remote-jobs/remote-site-activation-manager-6-month-contract-immediate-start-umed-1137620",
       "redirects": [],
       "checks": [
         {
           "id": "dns",
           "result": "pass",
           "detail": null,
-          "checked_at": "2026-10-27T14:21:55Z"
+          "checked_at": "2026-11-03T17:09:27Z"
         },
         {
           "id": "http",
           "result": "200",
-          "detail": "https://remoteOK.com/remote-jobs/remote-account-executive-huzzle-1137573",
-          "checked_at": "2026-10-27T14:21:55Z"
+          "detail": "https://remoteOK.com/remote-jobs/remote-site-activation-manager-6-month-contract-immediate-start-umed-1137620",
+          "checked_at": "2026-11-03T17:09:27Z"
         },
         {
           "id": "rdap",
           "result": "ok",
           "detail": "2014-10-16T05:22:57Z",
-          "checked_at": "2026-10-27T14:21:55Z"
+          "checked_at": "2026-11-03T17:09:27Z"
         }
       ]
     },
     "himalayas.app": {
       "domain": "himalayas.app",
-      "checked_at": "2026-10-27T14:21:56Z",
+      "checked_at": "2026-11-03T17:09:29Z",
       "complete": true,
       "registered_at": "2020-04-27T11:32:29.351Z",
-      "age_days": 2374,
+      "age_days": 2381,
       "registrar": "Namecheap Inc.",
       "resolves": true,
       "http_status": 403,
-      "final_url": "https://himalayas.app/companies/ge-aerospace/jobs/senior-hr-compliance-manager-emenat?utm_source=api",
+      "final_url": "https://himalayas.app/companies/patrique-mercier-recruitment-es/jobs/dutch-speaking-paypal-customer-solutions-teammate?utm_source=api",
       "redirects": [],
       "checks": [
         {
           "id": "dns",
           "result": "pass",
           "detail": null,
-          "checked_at": "2026-10-27T14:21:56Z"
+          "checked_at": "2026-11-03T17:09:29Z"
         },
         {
           "id": "http",
           "result": "403",
           "detail": "HTTP 403",
-          "checked_at": "2026-10-27T14:21:56Z"
+          "checked_at": "2026-11-03T17:09:29Z"
         },
         {
           "id": "rdap",
           "result": "ok",
           "detail": "2020-04-27T11:32:29.351Z",
-          "checked_at": "2026-10-27T14:21:56Z"
+          "checked_at": "2026-11-03T17:09:29Z"
         }
       ]
     },
     "cryptojobslist.com": {
       "domain": "cryptojobslist.com",
-      "checked_at": "2026-10-27T14:21:57Z",
+      "checked_at": "2026-11-03T17:09:31Z",
       "complete": true,
       "registered_at": "2017-09-27T19:50:55Z",
-      "age_days": 3316,
+      "age_days": 3323,
       "registrar": "Porkbun LLC",
       "resolves": true,
       "http_status": 206,
-      "final_url": "https://cryptojobslist.com/jobs/trading-initiatives-business-manager-hong-kong-hong-kong-sar-at-crypto-com",
+      "final_url": "https://cryptojobslist.com/jobs/forward-deployed-lead-new-york-ny-at-galaxy",
       "redirects": [],
       "checks": [
         {
           "id": "dns",
           "result": "pass",
           "detail": null,
-          "checked_at": "2026-10-27T14:21:57Z"
+          "checked_at": "2026-11-03T17:09:31Z"
         },
         {
           "id": "http",
           "result": "206",
-          "detail": "https://cryptojobslist.com/jobs/trading-initiatives-business-manager-hong-kong-hong-kong-sar-at-crypto-com",
-          "checked_at": "2026-10-27T14:21:57Z"
+          "detail": "https://cryptojobslist.com/jobs/forward-deployed-lead-new-york-ny-at-galaxy",
+          "checked_at": "2026-11-03T17:09:31Z"
         },
         {
           "id": "rdap",
           "result": "ok",
           "detail": "2017-09-27T19:50:55Z",
-          "checked_at": "2026-10-27T14:21:57Z"
+          "checked_at": "2026-11-03T17:09:31Z"
         }
       ]
     }
   },
-  "updated_at": "2026-10-27T14:21:58Z"
+  "updated_at": "2026-11-03T17:09:34Z"
 }
