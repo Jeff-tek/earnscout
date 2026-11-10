@@ -3,132 +3,132 @@
   "domains": {
     "weworkremotely.com": {
       "domain": "weworkremotely.com",
-      "checked_at": "2026-11-03T17:09:26Z",
+      "checked_at": "2026-11-10T20:30:26Z",
       "complete": true,
       "registered_at": "2013-09-25T02:24:59Z",
-      "age_days": 4787,
+      "age_days": 4794,
       "registrar": "1API GmbH",
       "resolves": true,
       "http_status": 200,
-      "final_url": "https://weworkremotely.com/remote-jobs/m-kopa-senior-crm-manager",
+      "final_url": "https://weworkremotely.com/remote-jobs/opentable-global-hotel-partnerships-manager-east-coast-based",
       "redirects": [],
       "checks": [
         {
           "id": "dns",
           "result": "pass",
           "detail": null,
-          "checked_at": "2026-11-03T17:09:26Z"
+          "checked_at": "2026-11-10T20:30:26Z"
         },
         {
           "id": "http",
           "result": "200",
-          "detail": "https://weworkremotely.com/remote-jobs/m-kopa-senior-crm-manager",
-          "checked_at": "2026-11-03T17:09:26Z"
+          "detail": "https://weworkremotely.com/remote-jobs/opentable-global-hotel-partnerships-manager-east-coast-based",
+          "checked_at": "2026-11-10T20:30:26Z"
         },
         {
           "id": "rdap",
           "result": "ok",
           "detail": "2013-09-25T02:24:59Z",
-          "checked_at": "2026-11-03T17:09:26Z"
+          "checked_at": "2026-11-10T20:30:26Z"
         }
       ]
     },
     "remoteok.com": {
       "domain": "remoteok.com",
-      "checked_at": "2026-11-03T17:09:27Z",
+      "checked_at": "2026-11-10T20:30:27Z",
       "complete": true,
       "registered_at": "2014-10-16T05:22:57Z",
-      "age_days": 4401,
+      "age_days": 4408,
       "registrar": "NameCheap, Inc.",
       "resolves": true,
       "http_status": 200,
-      "final_url": "https://remoteOK.com/remote-jobs/remote-site-activation-manager-6-month-contract-immediate-start-umed-1137620",
+      "final_url": "https://remoteOK.com/remote-jobs/remote-hil-support-specialist-extend-your-team-1137711",
       "redirects": [],
       "checks": [
         {
           "id": "dns",
           "result": "pass",
           "detail": null,
-          "checked_at": "2026-11-03T17:09:27Z"
+          "checked_at": "2026-11-10T20:30:27Z"
         },
         {
           "id": "http",
           "result": "200",
-          "detail": "https://remoteOK.com/remote-jobs/remote-site-activation-manager-6-month-contract-immediate-start-umed-1137620",
-          "checked_at": "2026-11-03T17:09:27Z"
+          "detail": "https://remoteOK.com/remote-jobs/remote-hil-support-specialist-extend-your-team-1137711",
+          "checked_at": "2026-11-10T20:30:27Z"
         },
         {
           "id": "rdap",
           "result": "ok",
           "detail": "2014-10-16T05:22:57Z",
-          "checked_at": "2026-11-03T17:09:27Z"
+          "checked_at": "2026-11-10T20:30:27Z"
         }
       ]
     },
     "himalayas.app": {
       "domain": "himalayas.app",
-      "checked_at": "2026-11-03T17:09:29Z",
+      "checked_at": "2026-11-10T20:30:28Z",
       "complete": true,
       "registered_at": "2020-04-27T11:32:29.351Z",
-      "age_days": 2381,
+      "age_days": 2388,
       "registrar": "Namecheap Inc.",
       "resolves": true,
       "http_status": 403,
-      "final_url": "https://himalayas.app/companies/patrique-mercier-recruitment-es/jobs/dutch-speaking-paypal-customer-solutions-teammate?utm_source=api",
+      "final_url": "https://himalayas.app/companies/linx-printing-technologies/jobs/senior-area-sales-manager-south-west?utm_source=api",
       "redirects": [],
       "checks": [
         {
           "id": "dns",
           "result": "pass",
           "detail": null,
-          "checked_at": "2026-11-03T17:09:29Z"
+          "checked_at": "2026-11-10T20:30:28Z"
         },
         {
           "id": "http",
           "result": "403",
           "detail": "HTTP 403",
-          "checked_at": "2026-11-03T17:09:29Z"
+          "checked_at": "2026-11-10T20:30:28Z"
         },
         {
           "id": "rdap",
           "result": "ok",
           "detail": "2020-04-27T11:32:29.351Z",
-          "checked_at": "2026-11-03T17:09:29Z"
+          "checked_at": "2026-11-10T20:30:28Z"
         }
       ]
     },
     "cryptojobslist.com": {
       "domain": "cryptojobslist.com",
-      "checked_at": "2026-11-03T17:09:31Z",
+      "checked_at": "2026-11-10T20:30:29Z",
       "complete": true,
       "registered_at": "2017-09-27T19:50:55Z",
-      "age_days": 3323,
+      "age_days": 3331,
       "registrar": "Porkbun LLC",
       "resolves": true,
       "http_status": 206,
-      "final_url": "https://cryptojobslist.com/jobs/forward-deployed-lead-new-york-ny-at-galaxy",
+      "final_url": "https://cryptojobslist.com/jobs/trading-analytics-developer-trading-los-angeles-new-york-chicago-il-at-crypto-com",
       "redirects": [],
       "checks": [
         {
           "id": "dns",
           "result": "pass",
           "detail": null,
-          "checked_at": "2026-11-03T17:09:31Z"
+          "checked_at": "2026-11-10T20:30:29Z"
         },
         {
           "id": "http",
           "result": "206",
-          "detail": "https://cryptojobslist.com/jobs/forward-deployed-lead-new-york-ny-at-galaxy",
-          "checked_at": "2026-11-03T17:09:31Z"
+          "detail": "https://cryptojobslist.com/jobs/trading-analytics-developer-trading-los-angeles-new-york-chicago-il-at-crypto-com",
+          "checked_at": "2026-11-10T20:30:29Z"
         },
         {
           "id": "rdap",
           "result": "ok",
           "detail": "2017-09-27T19:50:55Z",
-          "checked_at": "2026-11-03T17:09:31Z"
+          "checked_at": "2026-11-10T20:30:29Z"
         }
       ]
     }
   },
-  "updated_at": "2026-11-03T17:09:34Z"
+  "updated_at": "2026-11-10T20:30:30Z"
 }
