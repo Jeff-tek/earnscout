@@ -3,132 +3,132 @@
   "domains": {
     "weworkremotely.com": {
       "domain": "weworkremotely.com",
-      "checked_at": "2026-11-10T20:30:26Z",
+      "checked_at": "2026-11-17T22:39:18Z",
       "complete": true,
       "registered_at": "2013-09-25T02:24:59Z",
-      "age_days": 4794,
+      "age_days": 4801,
       "registrar": "1API GmbH",
       "resolves": true,
       "http_status": 200,
-      "final_url": "https://weworkremotely.com/remote-jobs/opentable-global-hotel-partnerships-manager-east-coast-based",
+      "final_url": "https://weworkremotely.com/remote-jobs/wellness-clinic-marketing-senior-seo-specialist",
       "redirects": [],
       "checks": [
         {
           "id": "dns",
           "result": "pass",
           "detail": null,
-          "checked_at": "2026-11-10T20:30:26Z"
+          "checked_at": "2026-11-17T22:39:18Z"
         },
         {
           "id": "http",
           "result": "200",
-          "detail": "https://weworkremotely.com/remote-jobs/opentable-global-hotel-partnerships-manager-east-coast-based",
-          "checked_at": "2026-11-10T20:30:26Z"
+          "detail": "https://weworkremotely.com/remote-jobs/wellness-clinic-marketing-senior-seo-specialist",
+          "checked_at": "2026-11-17T22:39:18Z"
         },
         {
           "id": "rdap",
           "result": "ok",
           "detail": "2013-09-25T02:24:59Z",
-          "checked_at": "2026-11-10T20:30:26Z"
+          "checked_at": "2026-11-17T22:39:18Z"
         }
       ]
     },
     "remoteok.com": {
       "domain": "remoteok.com",
-      "checked_at": "2026-11-10T20:30:27Z",
+      "checked_at": "2026-11-17T22:39:18Z",
       "complete": true,
       "registered_at": "2014-10-16T05:22:57Z",
-      "age_days": 4408,
+      "age_days": 4415,
       "registrar": "NameCheap, Inc.",
       "resolves": true,
       "http_status": 200,
-      "final_url": "https://remoteOK.com/remote-jobs/remote-hil-support-specialist-extend-your-team-1137711",
+      "final_url": "https://remoteOK.com/remote-jobs/remote-global-partnerships-bd-lead-fuku-1137796",
       "redirects": [],
       "checks": [
         {
           "id": "dns",
           "result": "pass",
           "detail": null,
-          "checked_at": "2026-11-10T20:30:27Z"
+          "checked_at": "2026-11-17T22:39:18Z"
         },
         {
           "id": "http",
           "result": "200",
-          "detail": "https://remoteOK.com/remote-jobs/remote-hil-support-specialist-extend-your-team-1137711",
-          "checked_at": "2026-11-10T20:30:27Z"
+          "detail": "https://remoteOK.com/remote-jobs/remote-global-partnerships-bd-lead-fuku-1137796",
+          "checked_at": "2026-11-17T22:39:18Z"
         },
         {
           "id": "rdap",
           "result": "ok",
           "detail": "2014-10-16T05:22:57Z",
-          "checked_at": "2026-11-10T20:30:27Z"
+          "checked_at": "2026-11-17T22:39:18Z"
         }
       ]
     },
     "himalayas.app": {
       "domain": "himalayas.app",
-      "checked_at": "2026-11-10T20:30:28Z",
+      "checked_at": "2026-11-17T22:39:19Z",
       "complete": true,
       "registered_at": "2020-04-27T11:32:29.351Z",
-      "age_days": 2388,
+      "age_days": 2395,
       "registrar": "Namecheap Inc.",
       "resolves": true,
       "http_status": 403,
-      "final_url": "https://himalayas.app/companies/linx-printing-technologies/jobs/senior-area-sales-manager-south-west?utm_source=api",
+      "final_url": "https://himalayas.app/companies/usa-the-nature-conservancy/jobs/hr-director-latin-america-region?utm_source=api",
       "redirects": [],
       "checks": [
         {
           "id": "dns",
           "result": "pass",
           "detail": null,
-          "checked_at": "2026-11-10T20:30:28Z"
+          "checked_at": "2026-11-17T22:39:19Z"
         },
         {
           "id": "http",
           "result": "403",
           "detail": "HTTP 403",
-          "checked_at": "2026-11-10T20:30:28Z"
+          "checked_at": "2026-11-17T22:39:19Z"
         },
         {
           "id": "rdap",
           "result": "ok",
           "detail": "2020-04-27T11:32:29.351Z",
-          "checked_at": "2026-11-10T20:30:28Z"
+          "checked_at": "2026-11-17T22:39:19Z"
         }
       ]
     },
     "cryptojobslist.com": {
       "domain": "cryptojobslist.com",
-      "checked_at": "2026-11-10T20:30:29Z",
+      "checked_at": "2026-11-17T22:39:20Z",
       "complete": true,
       "registered_at": "2017-09-27T19:50:55Z",
-      "age_days": 3331,
+      "age_days": 3338,
       "registrar": "Porkbun LLC",
       "resolves": true,
       "http_status": 206,
-      "final_url": "https://cryptojobslist.com/jobs/trading-analytics-developer-trading-los-angeles-new-york-chicago-il-at-crypto-com",
+      "final_url": "https://cryptojobslist.com/jobs/director-of-research-at-stellar-development-foundation",
       "redirects": [],
       "checks": [
         {
           "id": "dns",
           "result": "pass",
           "detail": null,
-          "checked_at": "2026-11-10T20:30:29Z"
+          "checked_at": "2026-11-17T22:39:20Z"
         },
         {
           "id": "http",
           "result": "206",
-          "detail": "https://cryptojobslist.com/jobs/trading-analytics-developer-trading-los-angeles-new-york-chicago-il-at-crypto-com",
-          "checked_at": "2026-11-10T20:30:29Z"
+          "detail": "https://cryptojobslist.com/jobs/director-of-research-at-stellar-development-foundation",
+          "checked_at": "2026-11-17T22:39:20Z"
         },
         {
           "id": "rdap",
           "result": "ok",
           "detail": "2017-09-27T19:50:55Z",
-          "checked_at": "2026-11-10T20:30:29Z"
+          "checked_at": "2026-11-17T22:39:20Z"
         }
       ]
     }
   },
-  "updated_at": "2026-11-10T20:30:30Z"
+  "updated_at": "2026-11-17T22:39:21Z"
 }
